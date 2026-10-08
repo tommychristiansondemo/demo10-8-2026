@@ -1,0 +1,14 @@
+{
+  "name": "owner-assist",
+  "private": true,
+  "workspaces": [
+    "infra",
+    "services/chat",
+    "services/api",
+    "services/auth",
+    "services/insights",
+    "services/modelsel",
+    "web",
+    "insights-web"
+  ]
+}

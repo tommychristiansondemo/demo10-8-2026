@@ -1,0 +1,339 @@
+{
+  "model": "Pathfinder",
+  "year": 2024,
+  "powertrains": [
+    {
+      "engine_code": "VQ35DD",
+      "description": "3.5L 6-cylinder",
+      "transmission": "Automatic transmission"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "VQ35DD",
+      "notes": "Oil control system (OCS) calculates change interval based on driving conditions. If oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). If OCS resets prematurely or becomes inoperative, change within 6 months or 5,000 miles (8,000 km) from last oil change."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for damage and uneven wear when rotating."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks. Replace any deteriorated or damaged parts immediately."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Check for damage, looseness, and grease leakage."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*item). Check vapor lines for leaks or looseness."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*item). Check fuel hoses, piping and connections for leaks, looseness, or deterioration."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Coupling oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Appears at 10k (standard), 20k (severe), 30k (severe), 40k (standard+severe), 50k (severe), 60k (standard+severe), 70k (severe), 80k (standard+severe), 90k (severe), 100k (standard+severe). In standard schedule appears at every 20k starting at 10k (i.e. 10k, 20k not shown but 40k, 60k, 80k, 100k shown). In severe schedule appears at every 10k. Effective interval is every 10,000 miles in severe, every 20,000 miles in standard, with first at 10,000 miles in standard."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replace more frequently when driving for prolonged periods in dusty conditions. Appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k miles."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Appears at 15k, 30k, 45k (as inspection), 60k, 75k (as inspection), 90k, 105k miles."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "If operating mainly in dusty conditions, more frequent maintenance may be required. Appears at 30k, 60k, 90k miles."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "first_at_miles": 40000,
+      "first_at_months": 48,
+      "applies_to": "VQ35DD",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*item). Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belts. First appears at 40k, then every 10k (50k, 60k, 70k, 80k, 90k, 100k, 110k)."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 90000,
+      "interval_months": 108,
+      "applies_to": "VQ35DD"
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": null,
+      "applies_to": "VQ35DD",
+      "notes": "Install new plugs of the same type as originally equipped."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "VQ35DD",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*item). First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Use Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "VQ35DD",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*item). Inspect only if valve noise increases. Adjust valve clearance if necessary."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "4WD models",
+      "notes": "Replace under severe use maintenance at every 20,000-mile interval (20k, 40k, 60k, 80k, 100k miles)."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "4WD models",
+      "notes": "Replace under severe use maintenance at every 20,000-mile interval (20k, 40k, 60k, 80k, 100k miles)."
+    },
+    {
+      "item": "Coupling oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "4WD models",
+      "notes": "Replace under severe use maintenance at every 20,000-mile interval (20k, 40k, 60k, 80k, 100k miles)."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6A SP motor oil may be used. API certification or ILSAC certification required.",
+      "capacity": "5-1/8 qt with oil filter change; 4-3/4 qt without oil filter change",
+      "applies_to": "VQ35DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water mixture. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "3-1/8 gal with tow package; 3-1/8 gal without tow package (with reservoir)",
+      "applies_to": "VQ35DD"
+    },
+    {
+      "fluid": "Automatic Transmission Fluid (ATF)",
+      "specification": "Genuine NISSAN Matic R ATF. Do not mix with other fluids.",
+      "applies_to": "VQ35DD"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super Semi-synthetic API GL-5, Viscosity SAE 75W-90",
+      "applies_to": "4WD models"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline, minimum 87 AKI octane (Research octane number 91). For Rock Creek: NISSAN recommends unleaded premium, minimum 91 AKI (Research octane number 96); regular 87 AKI may be used with possible decrease in performance. Maximum 15% ethanol (E15). Do not use MMT-containing fuel.",
+      "capacity": "18-1/2 gal",
+      "applies_to": "all"
+    }
+  ],
+  "oil_life_monitor": "The Oil Control System (OCS) calculates engine oil and filter change intervals based on driving conditions. Under light conditions (freeway/city driving, no towing, no extended idling) the display timing is Normal. Under extreme conditions (repeated short trips under 5 miles, short trips under 10 miles in freezing temps, hot-weather stop-and-go traffic, extensive idling/low-speed driving, car-top carrier use, frequent braking/mountainous driving, sustained high-speed driving) the display timing is Early. If the oil replacement indicator is displayed, change oil within two weeks or less than 500 miles (800 km). If the OCS resets prematurely or becomes inoperative, change oil within 6 months or 5,000 miles (8,000 km) from last oil change.",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Towing a trailer, using a camper or using a car-top carrier"
+  ],
+  "source_pages": [
+    105,
+    278,
+    553,
+    591,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    614,
+    619,
+    652,
+    655,
+    665
+  ],
+  "extraction_caveats": "\n1. The maintenance schedule is presented as milestone-by-milestone entries (every 5,000 miles up to 120,000 miles) rather than a simple interval table; intervals were reconstructed by identifying the repeating pattern across milestones.\n2. Engine oil & filter: The standard schedule shows replacement at every 10,000-mile/12-month interval (5,000-mile entries say 'Not applicable' for standard; oil changes appear at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k miles). The OCS may shorten this interval under severe conditions.\n3. In-cabin microfilter and Intelligent Key battery: Appear at 15k, 30k, 45k, 60k, 75k, 90k, 105k miles = every 15,000 miles/18 months.\n4. Air cleaner filter: Appears at 30k, 60k, 90k miles = every 30,000 miles/36 months.\n5. Brake fluid: In standard schedule, replace appears at 10k, 20k, 40k, 60k, 80k, 100k (every 20k starting from 10k). In severe schedule, replace appears at every 10k interval. Recorded as 'both' schedule with 10k interval since severe calls for it every 10k.\n6. Engine drive belts (*): First appears at 40k miles, then 50k, 60k, 70k, 80k, 90k, 100k, 110k = every 10,000 miles/12 months starting at 40k. Marked as *-item (recommended, not required for emission warranty).\n7. Automatic transmission fluid: Only one replacement shown in the provided pages, at 90,000 miles/108 months. No subsequent interval is explicitly stated in the provided text.\n8. Engine coolant (*): First replacement at 105,000 miles or 84 months; thereafter every 75,000 miles/60 months per footnote on page 609. Marked as *-item.\n9. Spark plugs: Replacement shown at 105,000 miles only; no month interval stated in the schedule entry itself (only miles shown in the 105k milestone).\n10. Engine valve clearance (*): No mileage/time interval given; inspect only if valve noise increases.\n11. Differential gear oil, transfer fluid, coupling oil (4WD): Standard schedule shows inspection every 10,000 miles (appears at 10k, 20k, 30k, etc.); severe use schedule shows replacement every 20,000 miles (at 20k, 40k, 60k, 80k, 100k milestones).\n12. Fuel tank vapor vent system and fuel lines/connections are *-items appearing at 20k, 40k, 60k, 80k, 100k miles in standard schedule = every 20,000 miles/24 months.\n13. Propeller shaft inspection (4WD) appears at every 10,000-mile standard interval alongside brake pads/rotors.\n14. No transfer fluid or coupling oil fluid specifications (viscosity/grade) were provided in the pages supplied.\n15. Engine coolant capacity: both 'with tow package' (11.9 L / 3-1/8 gal) and 'without tow package' (11.6 L / 3-1/8 gal) round to the same US gallon figure in the table.\n16. Exhaust system inspection: In standard schedule, appears at 20k, 40k, 60k, 80k, 100k (every 20k). In severe schedule appears at every 5k/10k. Recorded as standard at 20k interval.\n17. Steering gear & linkage and Axle & suspension parts: In standard schedule, appear at 20k, 40k, 60k, 80k, 100k (every 20k). In severe schedule appear at every 5k/10k.\n18. Brake lines and cables: In standard schedule, appear at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k (every 10k).\n",
+  "source_document": "2024 Nissan Pathfinder Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/pathfinder/2024/2024-nissan-pathfinder-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 16377,
+    "outputTokens": 4505,
+    "totalTokens": 20882,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Exhaust system interval_miles: 10000 -> 20000, interval_months: 12 -> 24. In standard schedule, exhaust system inspection appears at 20k, 40k, 60k, 80k, 100k (pages 600, 602, 604, 606, 608) \u2014 NOT at 10k (page 599 standard only lists brake lines/cables, brake pads/rotors, drive shaft boots, propeller shaft, diff/coupling/transfer oil). It does NOT appear at 10k standard.",
+    "Steering gear and linkage interval_miles: 10000 -> 20000, interval_months: 12 -> 24. In standard schedule, steering gear & linkage appears at 20k, 40k, 60k, 80k, 100k (pages 600, 602, 604, 606, 608) \u2014 not at 10k standard (page 599 standard does not list it).",
+    "Axle and suspension parts interval_miles: 10000 -> 20000, interval_months: 12 -> 24. Same pattern as steering gear \u2014 appears at 20k, 40k, 60k, 80k, 100k in standard schedule (pages 600, 602, 604, 606, 608).",
+    "Brake lines and cables interval_miles: 20000 -> 10000, interval_months: 24 -> 12. In standard schedule, brake lines and cables appear at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k (pages 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609).",
+    "Differential gear oil (inspect) interval_miles: 20000 -> 10000, interval_months: 24 -> 12. In standard schedule, differential gear oil inspection appears at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k (pages 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609).",
+    "Coupling oil (inspect) interval_miles: 20000 -> 10000, interval_months: 24 -> 12. Same pattern as differential gear oil \u2014 appears at every 10k in standard schedule.",
+    "Transfer fluid (inspect) interval_miles: 20000 -> 10000, interval_months: 24 -> 12. Same pattern as differential gear oil \u2014 appears at every 10k in standard schedule.",
+    "Brake fluid schedule: standard -> both, interval_miles: 20000 -> 10000, interval_months: 24 -> 12. Standard schedule shows brake fluid replace at 10k (page 600 under 10k essential), 20k, 40k, 60k, 80k, 100k. Severe schedule shows it at every 10k (20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k). Combined effective interval is every 10k for severe and approximately every 20k for standard (but first at 10k). Recording as 'both' with 10k interval.",
+    "Engine coolant interval_miles: 105000 -> 75000, interval_months: 84 -> 60. The repeat interval after first replacement is 75,000 miles / 60 months per footnote on page 609. The first_at values remain 105000/84.",
+    "Engine drive belts interval_miles: 40000 -> 10000, first_at_miles: null -> 40000, first_at_months: null -> 48. The item first appears at 40k then repeats every 10k (50k, 60k, 70k, etc.) per pages 602-609. The repeat interval is 10k, first service at 40k."
+  ]
+}

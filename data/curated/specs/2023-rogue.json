@@ -1,0 +1,751 @@
+{
+  "model": "Rogue",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "PR25DD",
+      "description": "2.5L naturally aspirated gasoline engine",
+      "transmission": "CVT (Continuously Variable Transmission)"
+    },
+    {
+      "engine_code": "KR15DDT",
+      "description": "1.5L turbocharged gasoline engine",
+      "transmission": "CVT (Continuously Variable Transmission)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Every 10,000 miles/16,000 km/12 months. If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). Oil Control System calculates intervals based on driving conditions."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Every 7,500 miles/12,000 km/12 months. If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). Oil Control System calculates intervals based on driving conditions."
+    },
+    {
+      "item": "Brake lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Every 10,000 miles/16,000 km/12 months"
+    },
+    {
+      "item": "Brake lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Every 7,500 miles/12,000 km/12 months"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Every 10,000 miles/16,000 km/12 months"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Every 7,500 miles/12,000 km/12 months"
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Visually inspect for signs of leakage every 10,000 miles/16,000 km/12 months."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Visually inspect for signs of leakage every 7,500 miles/12,000 km/12 months."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Every 10,000 miles/16,000 km/12 months"
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT AWD",
+      "notes": "Every 7,500 miles/12,000 km/12 months"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Visually inspect for signs of leakage every 10,000 miles/16,000 km/12 months."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT AWD",
+      "notes": "Visually inspect for signs of leakage every 7,500 miles/12,000 km/12 months."
+    },
+    {
+      "item": "AWD coupling oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Visually inspect for signs of leakage every 10,000 miles/16,000 km/12 months."
+    },
+    {
+      "item": "AWD coupling oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT AWD",
+      "notes": "Visually inspect for signs of leakage every 7,500 miles/12,000 km/12 months."
+    },
+    {
+      "item": "Transfer case oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Visually inspect for signs of leakage every 10,000 miles/16,000 km/12 months."
+    },
+    {
+      "item": "Transfer case oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT AWD",
+      "notes": "Visually inspect for signs of leakage every 7,500 miles/12,000 km/12 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Every 10,000 miles/16,000 km/12 months"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Every 7,500 miles/12,000 km/12 months"
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "PR25DD",
+      "notes": "Every 15,000 miles/24,000 km/18 months. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "KR15DDT",
+      "notes": "Every 11,250 miles/18,000 km/18 months. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "PR25DD",
+      "notes": "Check at 15,000 miles/24,000 km/18 months; replace at 30,000 miles/48,000 km/36 months and every 30,000 miles/36 months thereafter"
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "KR15DDT",
+      "notes": "Check at 11,250 miles/18,000 km/18 months; replace at 22,500 miles/36,000 km/36 months and every 22,500 miles/36 months thereafter"
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months. Recommended item (*)."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months. Recommended item (*)."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months. Recommended item (*)."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months. Recommended item (*)."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Every 20,000 miles/32,000 km/24 months"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR15DDT",
+      "notes": "Every 15,000 miles/24,000 km/24 months"
+    },
+    {
+      "item": "Engine air filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "PR25DD",
+      "notes": "Every 30,000 miles/48,000 km/36 months. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Engine air filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 48,
+      "applies_to": "KR15DDT",
+      "notes": "Every 30,000 miles/48,000 km/48 months. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "PR25DD",
+      "notes": "Replace every 30,000 miles/48,000 km/36 months"
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 36,
+      "applies_to": "KR15DDT",
+      "notes": "Replace every 22,500 miles/36,000 km/36 months"
+    },
+    {
+      "item": "Engine drive belt",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "first_at_miles": 40000,
+      "first_at_months": 48,
+      "notes": "First inspection at 40,000 miles/64,000 km/48 months, then every 10,000 miles/16,000 km/12 months thereafter. Recommended item (*)."
+    },
+    {
+      "item": "Engine drive belt",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "first_at_miles": 30000,
+      "first_at_months": 48,
+      "notes": "First inspection at 30,000 miles/48,000 km/48 months, then every 7,500 miles/12,000 km/12 months thereafter. Recommended item (*)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "PR25DD",
+      "notes": "Replace every 60,000 miles (96,000 km) under severe conditions (car-top carrier, towing, camper, rough/muddy roads), or inspect deterioration data via CONSULT; if >210,000, replace."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: replace CVT fluid every 60,000 miles (96,000 km) or inspect deterioration data via CONSULT; if >210,000, replace. Per general note on p532."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": null,
+      "applies_to": "PR25DD",
+      "first_at_miles": 105000,
+      "first_at_months": null,
+      "notes": "Performed based on number of miles only. Replace spark plug when plug gap exceeds 0.053 in (1.35 mm) even if within specified periodic replacement mileage."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "applies_to": "PR25DD",
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Recommended item (*)."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD AWD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT AWD",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 5,000 miles/8,000 km/6 months"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Severe use: every 10,000 miles/16,000 km/12 months"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "Severe use: every 7,500 miles/12,000 km/12 months"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all AWD",
+      "notes": "Severe use (car-top carrier, towing, camper, rough/muddy roads): replace every 20,000 miles (32,000 km) or 24 months."
+    },
+    {
+      "item": "Transfer case oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all AWD",
+      "notes": "Severe use (car-top carrier, towing, camper, rough/muddy roads): replace every 20,000 miles (32,000 km) or 24 months."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, a synthetic 0W-20 GF-6 SP motor oil may be used. Select oils meeting API certification or ILSAC certification and SAE viscosity standard.",
+      "applies_to": "PR25DD",
+      "capacity": "5-3/8 qt with oil filter change; 5-1/8 qt without oil filter change"
+    },
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, a synthetic 0W-20 GF-6 SP motor oil may be used. Select oils meeting API certification or ILSAC certification and SAE viscosity standard.",
+      "applies_to": "KR15DDT",
+      "capacity": "5 qt with oil filter change; 4-7/8 qt without oil filter change"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water mix. Provides antifreeze protection to -34\u00b0F (-37\u00b0C). Do not mix with other coolant types including Genuine NISSAN Long Life Antifreeze/Coolant (green).",
+      "applies_to": "PR25DD",
+      "capacity": "9-1/4 qt with reservoir; 7/8 qt reservoir only"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water mix. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "applies_to": "KR15DDT",
+      "capacity": "9 qt with reservoir; 7/8 qt reservoir only"
+    },
+    {
+      "fluid": "Intercooler coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water mix. Maintenance-free.",
+      "applies_to": "KR15DDT",
+      "capacity": "3-1/8 qt with reservoir; 1/2 qt reservoir only"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (or equivalent) ONLY. Do not mix with other fluids. Do not use ATF or Manual Transmission fluid.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN HYPOID FLUID\u00b7S1 GL-5 75W-80 or equivalent",
+      "applies_to": "AWD"
+    },
+    {
+      "fluid": "Transfer fluid",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super-S GL-5 synthetic 75W-90 or equivalent",
+      "applies_to": "AWD"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Super Heavy Duty Brake Fluid or equivalent DOT 3",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning refrigerant",
+      "specification": "HFO-1234yf (R-1234yf). See Vehicle Identification label for quantity.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system oil",
+      "specification": "A/C System Oil ND-OIL12 (PAG) or equivalent. See Vehicle Identification label for quantity.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Window washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze or equivalent",
+      "applies_to": "all",
+      "capacity": "1-3/8 gal with liquid level sensor; 5/8 gal without liquid level sensor"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (Lithium soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline, minimum 87 AKI (Anti-Knock Index) / Research octane number 91. Maximum 15% ethanol. Do not use fuel containing MMT.",
+      "applies_to": "all",
+      "capacity": "14-1/2 gal"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System that calculates engine oil and filter change intervals based on driving conditions. Severe driving conditions shorten the interval. When the oil replacement indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km). The Oil Control System and oil/filter maintenance reminder must be reset after each oil change (see Maintenance, P.2-29).",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier",
+    "Towing a trailer",
+    "Using a camper"
+  ],
+  "source_pages": [
+    487,
+    488,
+    489,
+    494,
+    527,
+    531,
+    532,
+    533,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    565,
+    569,
+    610
+  ],
+  "extraction_caveats": "1. TWO ENGINE SCHEDULES: The PR25DD (2.5L NA) and KR15DDT (1.5L turbo) have entirely separate maintenance schedules with different base intervals (10,000 mi/12 mo vs. 7,500 mi/12 mo for oil; 5,000 mi/6 mo vs. 3,750 mi/6 mo for tire rotation). Items are recorded separately per engine where intervals differ.\n2. SPARK PLUGS: Only listed for PR25DD at 105,000 miles (miles only, no month interval stated). No spark plug interval is published in the extracted pages for the KR15DDT schedule through 90,000 miles/144 months.\n3. ENGINE COOLANT REPLACEMENT: Only explicitly scheduled for PR25DD (first at 105,000 mi/84 mo, then every 75,000 mi/60 mo). No coolant replacement interval appears in the KR15DDT schedule pages provided. Intercooler coolant (KR15DDT) is stated to be maintenance-free.\n4. CVT FLUID REPLACEMENT (SEVERE): The PR25DD schedule lists 'Replace CVT fluid' as a severe-use essential at 60,000 and 120,000 miles. The general text on p532 states that under severe conditions (car-top carrier, towing, camper, rough/muddy roads), replace CVT fluid every 60,000 miles (96,000 km) or inspect via CONSULT. No standard-schedule CVT fluid replacement interval is published; only inspection is listed under standard maintenance.\n5. ENGINE DRIVE BELT: Listed as an inspection item (not replacement). First inspection at 40,000 miles/48 months for PR25DD and 30,000 miles/48 months for KR15DDT, recurring at every 10,000 mi/12 mo (PR25DD) and 7,500 mi/12 mo (KR15DDT) thereafter. No replacement interval is specified.\n6. DIFFERENTIAL/TRANSFER OIL REPLACEMENT (SEVERE): Replacement every 20,000 miles/24 months is specified only under the severe-use note on page 532 (car-top carrier, towing, camper, rough/muddy roads). Standard schedule only calls for inspection.\n7. FUEL FILTER: Periodic maintenance is not required (in-tank type filter) per page 532.\n8. ENGINE VALVE CLEARANCE: Inspect only if valve noise increases; no fixed interval given.\n9. EVAPORATIVE EMISSIONS VAPOR LINES and FUEL LINES: Described as recommended (*) items; inspected on the standard schedule at 20,000 mi/24 mo intervals (PR25DD) and 15,000 mi/24 mo (KR15DDT).\n10. CAPACITIES TABLE (P.565): PR25DD with filter 5-3/8 qt, without filter 5-1/8 qt; KR15DDT with filter 5 qt, without filter 4-7/8 qt.\n11. KR15DDT schedule runs to 90,000 miles/144 months; PR25DD schedule runs to 120,000 miles/144 months. Both continue at the same intervals thereafter.\n12. Items marked '*' in the schedule (engine coolant, drive belt, vapor lines, fuel lines, valve clearance) are recommended by NISSAN but not required to maintain emission warranty.\n13. Exhaust system standard inspection: PR25DD first appears at 20,000 mi (not 10,000 mi); KR15DDT first appears at 15,000 mi (not 7,500 mi). Standard interval is 20,000 mi/24 mo and 15,000 mi/24 mo respectively. Under severe conditions it appears at every 5,000 mi/6 mo (PR25DD) and 3,750 mi/6 mo (KR15DDT).",
+  "source_document": "2023 Nissan Rogue Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/rogue/2023/2023-nissan-rogue-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 22477,
+    "outputTokens": 9089,
+    "totalTokens": 31566,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine air filter KR15DDT: interval_months old 48 -> 48 is actually correct per schedule (first at 30,000 mi/48 mo, repeats every 30,000 mi). However, checking pages: KR15DDT schedule shows engine air filter replaced at 30,000/48mo, 60,000/96mo, 90,000/144mo \u2014 that's every 30,000 miles / 48 months. 48 months is correct. No change needed.",
+    "Engine drive belt PR25DD: first_at_miles should be 40,000, first_at_months 48, then interval_miles 10,000, interval_months 12 \u2014 the JSON has interval_miles=40000 which is the FIRST occurrence, not the repeat interval. Adding first_at_miles=40000, first_at_months=48, changing interval_miles to 10000, interval_months to 12. Page 539 (40k first), then 540 (50k), 541 (60k), 542 (70k) etc.",
+    "Engine drive belt KR15DDT: first_at_miles should be 30000, first_at_months 48, then interval_miles 7500, interval_months 12. JSON has interval_miles=30000 which is the FIRST occurrence. Changing interval_miles to 7500, interval_months to 12. Page 552 (30k first), then 553 (37.5k), 554 (45k) etc.",
+    "Intelligent Key battery PR25DD inspect: interval_miles old 15000 -> 15000 is correct (first check at 15k). But the repeat is also every 15,000 miles since it appears at 15k, 45k, 75k, 105k. Correct as-is.",
+    "Intelligent Key battery KR15DDT inspect: interval_miles 11250 is correct (first at 11,250). Repeat is also 11,250. Correct.",
+    "Brake fluid PR25DD standard: checking schedule \u2014 appears at 20k, 40k, 60k, 80k, 100k, 120k = every 20,000 miles/24 months. Correct.",
+    "Brake fluid KR15DDT standard: appears at 15k/24mo, 30k(no - checking 22,500 has no brake fluid), 45k/72mo has brake fluid... Wait: KR15DDT schedule: 7.5k has brake fluid (severe essential), 15k has brake fluid (standard essential), 22.5k has brake fluid (severe essential), 30k has brake fluid (severe essential + standard at 30k? checking p552: 30k standard essentials include 'Replace brake fluid'). Actually checking more carefully: 15k/24mo (p550) standard has Replace brake fluid. 30k/48mo (p552) standard has Replace brake fluid. 45k/72mo (p554) standard has Replace brake fluid. So interval is 15,000 miles / 24 months. Correct.",
+    "Brake fluid KR15DDT severe: checking schedule \u2014 severe brake fluid appears at 7.5k, 15k, 22.5k, 30k etc. = every 7,500 miles / 12 months. Correct.",
+    "Brake fluid PR25DD severe: checking schedule \u2014 severe brake fluid at 10k, 20k, 30k etc. = every 10,000 miles / 12 months. Correct.",
+    "CVT fluid KR15DDT severe: checking p532 \u2014 the severe CVT fluid replacement note says 'If using a car-top carrier, or towing a trailer, or using a camper, or driving on rough or muddy roads: Replace the CVT fluid every 60,000 miles (96,000 km)...' This applies to all models. Also KR15DDT schedule at 60k (p556) severe essentials do NOT show 'Replace CVT fluid' \u2014 only PR25DD 60k and 120k show it. But the text on p532 doesn't distinguish engines. Checking KR15DDT 60k severe (p556): severe essentials show 'Replace brake fluid' only, no CVT fluid. However the general note on p532 applies to all. The KR15DDT schedule only goes to 90k so the 60k severe CVT replacement isn't shown in the schedule grid. But the text note on p532 doesn't specify engine. Keeping as-is since p532 text applies generally.",
+    "KR15DDT schedule: no spark plugs or engine coolant replacement listed through 90,000 miles/144 months. Confirmed \u2014 no items to add.",
+    "PR25DD schedule runs to 120,000 miles/144 months per p533 and p536. Confirmed.",
+    "Checking Intelligent Key battery replace intervals: PR25DD replace at 30k, 60k, 90k, 120k = every 30,000 miles/36 months. Correct. KR15DDT replace at 22.5k, 45k, 67.5k, 90k = every 22,500 miles/36 months. Correct.",
+    "In-cabin microfilter PR25DD: appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k = every 15,000 miles/18 months. Correct.",
+    "In-cabin microfilter KR15DDT: appears at 11.25k, 22.5k, 33.75k, 45k, 56.25k, 67.5k, 78.75k, 90k = every 11,250 miles/18 months. Correct.",
+    "Fuel tank vapor vent system PR25DD: appears at 20k, 40k, 60k, 80k, 100k, 120k = every 20,000 miles/24 months. Correct.",
+    "Fuel tank vapor vent system KR15DDT: appears at 15k, 30k, 45k, 60k, 75k, 90k = every 15,000 miles/24 months. Correct.",
+    "Spark plugs PR25DD: 105,000 miles only, no months. Correct per p546.",
+    "Engine coolant PR25DD: first at 105,000 mi/84 mo, then every 75,000 mi/60 mo. Correct per p546 footnote (3).",
+    "PR25DD schedule header says 'After 120,000 miles (192,000 km)/144 months' per p536. KR15DDT says 'After 90,000 miles (144,000 km)/144 months' per p549. Confirmed.",
+    "Engine drive belt PR25DD: adding first_at_miles=40000, first_at_months=48, changing interval_miles from 40000 to 10000, interval_months from 48 to 12",
+    "Engine drive belt KR15DDT: adding first_at_miles=30000, first_at_months=48, changing interval_miles from 30000 to 7500, interval_months from 48 to 12",
+    "KR15DDT severe CVT fluid: The 60k severe page for KR15DDT (p556) does NOT list 'Replace CVT fluid' under severe essentials. Only PR25DD 60k (p541/548) and 120k (p548) list it. However p532 text note applies generally. Keeping the item but noting it comes from the general text note on p532, not the KR15DDT schedule grid.",
+    "Checking whether 'Replace CVT fluid' appears in KR15DDT severe schedule at any mileage: scanning all KR15DDT pages (549-560). None of the severe essentials sections list 'Replace CVT fluid'. The note on p532 about replacing CVT fluid every 60,000 miles under severe conditions doesn't specify engine. Keeping the KR15DDT severe CVT fluid item as derived from p532 general note."
+  ]
+}

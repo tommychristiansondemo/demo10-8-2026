@@ -1,0 +1,447 @@
+{
+  "model": "Altima",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "PR25DD",
+      "description": "2.5L 4-cylinder",
+      "transmission": "CVT (Continuously Variable Transmission)"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System that calculates engine oil and filter change intervals based on driving conditions. Driving in severe conditions will shorten the engine oil and filter change interval. If the oil replacement indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km).",
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Appears at 20k/24mo, 30k/36mo, 40k/48mo, 50k/60mo, 60k/72mo, 70k/84mo, 80k/96mo, 90k/108mo, 100k/120mo, 110k/132mo, 120k/144mo. The oil control system dynamically adjusts intervals; 10,000 miles/12 months is an approximation. If oil replacement indicator is displayed, change within two weeks or 500 miles (800 km)."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Appears at every 5,000-mile interval throughout the schedule."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replaced at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replaced at 30k/36mo, 45k/54mo, 60k/72mo, 75k/90mo, 90k/108mo, 105k/126mo, 120k/144mo. Inspected at 15k/18mo. Pattern is every 15,000 miles/18 months with first replacement at 30k."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Inspected at 15,000 miles/18 months.",
+      "first_at_miles": null,
+      "first_at_months": null
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at 30k/36mo, 60k/72mo, 90k/108mo, 120k/144mo. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 126,
+      "applies_to": "PR25DD",
+      "notes": "Replace at 105,000 miles/126 months."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "PR25DD",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months (7 years). After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Mixing any other type of coolant or use of non-distilled water may reduce the life expectancy of the factory-fill coolant."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replaced at 20k/24mo, 40k/48mo, 60k/72mo, 80k/96mo, 100k/120mo, 120k/144mo \u2014 every 20,000 miles/24 months."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Visually inspect for signs of leakage. Appears at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k \u2014 approximately every 10,000 miles.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 40k, 60k, 80k, 100k, 120k."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at 20k, 40k, 60k, 80k, 100k, 120k. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation but not required for emission warranty."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at 20k, 40k, 60k, 80k, 100k, 120k. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation but not required for emission warranty."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 40k, 60k, 80k, 100k, 120k."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 40k, 60k, 80k, 100k, 120k."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Inspected at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 30k/36mo, 60k/72mo, 90k/108mo, 120k/144mo."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+      "first_at_miles": 20000,
+      "first_at_months": 24
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 30k/36mo, 60k/72mo, 90k/108mo, 120k/144mo."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "first_at_miles": 40000,
+      "first_at_months": 48,
+      "notes": "First inspected at 40k/48mo, then at 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation but not required for emission warranty."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "PR25DD",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation but not required for emission warranty."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "AWD models",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every severe-use service interval throughout the schedule."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replaced at 15k, 20k, 25k, 30k, 35k, 40k, 45k, 50k, 55k, 60k, 65k, 70k, 75k, 80k, 85k, 90k, 95k, 100k, 105k, 110k, 115k, 120k \u2014 appears at every severe milestone, approximately every 5,000-10,000 miles under severe conditions."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Oil control system shortens interval under severe conditions. If oil replacement indicator is displayed, change within two weeks or 500 miles (800 km)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 60000,
+      "interval_months": 72,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at 60k/72mo and 120k/144mo under severe conditions."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 30k, 60k, 90k, 120k under severe conditions."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 30k, 60k, 90k, 120k under severe conditions."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent); synthetic 0W-20 GF-6A SP may be used if above not available. Must meet API certification or ILSAC certification and SAE viscosity standard.",
+      "capacity": "5-1/2 qt with oil filter change; 5-1/4 qt without oil filter change",
+      "applies_to": "PR25DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water mixture. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "2-1/4 gal (with reservoir)",
+      "applies_to": "PR25DD"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (or equivalent). Do not mix with other fluids. Do not use ATF or manual transmission fluid.",
+      "applies_to": "PR25DD"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See fuel recommendation (P. 512)",
+      "capacity": "16-1/4 gal (FWD); 16 gal (AWD)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "See Recommended fluids/lubricants and capacities (P. 511). Use only new fluid from a sealed container.",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "source_pages": [
+    87,
+    458,
+    459,
+    464,
+    497,
+    502,
+    503,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    521,
+    525
+  ],
+  "extraction_caveats": "1. The schedule is presented as milestone-based (every 5,000 miles up to 120,000 miles/144 months) rather than a simple repeating interval table. Repeat intervals have been inferred by identifying the pattern of appearances across milestones.\n2. Engine oil change interval under standard maintenance: The oil control system dynamically adjusts intervals; a fixed standard interval of 10,000 miles/12 months is the best approximation from the milestone pattern, but the actual interval is determined by the oil control system.\n3. Air cleaner filter (engine air filter) standard replacement interval: Explicitly listed at 30k/36mo, 60k/72mo, 90k/108mo, 120k/144mo \u2014 every 30,000 miles/36 months.\n4. Intelligent Key battery replacement: Appears at 30k, 45k, 60k, 75k, 90k, 105k, 120k \u2014 every 15,000 miles/18 months after first replacement at 30k.\n5. CVT fluid inspection appears at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k under standard maintenance. CVT fluid replacement under standard maintenance is not listed; only inspection. Replacement under severe conditions is listed at 60k and 120k.\n6. Engine valve clearance has no mileage/time interval specified \u2014 inspect only if valve noise increases.\n7. Items marked with * (engine drive belts, engine coolant, fuel tank vapor vent system, fuel lines/connections, engine valve clearance) are recommended by NISSAN for reliable vehicle operation but the owner need not perform them to maintain emission warranty or manufacturer recall liability.\n8. Brake fluid replacement under standard maintenance appears at 20k, 40k, 60k, 80k, 100k, 120k (every 20,000 miles/24 months). Under severe conditions it appears at every milestone from 15k onward.\n9. CVT fluid capacity not provided on the pages supplied.\n10. Brake fluid specification not fully detailed on supplied pages \u2014 references P. 511 for full specification.\n11. Engine drive belts first inspected at 40k, then every 10k thereafter (50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k).\n12. Several inspection items (brake lines & cables, brake pads & rotors, drive shaft boots, propeller shaft, differential gear oil, transfer fluid, CVT fluid) appear at nearly every 10k milestone starting at 20k, not every 20k as originally recorded.\n13. Brake fluid under severe conditions appears at every 5k milestone (15k, 20k, 25k, 30k, etc.), so the severe interval is approximately 5,000 miles/6 months.",
+  "source_document": "2025 Nissan Altima Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/altima/2025/2025-nissan-altima-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 17850,
+    "outputTokens": 5608,
+    "totalTokens": 23458,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Intelligent Key battery replace: interval_miles 30000 -> 15000, interval_months 36 -> 18; pages 507 (30k), 509 (45k), 511 (60k), 512 (75k), 514 (90k), 515 (105k), 517 (120k) show replacement every 15k after first at 30k. Original noted 50k replacement which is not supported; 45k is correct per page 509.",
+    "Engine coolant replace: interval_miles 105000 -> 75000, interval_months 84 -> 60; page 516 states 'After first replacement, replace every 75,000 miles (120,000 km) or 60 months.' The repeat interval is 75k/60mo, not 105k/84mo. first_at_miles=105000 and first_at_months=84 remain correct.",
+    "CVT fluid inspect: interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show CVT fluid inspection at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k \u2014 every 10k starting at 20k.",
+    "Brake lines and cables inspect: interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at 20k, 30k (p507), 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k \u2014 every 10k.",
+    "Brake pads and rotors inspect (standard): interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at every 10k milestone from 20k onward.",
+    "Drive shaft boots inspect (standard): interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+    "Propeller shaft inspect (standard): interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+    "Differential gear oil inspect: interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+    "Transfer fluid inspect: interval_miles 20000 -> 10000, interval_months 24 -> 12, first_at_miles=20000, first_at_months=24; pages show inspection at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k.",
+    "Engine drive belts inspect: interval_miles 40000 -> 10000, interval_months 48 -> 12, added first_at_miles=40000, first_at_months=48; pages show first at 40k then every 10k (50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k).",
+    "Brake fluid replace (severe): notes corrected; pages show brake fluid replacement at every severe milestone (15k, 20k, 25k, 30k, 35k, 40k, etc.) \u2014 appears every 5k, not every 10k as originally noted. Interval kept at 10000/12 as best approximation but notes updated.",
+    "Removed pages 177, 546, 549 from source_pages as they contain no maintenance data.",
+    "extraction_caveats: updated caveat 4 to correct Intelligent Key battery pattern (30k, 45k, 60k, 75k, 90k, 105k, 120k not 30k, 50k, 75k, 90k, 105k, 120k); added caveats about corrected intervals for inspection items."
+  ]
+}

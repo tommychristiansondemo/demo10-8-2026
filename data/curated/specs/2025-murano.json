@@ -1,0 +1,330 @@
+{
+  "model": "Murano",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "KR20DDET",
+      "description": "2.0L 4-cylinder turbocharged engine",
+      "transmission": "Automatic transmission (ATF: Genuine NISSAN Matic R ATF)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "If the oil replacement indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km). After replacing the engine oil, reset the display."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all"
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard: every 7,500 mi/12 mo. Severe: every 3,750 mi/6 mo."
+    },
+    {
+      "item": "Steering gear and linkage, axle and suspension parts",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard: every 15,000 mi/24 mo. Severe: every 3,750 mi/6 mo. Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Check for damage, looseness, and grease leakage. Standard: every 7,500 mi/12 mo. Severe: every 3,750 mi/6 mo."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage. Standard: every 7,500 mi/12 mo. Severe: every 3,750 mi/6 mo."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Coupling oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard: every 15,000 mi/24 mo. Severe: every 3,750 mi/6 mo. Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replace every 11,250 miles/18 months. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 11250,
+      "first_at_months": 18,
+      "notes": "Inspect at 11,250 mi/18 mo; replace at 22,500 mi/36 mo and every 11,250 mi/18 mo thereafter (alternating inspect/replace per schedule)."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "first_at_miles": 7500,
+      "first_at_months": 12,
+      "notes": "Severe: first replace at 7,500 mi/12 mo, then every 15,000 mi/24 mo. Standard: every 15,000 mi/24 mo starting at 15,000 mi."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "AWD models",
+      "notes": "Severe use: replace every 15,000 mi/24 mo. Also replace every 20,000 miles (32,000 km) or 24 months if towing a trailer, using a camper or car-top carrier, or driving on rough or muddy roads."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "AWD models",
+      "notes": "Severe use: replace every 15,000 mi/24 mo. Also replace every 20,000 miles (32,000 km) or 24 months if towing a trailer, using a camper or car-top carrier, or driving on rough or muddy roads."
+    },
+    {
+      "item": "Coupling oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "AWD models",
+      "notes": "Severe use: replace every 15,000 mi/24 mo. Also replace every 20,000 miles (32,000 km) or 24 months if towing a trailer, using a camper or car-top carrier, or driving on rough or muddy roads."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 48,
+      "applies_to": "KR20DDET",
+      "notes": "Replace every 30,000 miles/48 months. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "first_at_miles": 30000,
+      "first_at_months": 48,
+      "applies_to": "KR20DDET",
+      "notes": "First inspection at 30,000 mi/48 mo, then every 7,500 mi/12 mo thereafter. Check for wear, fraying or cracking and for proper tension. Replace if found damaged. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Check vapor lines for leaks or looseness. Tighten connections or replace parts as necessary. Marked with * \u2014 recommended by NISSAN."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 90000,
+      "interval_months": 144,
+      "applies_to": "KR20DDET",
+      "notes": "Replace at 90,000 miles/144 months. If towing a trailer, using a camper or car-top carrier, or driving on rough or muddy roads, replace every 90,000 miles (144,000 km) or 144 months."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 168,
+      "applies_to": "KR20DDET",
+      "notes": "Install new plugs of the same type as originally equipped."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 168,
+      "applies_to": "KR20DDET",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 168 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Marked with * \u2014 recommended by NISSAN. Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "KR20DDET",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. Marked with * \u2014 recommended by NISSAN. No fixed interval specified in schedule."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 SP GF-6A motor oil may be used. Must meet API certification or ILSAC certification.",
+      "capacity": "5 qt with oil filter change; 4-5/8 qt without oil filter change",
+      "applies_to": "KR20DDET"
+    },
+    {
+      "fluid": "Automatic transmission fluid (ATF)",
+      "specification": "Genuine NISSAN Matic R ATF or equivalent. Do not mix with other fluids.",
+      "applies_to": "KR20DDET"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "2-3/8 gal (reservoir included)",
+      "applies_to": "KR20DDET"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super Semi-synthetic API GL-5, Viscosity SAE 75W-90.",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Coupling oil",
+      "specification": "Genuine NISSAN LSC Coupling Transmission Fluid 12-301 or equivalent.",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See 'Fuel recommendation' (P. 544) in owner's manual.",
+      "capacity": "18-3/4 gal",
+      "applies_to": "all"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System (OCS) that calculates engine oil and filter change intervals based on driving conditions. Light conditions (freeway/city driving, no towing, no extended idling) result in normal display timing. Extreme conditions (repeated short trips under 5 miles, short trips under 10 miles in freezing temps, hot weather stop-and-go traffic, extensive idling, towing, frequent braking/mountainous driving, sustained high speed) result in early display timing. If the oil replacement indicator is displayed, change the engine oil within two weeks or less than 500 miles (800 km). If the indicator resets prematurely or becomes inoperative, change the oil within six months or 3,750 miles (6,000 km) from the last oil change.",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Towing a trailer, using a camper or using a car-top carrier"
+  ],
+  "source_pages": [
+    486,
+    487,
+    525,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    553,
+    557
+  ],
+  "extraction_caveats": "1. Transfer fluid capacity and specification are not explicitly listed on the provided pages (only differential gear oil and coupling oil specs are given on p.553); transfer fluid spec was not captured.\n2. The maintenance schedule is structured as milestone columns (every 3,750 mi/6 mo or 7,500 mi/12 mo), not simple repeating intervals. Intervals reported here are the derived repeat intervals based on the pattern of appearances across the schedule columns.\n3. Brake lines & cables appear only in standard schedule at 7,500 mi/12 mo intervals. Brake pads & rotors appear in both standard (7,500 mi/12 mo) and severe (3,750 mi/6 mo).\n4. Steering gear/linkage/axle/suspension and exhaust system appear at 15,000 mi/24 mo in standard, 3,750 mi/6 mo in severe.\n5. In-cabin microfilter and Intelligent Key battery appear at 11,250 mi/18 mo intervals. Intelligent Key battery is listed as 'Inspection' at 11,250 mi and 'Replace' at 22,500 mi, alternating thereafter.\n6. Brake fluid: severe first replace at 7,500 mi/12 mo, then every 15,000 mi/24 mo. Standard: every 15,000 mi/24 mo.\n7. Engine drive belts: first inspection at 30,000 mi/48 mo, then every 7,500 mi/12 mo thereafter.\n8. Fuel tank vapor vent system inspection at every 15,000 mi/24 mo.\n9. Automatic transmission fluid replacement at 90,000 mi/144 mo.\n10. Engine coolant first replacement at 105,000 mi/168 mo, then every 75,000 mi/60 mo.\n11. Spark plugs replacement at 105,000 mi/168 mo.\n12. Engine valve clearance: no fixed interval \u2014 inspect only if valve noise increases.\n13. Severe-use transfer/differential/coupling oil replacement every 15,000 mi/24 mo; also replace every 20,000 mi/24 mo if towing/camper/rough roads per p.531.\n14. Fuel capacity (18-3/4 gal) listed on p.553.\n15. Pages 586 and 589 were index pages only, removed from source_pages.",
+  "source_document": "2025 Nissan Murano Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/murano/2025/2025-nissan-murano-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 16876,
+    "outputTokens": 4459,
+    "totalTokens": 21335,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Brake lines and cables: schedule changed from 'standard' to 'both' \u2014 per pages 533/535, severe schedule also inspects brake lines at 3,750 mi intervals (listed under severe at 7,500 mi as part of off-road check on p.531); however, reviewing more carefully, brake lines & cables only appear in standard schedule columns (7,500, 15,000, 22,500, etc.) and NOT in severe-use sections. Keeping as 'standard'. No change needed actually.",
+    "Steering gear and linkage: standard interval corrected from 7,500/12 to 15,000/24 \u2014 per pages 533-549, this item first appears in standard schedule at 15,000 mi/24 mo (p.534) and repeats at 30,000, 45,000, etc. every 15,000 mi. The JSON had interval_miles=7500 which is wrong for standard.",
+    "Exhaust system: standard interval corrected from 7,500/12 to 15,000/24 \u2014 per pages 533-549, exhaust system first appears in standard schedule at 15,000 mi/24 mo (p.534) and repeats every 15,000 mi.",
+    "Engine drive belts: first_at_miles added as 30000, first_at_months added as 48, interval changed from 30000/48 to 7500/12 \u2014 per pages 536-549, engine drive belts first appear at 30,000 mi/48 mo then appear at every 7,500 mi standard interval thereafter (37,500, 45,000, 52,500, etc.)",
+    "Brake fluid: first_at_miles set to 7500, first_at_months set to 12 \u2014 per p.534, brake fluid replace first appears at 7,500 mi/12 mo (under severe essential), then at 15,000 mi/24 mo standard. Reviewing again: at 7,500 mi severe has 'Replace brake fluid' (p.534). Standard first replace is at 15,000 mi/24 mo. The JSON had interval 15000/24 for 'both' which is the standard repeat. Severe also replaces at 7,500 (first), then 15,000, etc. Need to separate or note.",
+    "Intelligent Key battery: action changed from 'replace' to 'inspect' \u2014 per p.534, at 11,250 mi the Intelligent Key battery is listed under 'Inspections' not 'Essential/Replace'. At 22,500 (p.535) it says 'Replace Intelligent Key battery'. So first occurrence at 11,250 is inspect, then replace at 22,500. Reviewing p.534 more carefully: '11,250 miles... Standard maintenance: Inspections: \u2022 Intelligent Key battery. Essential: \u2022 Replace in-cabin microfilter'. So IK battery is inspected at 11,250, then at 22,500 it's replaced. The JSON has it as replace at 11,250 which is wrong.",
+    "Automatic transmission fluid: interval_months corrected \u2014 per p.531, replace every 90,000 miles or 144 months. The JSON has 144 months which matches. No change needed.",
+    "Engine coolant: interval_miles for repeat set to 75000, interval_months for repeat set to 60 \u2014 per p.548 footnote (3), first replacement at 105,000 mi/168 mo, then every 75,000 mi/60 mo. The JSON has interval_miles=105000 and interval_months=168 which represents the first interval, not the repeat. Should be interval_miles=75000, interval_months=60 with first_at_miles=105000, first_at_months=168."
+  ]
+}

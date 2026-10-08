@@ -1,0 +1,416 @@
+{
+  "model": "Titan",
+  "year": 2024,
+  "powertrains": [
+    {
+      "engine_code": "VK56VD",
+      "description": "5.6L 8-cylinder gasoline engine",
+      "transmission": "Automatic transmission"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Oil and filter replaced at every checkpoint in both standard and severe schedules. Standard intervals at 7,500 mi increments; severe intervals at 5,000 mi increments. Appears at every mileage/month checkpoint."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Performed at standard schedule checkpoints: 7,500; 15,000; 22,500; 30,000; 37,500; 45,000; 52,500; 60,000; 82,500; 90,000; 97,500; 105,000; 112,500 mi."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe schedule: first at 10,000 mi/12 mo, then at 20,000 mi/24 mo, 30,000 mi/36 mo, 40,000 mi/48 mo, 50,000 mi/60 mo, 60,000 mi/72 mo, 80,000 mi/96 mo, 90,000 mi/108 mo, 100,000 mi/120 mo, 110,000 mi/132 mo. Standard schedule: at 30,000 mi/24 mo, 60,000 mi/48 mo, 90,000 mi/72 mo."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: replaced at 30,000 mi/24 mo, 60,000 mi/48 mo, 90,000 mi/72 mo."
+    },
+    {
+      "item": "Steering stopper cap lubrication",
+      "action": "lubricate",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "XD models only",
+      "notes": "Lubricated at every severe checkpoint starting at 10,000 mi/12 mo and at certain standard checkpoints (15,000 mi/18 mo, 30,000 mi/24 mo, etc.). Appears at nearly every checkpoint in both schedules."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replaced at 15,000 mi/12 mo, 30,000 mi/24 mo, 45,000 mi/36 mo, 60,000 mi/48 mo, 90,000 mi/72 mo, 105,000 mi/84 mo. Replace more frequently in dusty conditions."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspect at 15,000; 30,000; 45,000; 60,000; 90,000; 105,000 mi. Dealer to inspect fluid deterioration data using CONSULT; if deterioration data is more than 77,000, replace the ATF."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe use: replace at 30,000 mi/24 mo, 60,000 mi/48 mo, 90,000 mi/72 mo. If towing a trailer, using a camper or car-top carrier, or driving on rough/muddy roads: replace every 30,000 miles (48,000 km) or 24 months."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe schedule: replaced at 20,000 mi/24 mo, 40,000 mi/48 mo, 60,000 mi/72 mo, 80,000 mi/96 mo, 100,000 mi/120 mo. If towing a trailer, using a camper or car-top carrier, or driving on rough/muddy roads: replace every 20,000 miles (32,000 km) or 24 months."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "4WD models",
+      "notes": "Severe schedule: replaced at 20,000 mi/24 mo, 40,000 mi/48 mo, 60,000 mi/72 mo, 80,000 mi/96 mo, 100,000 mi/120 mo."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: replaced at 30,000 mi/24 mo, 60,000 mi/48 mo, 90,000 mi/72 mo. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 45000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "Replaced at 45,000 mi/36 mo, 90,000 mi/72 mo, and 112,500 mi/90 mo."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Inspected at 22,500 mi/18 mo standard schedule."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "applies_to": "VK56VD",
+      "notes": "First (and only listed) replacement at 105,000 mi/84 mo standard schedule."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Marked with * (recommended by NISSAN for reliable vehicle operation). Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspected at every service interval throughout the schedule. Marked with * (recommended by NISSAN for reliable vehicle operation). Check for wear, fraying, cracking, and proper tension. Replace any damaged drive belts."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 15,000; 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspected at every severe interval starting at 10,000 mi (10,000; 15,000/18mo; 20,000; 25,000; 30,000/36mo; 35,000; 40,000; 45,000/54mo; 50,000; 55,000; 60,000/72mo; 65,000; 75,000; 80,000; 85,000; 90,000/108mo; 95,000; 100,000; 105,000/126mo; 110,000; 115,000)."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 15,000; 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 30,000; 60,000; 90,000 mi. Marked with * (recommended by NISSAN for reliable vehicle operation)."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 30,000; 60,000; 90,000 mi. Marked with * (recommended by NISSAN for reliable vehicle operation)."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspected at every severe interval starting at 10,000 mi."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspected at every severe interval starting at 10,000 mi."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "4WD/RWD",
+      "notes": "Standard schedule: inspected at every standard interval. Severe schedule: inspected at every severe interval."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Standard schedule: inspected at 15,000; 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "4WD models",
+      "notes": "Severe schedule: inspected at every severe interval starting at 10,000 mi."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspected at 30,000; 60,000; 90,000 mi."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspected at every severe interval starting at 10,000 mi."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspected at every standard and severe interval throughout the schedule."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Standard schedule: inspected at 15,000; 30,000; 45,000; 60,000; 90,000; 105,000 mi."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. Marked with * (recommended by NISSAN for reliable vehicle operation). No specific mileage interval stated in the schedule pages provided."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent); synthetic 0W-20 GF-6A SP if above not available. Must meet API certification or ILSAC certification.",
+      "capacity": "6-7/8 qt with oil filter change; 6-1/2 qt without oil filter change",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze / 50% water; antifreeze protection to -34\u00b0F (-37\u00b0C)",
+      "capacity": "3-1/2 gal (Non-XD model, with reservoir); 3-1/2 gal (XD model, with reservoir)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Automatic Transmission Fluid (ATF)",
+      "specification": "Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids.",
+      "capacity": "\u2014",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil (front)",
+      "specification": "Genuine NISSAN Differential Oil Synthetic GL-5 75W-85. Do not mix with other fluids.",
+      "capacity": "2-5/8 pt (Non-XD model); 3-1/4 pt (XD model)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil (rear)",
+      "specification": "Genuine NISSAN Differential Oil Synthetic GL-5 75W-85. Do not mix with other fluids.",
+      "capacity": "4-7/8 pt (Non-XD model); 5-1/2 pt (XD model)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded premium gasoline, minimum 91 AKI octane rating recommended. Unleaded regular 87 AKI minimum acceptable. No E-15 or E-85. No MMT-containing fuel.",
+      "capacity": "26 gal",
+      "applies_to": "VK56VD"
+    }
+  ],
+  "severe_conditions": [
+    "Towing a trailer",
+    "Using a camper or car-top carrier",
+    "Driving on rough or muddy roads",
+    "Prolonged driving in dusty conditions (affects air cleaner filter and in-cabin microfilter replacement frequency)"
+  ],
+  "oil_life_monitor": "No oil life monitor described in the provided pages. Oil and filter replacement intervals are time/mileage based as published in the maintenance schedule.",
+  "source_pages": [
+    485,
+    529,
+    534,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    564,
+    569,
+    624,
+    627,
+    634
+  ],
+  "extraction_caveats": "1. The maintenance schedule uses non-uniform mileage intervals (7,500 / 10,000 / 15,000 / 18,000 / 20,000 / 22,500 / 25,000 / 30,000 etc.) with two time-based tracks (standard months and severe months) at the same mileage. Items are recorded with their base repeat interval where determinable; the full schedule is complex and the notes fields capture the actual checkpoint pattern.\n2. Pages 549\u2013550 (covering approximately 67,500\u201370,000 mi checkpoints) and page 560\u2013563 (covering approximately 117,500\u2013120,000 mi) were not provided; those intervals may contain additional items not captured here.\n3. The 'interval_miles' and 'interval_months' for engine oil/filter are set to 5,000/null as a conservative representation since the schedule shows oil changes at every single checkpoint (both 7,500-mile standard and 5,000-mile severe intervals); the actual published intervals vary by checkpoint.\n4. Tire rotation interval is listed as 7,500 mi / 6 months (standard schedule) based on the first occurrence; it recurs at most standard-schedule checkpoints.\n5. Brake fluid is split into separate standard and severe entries. Standard interval is 30,000 mi/24 mo; severe first occurs at 10,000 mi/12 mo.\n6. Transfer fluid capacity is not separately listed in the provided pages (page 564 table does not include transfer fluid capacity).\n7. The ATF drain-and-refill capacity is listed as '\u2014' (not specified) in the provided capacity table on page 564.\n8. Engine valve clearance has no specific mileage interval in the schedule pages provided; it is condition-based (inspect only if valve noise increases).\n9. Items marked with '*' in the manual are recommended by NISSAN for reliable vehicle operation but are not required to maintain emission warranty or manufacturer recall liability.\n10. Differential gear oil and transfer fluid replacement only appear under severe-schedule essentials (20,000 mi/24 mo intervals at severe checkpoints), not under standard maintenance essentials. The standard schedule only inspects these fluids.\n11. Engine coolant repeat interval is 75,000 mi/60 mo after first replacement at 105,000 mi/84 mo per page 557 footnote (2).\n12. Differential gear oil capacities on page 564: Front row lists Non-XD 2-5/8 pt, XD 3-1/4 pt; Rear row lists Non-XD 4-7/8 pt, XD 5-1/2 pt.",
+  "source_document": "2024 Nissan Titan Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/titan/2024/2024-nissan-titan-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 17468,
+    "outputTokens": 5315,
+    "totalTokens": 22783,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Brake fluid: was single 'both' entry with interval_miles=10000/interval_months=12 -> split into two entries: standard schedule 30000 mi/24 mo and severe schedule 10000 mi/12 mo. Per pages 537-559, standard schedule shows brake fluid replacement at 30,000/60,000/90,000 mi; severe shows it starting at 10,000 mi.",
+    "Differential gear oil replace: schedule 'standard' -> 'severe'. Per pages 539, 544, 548, 552, 556, differential gear oil replacement only appears under severe-schedule essentials (20,000 mi/24 mo checkpoints), not under standard maintenance essentials. Standard schedule only inspects differential gear oil.",
+    "Transfer fluid replace: schedule 'standard' -> 'severe'. Per pages 539, 544, 548, 552, 556, transfer fluid replacement only appears under severe-schedule essentials (20,000 mi/24 mo checkpoints), not under standard maintenance essentials. Standard schedule only inspects transfer fluid.",
+    "Engine coolant: interval_miles 105000 -> 75000, interval_months 84 -> 60. The 105,000/84 is the first_at value; the repeat interval after first replacement is 75,000 mi/60 mo per page 557 footnote (2).",
+    "Brake pads and rotors: was single 'both' entry with interval_miles=10000 -> split into standard (15,000 mi/12 mo per page 538) and severe (5,000 mi per pages 537-559). Standard first appears at 15,000 mi not 10,000 mi.",
+    "Steering gear and linkage: was single 'both' entry with interval_miles=10000 -> split into standard (30,000 mi/24 mo, first at 30,000 per page 541) and severe (5,000 mi). Standard first appears at 30,000 mi not 10,000 mi.",
+    "Axle and suspension parts: was single 'both' entry with interval_miles=10000 -> split into standard (30,000 mi/24 mo) and severe (5,000 mi). Standard first appears at 30,000 mi per page 541.",
+    "Drive shaft boots: was single 'both' entry with interval_miles=10000 -> split into standard (15,000 mi/12 mo per page 538) and severe (5,000 mi). Standard first appears at 15,000 mi.",
+    "Exhaust system: was single 'both' entry with interval_miles=10000 -> split into standard (30,000 mi/24 mo per page 541) and severe (5,000 mi). Standard first appears at 30,000 mi.",
+    "Differential gear oil (front) capacity: was labeled 'rear' in original -> corrected to 'front'. Per page 564 table, Front row: Non-XD 2-5/8 pt, XD 3-1/4 pt; Rear row: Non-XD 4-7/8 pt, XD 5-1/2 pt. The original had front/rear labels swapped.",
+    "Differential gear oil (rear) capacity: was labeled 'front' in original -> corrected to 'rear'. Per page 564 table.",
+    "Steering stopper cap lubrication: interval_miles 10000 -> 5000 to reflect it appears at nearly every checkpoint in both schedules.",
+    "Intelligent Key battery inspect: added as separate entry at 22,500 mi/18 mo per page 540, was only mentioned in notes of the replace entry.",
+    "In-cabin microfilter: removed mention of 75,000 mi from notes. Page 551 shows 75,000 mi/90 mo has no standard maintenance (standard says 'Not Applicable. Proceed to next interval'). The in-cabin microfilter at that checkpoint appears on the preceding page for a different mileage."
+  ]
+}

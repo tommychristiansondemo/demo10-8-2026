@@ -1,0 +1,420 @@
+{
+  "model": "Z",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "VR30DDTT",
+      "description": "3.0L twin-turbocharged V6 \u2013 Automatic Transmission model",
+      "transmission": "Automatic Transmission"
+    },
+    {
+      "engine_code": "VR30DDTT",
+      "description": "3.0L twin-turbocharged V6 \u2013 Manual Transmission model",
+      "transmission": "6-speed Manual Transmission"
+    },
+    {
+      "engine_code": "VR30DDTT",
+      "description": "3.0L twin-turbocharged V6 \u2013 NISMO model",
+      "transmission": "Automatic or Manual Transmission (NISMO)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Repeat every 10,000 miles / 12 months. If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). After replacing, reset the display."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replaced at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 / 120,000 miles (every 20,000 miles / 24 months)."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe schedule: replace every 10,000 miles / 12 months."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replaced at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles (every 15,000 miles / 18 months). Replace more frequently when driving in dusty conditions."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replaced at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles (every 15,000 miles / 18 months)."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "Limited Slip Differential",
+      "notes": "With limited slip differential: replace at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 / 120,000 miles (every 20,000 miles / 24 months)."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "Replaced at 30,000 / 60,000 / 90,000 / 120,000 miles (every 30,000 miles / 36 months). If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Automatic Transmission model",
+      "notes": "Inspect at every 10,000-mile / 12-month interval. Request dealer to inspect fluid deterioration data using CONSULT. If deterioration data is more than 77,000, replace the AT fluid."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "Automatic Transmission model",
+      "notes": "Severe schedule: replace every 20,000 miles / 24 months."
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Manual Transmission model",
+      "notes": "Visually inspect for signs of leakage at every 10,000-mile / 12-month interval."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for signs of leakage at every 10,000-mile / 12-month interval."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspect at every 10,000-mile / 12-month interval."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 10,000 miles / 12 months."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 10,000 miles / 12 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 10,000 miles / 12 months."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 20,000 miles / 24 months."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 20,000 miles / 24 months."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: inspect every 20,000 miles / 24 months."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe schedule: inspect every 5,000 miles / 6 months."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 / 120,000 miles (every 20,000 miles / 24 months). Marked with * \u2013 recommended by NISSAN for reliable vehicle operation."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 / 120,000 miles (every 20,000 miles / 24 months). Marked with * \u2013 recommended by NISSAN for reliable vehicle operation."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "first_at_miles": 60000,
+      "first_at_months": 72,
+      "applies_to": "all",
+      "notes": "First inspection at 60,000 miles / 72 months, then every 10,000 miles / 12 months thereafter (60k, 70k, 80k, 90k, 100k, 110k, 120k). Replace if found damaged. Marked with * \u2013 recommended by NISSAN for reliable vehicle operation."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "first_at_miles": 105000,
+      "first_at_months": 126,
+      "applies_to": "all",
+      "notes": "First (and only scheduled) replacement at 105,000 miles / 126 months within the 120,000-mile schedule window shown."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Use Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Inspect only if valve noise increases. Adjust if necessary. Marked with * \u2013 recommended by NISSAN for reliable vehicle operation. No fixed mileage interval specified."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 SP GF-6A motor oil may be used. Must meet API certification or ILSAC certification.",
+      "capacity": "5-5/8 qt (with oil filter change); 5-3/8 qt (drain and refill without filter change)",
+      "applies_to": "Automatic Transmission model and Manual Transmission model"
+    },
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 SP GF-6A motor oil may be used.",
+      "capacity": "5-5/8 qt (with oil filter change); 5-3/8 qt (drain and refill without filter change)",
+      "applies_to": "NISMO models"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. Provides antifreeze protection to \u221234\u00b0F (\u221237\u00b0C).",
+      "capacity": "9-1/2 qt (with reservoir) for AT model; 9-3/8 qt (with reservoir) for MT model; 5/8 qt (reservoir only)",
+      "applies_to": "Automatic Transmission model and Manual Transmission model"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent.",
+      "capacity": "11 qt (with reservoir); 5/8 qt (reservoir only)",
+      "applies_to": "NISMO models"
+    },
+    {
+      "fluid": "Intercooler coolant",
+      "specification": "Pre-diluted mixture of 50% Genuine NISSAN Long Life Antifreeze/Coolant (blue) and 50% water. Maintenance-free; replace only if required.",
+      "capacity": "3-1/8 qt (with reservoir) for AT and MT models; 3-5/8 qt (with reservoir) for NISMO; 1/4 qt (reservoir only)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Automatic transmission fluid",
+      "specification": "Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids.",
+      "applies_to": "Automatic Transmission model"
+    },
+    {
+      "fluid": "Manual transmission gear oil",
+      "specification": "Genuine NISSAN Manual Transmission Fluid (MTF) HQ Multi 75W-85. If not available, API GL-4, SAE 75W-85 may be used as a temporary replacement.",
+      "applies_to": "Manual Transmission model"
+    },
+    {
+      "fluid": "A/C refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "A/C system oil",
+      "specification": "SP-A2 (PAG) or exact equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See Fuel information (P.374) \u2013 premium unleaded gasoline required (per engine specifications page reference)",
+      "capacity": "16-3/8 gal",
+      "applies_to": "all"
+    }
+  ],
+  "source_pages": [
+    325,
+    326,
+    327,
+    359,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    380,
+    384,
+    385
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System that calculates engine oil and filter change intervals based on driving conditions. Driving in severe conditions will shorten the interval. When the oil replacement indicator appears in the vehicle information display, the engine oil and filter must be replaced. After replacing, reset the display. If the indicator is displayed, change within two weeks or less than 500 miles (800 km).",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go rush hour traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "extraction_caveats": "1. Tire rotation: The manual explicitly states tires CANNOT be rotated on this vehicle because front tires are a different size and/or wheel rim offset than the rear tires \u2013 therefore no tire rotation item is recorded. 2. Differential gear oil replacement interval for non-LSD models: The schedule only specifies replacement 'with limited slip differential'; no replacement interval is stated for standard differential models (inspection only). 3. Engine valve clearance has no fixed mileage/time interval \u2013 inspect only if valve noise increases. 4. Fuel specification detail (octane rating) is referenced to P.374 which was not included in the provided pages; the fuel capacity (16-3/8 gal) is captured from P.380. 5. Engine oil capacity for standard AT and MT models is the same (5-5/8 qt with filter / 5-3/8 qt drain-and-refill); NISMO also uses the same oil capacity per P.380 (the table does not show a separate NISMO oil capacity). 6. The standard maintenance schedule brake fluid replacement pattern (every 20,000 miles / 24 months) is derived by reading across all schedule columns (20k, 40k, 60k, 80k, 100k, 120k); the severe schedule replacement pattern (every 10,000 miles / 12 months) is similarly derived. 7. Engine drive belts first appear at 60,000 miles then at every subsequent 10,000-mile standard interval through 120,000 miles; the repeat interval recorded reflects this pattern. 8. Intercooler coolant is described as maintenance-free with no scheduled replacement interval; it is captured as a fluid specification only. 9. The manual transmission gear oil and differential gear oil are listed for inspection at every 10,000-mile standard interval but no mandatory replacement interval is specified for non-LSD differential or MT gear oil beyond the inspection entries. 10. Engine coolant capacity on P.380 is listed under 'Intercooler coolant' section, not 'Engine coolant' \u2013 the AT/MT/NISMO coolant capacities shown are for the intercooler system; engine coolant capacities with reservoir are 9-1/2 qt (AT), 9-3/8 qt (MT), 11 qt (NISMO), reservoir only 5/8 qt.",
+  "source_document": "2025 Nissan Z Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/z/2025/2025-nissan-z-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 14921,
+    "outputTokens": 4665,
+    "totalTokens": 19586,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Brake pads and rotors: split single 'both' schedule entry into two separate entries (standard at 10,000mi/12mo, severe at 5,000mi/6mo) for clarity \u2013 the original combined entry only listed the severe interval_miles of 5000, which was misleading for the standard schedule",
+    "Drive shaft boots: split single 'both' schedule entry into two separate entries (standard at 10,000mi/12mo, severe at 5,000mi/6mo) \u2013 same issue as brake pads",
+    "Propeller shaft: split single 'both' schedule entry into two separate entries (standard at 10,000mi/12mo, severe at 5,000mi/6mo) \u2013 same issue",
+    "Exhaust system: split single 'both' schedule entry into two separate entries (standard at 20,000mi/24mo, severe at 5,000mi/6mo) \u2013 same issue",
+    "Steering gear and linkage: split single 'both' schedule entry into two separate entries (standard at 20,000mi/24mo, severe at 5,000mi/6mo) \u2013 same issue",
+    "Axle and suspension parts: split single 'both' schedule entry into two separate entries (standard at 20,000mi/24mo, severe at 5,000mi/6mo) \u2013 same issue",
+    "Engine drive belts: interval_miles 60000 -> 10000, added first_at_miles=60000 and first_at_months=72 \u2013 the 60,000 is the first inspection point, then every 10,000 miles thereafter per pages 371-377",
+    "Engine coolant: interval_miles 105000 -> 75000, interval_months 84 -> 60 \u2013 105,000mi/84mo is the FIRST replacement; the repeat interval is 75,000mi/60mo per P.376 footnote (1)",
+    "Spark plugs: interval_miles 105000 -> null, added first_at_miles=105000 and first_at_months=126 \u2013 only one replacement shown in the schedule at 105k, no repeat interval within the 120k window",
+    "Engine oil (NISMO): capacity '11 qt (with oil filter change)' -> '5-5/8 qt (with oil filter change); 5-3/8 qt (drain and refill without filter change)' \u2013 P.380 shows only one engine oil row with 5-5/8 qt / 5-3/8 qt; the 11 qt figure is for NISMO engine COOLANT, not oil",
+    "Engine oil (NISMO): applies_to 'NISMO models' kept but capacity corrected per P.380 \u2013 the oil capacity table has no separate NISMO row",
+    "Engine coolant (AT/MT): capacity '3-1/8 qt (with reservoir); 1/4 qt (reservoir only)' -> '9-1/2 qt (with reservoir) for AT model; 9-3/8 qt (with reservoir) for MT model; 5/8 qt (reservoir only)' \u2013 P.380 shows engine coolant with reservoir as 9-1/2 qt (AT) and 9-3/8 qt (MT); the 3-1/8 qt figure was the INTERCOOLER coolant capacity",
+    "Engine coolant (NISMO): capacity '3-5/8 qt (with reservoir); 1/4 qt (reservoir only)' -> '11 qt (with reservoir); 5/8 qt (reservoir only)' \u2013 P.380 shows NISMO engine coolant with reservoir as 11 qt; 3-5/8 qt was the NISMO intercooler coolant",
+    "Engine coolant reservoir only: '1/4 qt' -> '5/8 qt' for all models \u2013 P.380 shows engine coolant reservoir as 0.6L = 5/8 qt; the 1/4 qt (0.2L) is the intercooler coolant reservoir",
+    "Engine oil applies_to: 'all except NISMO' -> 'Automatic Transmission model and Manual Transmission model' \u2013 clarified since NISMO uses same capacity per P.380"
+  ]
+}

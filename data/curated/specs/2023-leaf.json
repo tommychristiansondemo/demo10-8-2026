@@ -1,0 +1,342 @@
+{
+  "model": "Leaf",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "EM57",
+      "description": "Electric motor (EM57), battery-electric vehicle",
+      "transmission": "Single-speed reduction gear"
+    }
+  ],
+  "oil_life_monitor": "",
+  "maintenance_items": [
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first. When rotating tires, check for damage and uneven wear."
+    },
+    {
+      "item": "Horn, lights, signals, wipers, rear hatch/hood lift supports",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Battery terminals and cables, battery test",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Tire pressure, treadwear and depth",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Suspension components (shocks, subframe, tie rods)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Axle & suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Brake pads & rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Front suspension ball joints",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Steering linkage ball joints",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Brake lines & cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Brake pads & rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks."
+    },
+    {
+      "item": "Charging port",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check the charging port for any signs of contamination, dust, sand etc."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Reduction gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for signs of leakage at specified intervals."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use maintenance. Repeats every 15,000 miles/12 months."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Performed based on the number of service months only. First inspect at 22,500 miles/18 months."
+    },
+    {
+      "item": "Axle & suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard maintenance at 30,000-mile/24-month intervals (also at 60k, 90k, 120k)."
+    },
+    {
+      "item": "Charging port sealing cap",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Use only compressed air with proper eye protection to clean any contamination from the sealing cap. Appears at 30k, 60k, 90k, 120k miles."
+    },
+    {
+      "item": "Front suspension ball joints",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard maintenance at 30,000-mile/24-month intervals."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard maintenance at 30,000-mile/24-month intervals."
+    },
+    {
+      "item": "Steering linkage ball joints",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard maintenance at 30,000-mile/24-month intervals."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard maintenance. Repeats every 30,000 miles/24 months."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "Performed based on the number of service months only. First replacement at 45,000 miles/36 months, then at 67,500/54mo, 90k/72mo, 112.5k/90mo (approximately every 18 months after first replacement per schedule)."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 125000,
+      "interval_months": 180,
+      "first_at_miles": 125000,
+      "first_at_months": 180,
+      "applies_to": "all",
+      "notes": "Factory fill: replace at 125,000 miles (200,000 km) or 15 years, whichever comes first. Subsequent replacements every 75,000 miles (120,000 km) or 5 years, whichever comes first. Use Genuine NISSAN Long Life Antifreeze/Coolant (Blue) or equivalent."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Cooling system coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze/50% water; antifreeze protection to \u221234\u00b0F (\u221237\u00b0C)",
+      "capacity": "5-5/8 qt (with reservoir); reservoir alone: 1/2 qt",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Reduction gear fluid",
+      "specification": "Genuine NISSAN Matic S ATF. Do not mix with other fluids.",
+      "capacity": "1-1/2 qt",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Super Heavy Duty Brake Fluid or equivalent DOT 3",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (Lithium soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system lubricant",
+      "specification": "NISSAN A/C System Oil ND-OIL11 or equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Windshield washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Cleaner & Antifreeze fluid or equivalent",
+      "capacity": "5/8 gal (US); concentrate: 1-1/4 gal",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "source_pages": [
+    530,
+    531,
+    532,
+    564,
+    568,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    581
+  ],
+  "extraction_caveats": "\n1. This is a battery-electric vehicle (EM57 motor); there is no engine oil, spark plugs, air cleaner filter, or transmission fluid in the conventional sense. Reduction gear fluid (Genuine NISSAN Matic S ATF) replaces transmission fluid.\n2. The maintenance schedule is presented as discrete mileage columns (7,500 / 15,000 / 22,500 / 30,000 \u2026 120,000 miles). Repeat intervals were reconstructed by identifying the pattern across columns rather than listing each column individually.\n3. Tire rotation appears at every 7,500-mile/6-month interval throughout the schedule (both standard and as part of severe intervals); it is recorded once with that repeat interval.\n4. The standard 7,500-mile inspections (horn/lights, battery terminals, tire pressure, suspension components) repeat at every interval through 120,000 miles; only the base interval is recorded.\n5. Intelligent Key battery: first INSPECT at 22,500 miles/18 months (months-only trigger per manual); first REPLACE at 45,000 miles/36 months, then at 67,500/54mo, 90,000/72mo, 112,500/90mo \u2014 the manual states 'performed based on the number of service months only.' The replace interval is approximately every 18 months after the first replacement.\n6. Coolant first replacement: 125,000 miles or 15 years (180 months); subsequent interval: 75,000 miles or 5 years (60 months). Only the first-replacement interval is captured in first_at_miles/first_at_months; the subsequent interval differs and is noted in the notes field.\n7. Brake fluid standard replacement interval is every 30,000 miles/24 months (appears at 30k, 60k, 90k, 120k miles in standard schedule). Severe-use brake fluid replacement is every 15,000 miles/12 months.\n8. Charging port sealing cap inspection appears at 30k, 60k, 90k, 120k miles (every 30,000 miles/24 months) in the standard schedule.\n9. In-cabin microfilter replacement appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k miles \u2014 every 15,000 miles/12 months in the standard schedule.\n10. Pages 564 (table of contents) and 568\u2013569 (explanatory text) were used for context; the actual schedule data comes from pages 570\u2013577. Page 581 provides fluid capacities and specifications.\n11. The 37,500-mile/30-month and 67,500-mile/54-month and 97,500-mile/78-month severe-use entries explicitly state 'Not applicable. Proceed to next interval.'\n12. Severe-use items at 15,000 miles/12 months: the pages show axle & suspension parts, front suspension ball joints, steering gear and linkage, steering linkage ball joints as inspections, plus brake fluid replacement as essential. Brake pads & rotors and drive shaft boots are NOT listed as severe items at 15,000 miles (they appear at 7,500 severe but not 15,000 severe per page 571).\n",
+  "source_document": "2023 Nissan Leaf Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2023/2023-nissan-leaf-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 8402,
+    "outputTokens": 4487,
+    "totalTokens": 12889,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Intelligent Key battery replace: notes old -> 'then at 75k/60mo, 90k/72mo, 112.5k/90mo, 120k/96mo' new -> 'then at 67,500/54mo, 90k/72mo, 112.5k/90mo (approximately every 18 months after first replacement)'. Per pages 572 (45k/36mo first replace), 574 (67.5k/54mo), 576 (90k/72mo), 577 (112.5k/90mo). The original incorrectly listed 75k/60mo as a replacement point; page 574 shows 67.5k/54mo is the replace, while 75k/60mo has no Intelligent Key battery action. Also 120k/96mo is not listed as a replacement point on page 577 (120k shows standard inspections only, no IK battery replace).",
+    "Extraction caveat 5: old -> 'then at 75k/60mo, 90k/72mo, 112.5k/90mo, 120k/96mo' new -> 'then at 67,500/54mo, 90,000/72mo, 112,500/90mo'. Corrected per pages 574, 576, 577. The interval is approximately every 18 months, not 30 months as originally stated.",
+    "Added extraction caveat 12 noting that severe-use items at 15,000 miles per page 571 do NOT include brake pads & rotors or drive shaft boots (those only appear at 7,500 severe). The first-pass JSON had these items listed at 15,000 severe which is not supported \u2014 however they were not present in the maintenance_items at 15,000 severe, so no item removal was needed. The existing severe items at 15,000 (axle & suspension, front suspension ball joints, steering gear and linkage, steering linkage ball joints, brake fluid) are correct per page 571."
+  ]
+}

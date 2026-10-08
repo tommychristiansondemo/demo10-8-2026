@@ -1,0 +1,15 @@
+{
+  "name": "owner-assist-modelsel",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-appconfig": "^3.900.0",
+    "@aws-sdk/client-appconfigdata": "^3.900.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.900.0",
+    "@aws-sdk/client-dynamodb": "^3.900.0",
+    "@aws-sdk/lib-dynamodb": "^3.900.0",
+    "@aws-lambda-powertools/logger": "^2.25.0",
+    "@aws-lambda-powertools/metrics": "^2.25.0"
+  },
+  "devDependencies": { "@types/aws-lambda": "^8.10.150", "@types/node": "^22.0.0", "typescript": "~5.9.0" }
+}

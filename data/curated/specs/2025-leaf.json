@@ -1,0 +1,323 @@
+{
+  "model": "Leaf",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "EM57",
+      "description": "EM57 electric motor (Battery Electric Vehicle)",
+      "transmission": "Single-speed reduction gear"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first. After 120,000 miles (192,000 km)/96 months, continue at same interval."
+    },
+    {
+      "item": "Horn, lights, signals, wipers, rear hatch/hood lift supports",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Battery terminals and cables, battery test",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Tire pressure, treadwear and depth",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Suspension components (shocks, subframe, tie rods)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Axle & suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Brake pads & rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Front suspension ball joints",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Steering linkage ball joints",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Brake lines & cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 mile intervals (every 15,000 mi / 12 months)."
+    },
+    {
+      "item": "Brake pads & rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at every 15,000-mile / 12-month standard interval."
+    },
+    {
+      "item": "Charging port",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at every 15,000-mile / 12-month standard interval."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at every 15,000-mile / 12-month standard interval."
+    },
+    {
+      "item": "Reduction gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at every 15,000-mile / 12-month standard interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k)."
+    },
+    {
+      "item": "Axle & suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at every 30,000-mile / 24-month standard interval (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Charging port sealing cap",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at every 30,000-mile / 24-month standard interval (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Front suspension ball joints",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at every 30,000-mile / 24-month standard interval (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at every 30,000-mile / 24-month standard interval (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Steering linkage ball joints",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at every 30,000-mile / 24-month standard interval (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replaced at every 15,000-mile / 12-month standard interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k)."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use: replaced at every 15,000-mile / 12-month severe interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k)."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: replaced at 30,000 / 60,000 / 90,000 / 120,000 miles (every 30,000 mi / 24 months)."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "First inspect at 22,500 miles / 18 months; pattern does not repeat (only listed once as inspect).",
+      "first_at_miles": null,
+      "first_at_months": null
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 45000,
+      "first_at_months": 36,
+      "notes": "Replace at 45,000 mi/36 mo, 67,500 mi/54 mo, 90,000 mi/72 mo, 112,500 mi/90 mo. Pattern is every 22,500 mi / 18 months starting at 45,000 mi."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Cooling system coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent",
+      "capacity": "5-5/8 qt (with reservoir); reservoir alone: 1/2 qt",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Reduction gear fluid",
+      "specification": "Genuine NISSAN Matic S ATF only; do not mix with other fluids",
+      "capacity": "1-1/2 qt",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Super Heavy Duty Brake Fluid or equivalent DOT 3",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (Lithium soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system lubricant",
+      "specification": "NISSAN A/C System Oil ND-OIL11 or equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Windshield washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze fluid or equivalent",
+      "capacity": "5/8 gal (US)",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "Severe use maintenance conditions are referenced in the schedule but specific definitions (e.g., dusty roads, towing, extreme temperatures) are not enumerated on the extracted pages."
+  ],
+  "oil_life_monitor": "",
+  "source_pages": [
+    523,
+    524,
+    525,
+    557,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    574
+  ],
+  "extraction_caveats": "1. This is a BEV (battery electric vehicle) \u2014 there is no engine oil, spark plugs, or transmission fluid in the conventional sense; reduction gear fluid replaces transmission fluid. 2. The schedule pages show individual mileage columns (7,500 / 15,000 / 22,500 \u2026 / 120,000 miles); repeat intervals have been reconstructed from the pattern of appearances across those columns. 3. The Intelligent Key battery replacement pattern from the pages is: replace at 45,000 mi/36 mo, 67,500 mi/54 mo (page 567), 90,000 mi/72 mo (page 569), 112,500 mi/90 mo (page 570) \u2014 this is every 22,500 mi / 18 months starting at 45,000 mi; 22,500 mi is listed as 'inspect' only. 4. Brake fluid under severe schedule appears at 15,000 mi / 12 mo intervals; under standard schedule at 30,000 mi / 24 mo intervals \u2014 both are recorded as separate entries. 5. The coolant life expectancy is stated as 125,000 miles or 15 years for the factory fill, but no explicit scheduled replacement interval appears in the maintenance schedule pages provided; this is noted from page 523 text only. 6. Page 574 capacity for windshield washer fluid (Canada) is 1-1/4 gal; US is 5/8 gal \u2014 US figure used in the fluid record. 7. The schedule note states: 'After 120,000 miles (192,000 km)/96 months, continue maintenance at the same mileage/time interval.' 8. The Intelligent Key battery inspect entry at 22,500 mi appears only once in the schedule (page 564); it is not a repeating interval.",
+  "source_document": "2025 Nissan Leaf Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/leaf/2025/2025-nissan-leaf-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 7483,
+    "outputTokens": 3734,
+    "totalTokens": 11217,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Reduction gear fluid capacity: '1-1/4 qt' -> '1-1/2 qt', page 574 shows US Measure as '1-1/2 qt'",
+    "Intelligent Key battery replace interval_miles: 45000 -> 22500 with first_at_miles: null -> 45000 and first_at_months: null -> 36, page 565/567/569/570 show replacements at 45k/67.5k/90k/112.5k = every 22,500 mi starting at 45,000",
+    "Cooling system coolant specification: removed '50/50 mix providing protection to \u221234\u00b0F (\u221237\u00b0C)' from specification field \u2014 page 574 recommended fluids column only says 'Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent'; the temperature detail is from page 523 general text, not the fluids table",
+    "Windshield washer fluid specification: 'Genuine NISSAN Windshield Washer Cleaner & Antifreeze fluid or equivalent (Concentrate)' -> 'Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze fluid or equivalent', corrected word order per page 574",
+    "Intelligent Key battery inspect notes updated to clarify it appears only once at 22,500 mi (page 564), not a repeating interval"
+  ]
+}

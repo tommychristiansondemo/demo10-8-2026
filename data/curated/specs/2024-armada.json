@@ -1,0 +1,448 @@
+{
+  "model": "Armada",
+  "year": 2024,
+  "powertrains": [
+    {
+      "engine_code": "VK56VD",
+      "description": "5.6L V8 gasoline engine",
+      "transmission": "Automatic transmission (ATF: Genuine NISSAN Matic S ATF)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "VK56VD",
+      "notes": "Standard schedule: every 7,500 miles / 6 months"
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Performed at every standard oil change interval (7,500 / 15,000 / 22,500 / 30,000 etc.)"
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replaced at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles. Replace more frequently when driving in dusty conditions."
+    },
+    {
+      "item": "Propeller shaft grease",
+      "action": "lubricate",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Lubricated at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles"
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspected at every 15k standard interval"
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Inspected at every 15k standard interval"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Inspected at every 15k standard interval"
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 / 120,000 miles"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replaced at 30,000 / 60,000 / 90,000 / 120,000 miles on standard schedule"
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replaced at 30,000 / 60,000 / 90,000 / 120,000 miles. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended item (*). Inspected at 30,000 / 60,000 / 90,000 / 120,000 miles"
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended item (*). Inspected at 30,000 / 60,000 / 90,000 / 120,000 miles"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 30,000 / 60,000 / 90,000 / 120,000 miles on standard schedule"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 30,000 / 60,000 / 90,000 / 120,000 miles on standard schedule"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspected at 30,000 / 60,000 / 90,000 / 120,000 miles on standard schedule"
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "first_at_miles": 22500,
+      "first_at_months": 18,
+      "applies_to": "all",
+      "notes": "Inspected at 22,500 miles/18 months only (one-time inspect before first replacement)"
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "first_at_miles": 45000,
+      "first_at_months": 36,
+      "applies_to": "all",
+      "notes": "First replaced at 45,000 miles/36 months, then every 22,500 miles/18 months (67,500 / 90,000 / 112,500)"
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "first_at_miles": 60000,
+      "first_at_months": 48,
+      "applies_to": "all",
+      "notes": "Recommended item (*). First inspected at 60,000 miles/48 months, then at 75,000 / 90,000 / 105,000 / 120,000 miles (every 15,000 miles/12 months). Replace if found damaged."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "Recommended item (*). First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "Replaced at 105,000 miles / 84 months. Only one replacement shown in the 120,000-mile schedule."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Recommended item (*). Inspect only if valve noise increases. Adjust if necessary."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VK56VD",
+      "notes": "Severe use schedule: every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspected every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use: replaced at 10,000 / 20,000 / 30,000 / 40,000 / 50,000 / 60,000 / 70,000 / 80,000 / 90,000 / 100,000 / 110,000 miles"
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe use: replaced at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 miles"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe use: replaced at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 miles"
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent synthetic 0W-20 SP GF-6A). Must meet API certification or ILSAC certification.",
+      "capacity": "6-7/8 qt with oil filter change; 6-1/2 qt without oil filter change",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50/50 mix with water. Antifreeze protection to \u221234\u00b0F (\u221237\u00b0C).",
+      "capacity": "16 qt (with reservoir)",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Automatic transmission fluid (ATF)",
+      "specification": "Genuine NISSAN Matic S ATF or equivalent. Do not mix with other fluids.",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Transfer fluid",
+      "specification": "Genuine NISSAN Transfer Fluid for ATX90A transfer",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Front differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super GL-5 80W-90 or equivalent conventional (non-synthetic) oil",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Rear differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super-S GL-5 synthetic 75W-90 or equivalent",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Power steering fluid (PSF)",
+      "specification": "Genuine NISSAN PSF or equivalent. DEXRON VI type ATF may also be used.",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Super Heavy Duty Brake Fluid or equivalent DOT 3",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (Lithium soap base)",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Air conditioning system oil",
+      "specification": "NISSAN A/C System Oil VC100YF (PAG) or equivalent",
+      "applies_to": "VK56VD"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See Fuel information (P.10-4). Premium unleaded gasoline recommended.",
+      "capacity": "26 gal (US measure) / 21-5/8 gal (Imperial)",
+      "applies_to": "VK56VD"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Towing a trailer, or using a camper or car-top carrier"
+  ],
+  "oil_life_monitor": "",
+  "source_pages": [
+    459,
+    463,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    524
+  ],
+  "extraction_caveats": "1. The maintenance schedule covers the VK56VD engine only, as that is the only engine model listed in the schedule pages.\n2. Standard oil/filter interval is 7,500 miles/6 months; severe-use oil/filter interval is 5,000 miles/6 months.\n3. Tire rotation follows the same 7,500-mile/6-month cadence as standard oil changes.\n4. Engine coolant: recommended item (*). First replacement at 105,000 miles/84 months; subsequent interval every 75,000 miles/60 months per footnote on page 516.\n5. Intelligent Key battery: first inspect at 22,500 miles/18 months; first replace at 45,000 miles/36 months; subsequent replacements every 22,500 miles/18 months (67,500, 90,000, 112,500).\n6. Engine drive belts are a recommended (*) item; first inspect at 60,000 miles/48 months, then every 15,000 miles/12 months; replace only if found damaged.\n7. Engine valve clearance has no fixed interval \u2014 inspect only if valve noise increases.\n8. Fuel filter: periodic maintenance not required (in-tank type filter) \u2014 omitted from maintenance items.\n9. ATF, transfer fluid, front/rear differential oil capacities are listed as '\u2014' (refill to proper level per procedure); no US quart capacity published.\n10. Brake fluid, multi-purpose grease, and A/C refrigerant/oil capacities are also listed as '\u2014' in the capacities table.\n11. Items marked with '*' in the schedule are recommended by NISSAN but not required to maintain warranty coverage.\n12. Spark plugs appear only once at 105,000 miles in the 120,000-mile schedule; no repeat interval is established.\n13. Fuel capacity: 26 gal US measure, 21-5/8 gal Imperial per page 520.\n14. The 105,000-mile entry on page 516 lists 'Drive belts' inspect (footnote 1) without the '*' marker, but all other drive belt entries at 60k/75k/90k/120k show 'Engine drive belts*'. The item is treated as recommended (*).",
+  "source_document": "2024 Nissan Armada Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/armada/2024/2024-nissan-armada-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 14415,
+    "outputTokens": 5386,
+    "totalTokens": 19801,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine coolant interval_miles: 105000 -> 75000 (the repeat interval after first replacement is 75,000 miles/60 months per footnote 2 on page 516; first_at_miles remains 105000)",
+    "Engine coolant interval_months: 84 -> 60 (repeat interval is 60 months per footnote 2 on page 516)",
+    "Spark plugs interval_miles: 105000 -> null (only one replacement at 105,000 shown in the 120k schedule; no repeat interval established; moved 105000 to first_at_miles)",
+    "Spark plugs interval_months: 84 -> null (same reason as above; moved 84 to first_at_months)",
+    "Intelligent Key battery (inspect) interval_miles: 22500 -> null (only one inspect at 22,500 shown on page 506; not a repeating interval; moved to first_at_miles)",
+    "Intelligent Key battery (inspect) interval_months: 18 -> null (same reason; moved to first_at_months)",
+    "Intelligent Key battery (replace) interval_miles: 45000 -> 22500 (replacements at 45k/67.5k/90k/112.5k = every 22,500 miles; first_at_miles=45000, page 508/511/514/517)",
+    "Intelligent Key battery (replace) interval_months: 36 -> 18 (same reasoning, every 18 months after first at 36 months)",
+    "Engine drive belts interval_miles: 60000 -> 15000 with first_at_miles=60000 (inspected at 60k/75k/90k/105k/120k = every 15,000 miles after first at 60k, pages 510/512/514/516/518)",
+    "Engine drive belts interval_months: 48 -> 12 with first_at_months=48 (same reasoning)",
+    "Fuel capacity: '21-5/8 gal' -> '26 gal (US measure) / 21-5/8 gal (Imperial)' (page 520 shows US Measure=26 gal, Imperial Measure=21-5/8 gal; the original only listed Imperial)",
+    "oil_life_monitor: 'Not described in the provided pages. No oil life monitoring system mentioned.' -> '' (no evidence in pages, use empty string)",
+    "Several items applies_to changed from 'VK56VD' to 'all' where the schedule does not restrict to engine code but applies to all variants (e.g. brake items, exhaust, steering, cabin filter, etc.)",
+    "source_pages: removed pages 564, 565, 566 (index pages with no maintenance data)"
+  ]
+}

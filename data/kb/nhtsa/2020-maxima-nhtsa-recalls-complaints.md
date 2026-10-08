@@ -1,0 +1,20 @@
+# 2020 Nissan Maxima: safety recalls and owner-reported issues (NHTSA data)
+
+Source: U.S. National Highway Traffic Safety Administration public APIs (api.nhtsa.gov), retrieved 2026-10-06. Complaints are unverified owner reports and do not by themselves indicate a defect. Recall remedies are performed free of charge by Nissan dealers. Always confirm open recalls for a specific vehicle by VIN at nhtsa.gov/recalls or nissanusa.com/recalls-vin.
+
+- 2020 Nissan Maxima safety recalls on record: 1
+- 2020 Nissan Maxima owner complaints filed with NHTSA: 22
+- Complaints alleging a crash: 3; fire: 0; injuries reported: 3
+
+## 2020 Nissan Maxima recalls
+
+- **2020 Maxima recall campaign 20V570000** (reported 2020-09-22) - component: Visibility:Glass, Side/Rear. Problem: Nissan North America, Inc. (Nissan) is recalling certain 2020 Altima, Maxima and Leaf vehicles. The rear window glass may not remain properly secured to the vehicle. Risk: Rear window glass that separates from the vehicle can increase the risk of a crash. Remedy: Nissan will notify owners, and dealers will replace the back window glass, free of charge. The recall began November 4, 2020. Owners may contact Nissan customer service at 1-800-867-7669. Nissan's number for this recall is PC752.
+
+## 2020 Nissan Maxima most-reported complaint areas
+
+- **2020 Maxima - Service Brakes**: 4 complaints. Example owner reports: "The contact owns a 2020 Nissan Maxima. The contact stated that while driving at 50 - 55 mph, the vehicle lost motive power, and the Automatic Emergency Braking (AEB) System, Slip indicator, and Rear Automatic Braking warning lights were illuminated. The…"; "TL* THE CONTACT OWNS A 2020 NISSAN MAXIMA. THE CONTACT STATED THAT WHILE DRIVING AT 55 MPH, WHEN THE INSTRUMENT PANEL BEGAN FLASHING RED AND THE VEHICLE FORCEFULLY BRAKED INDEPENDENTLY. THERE WERE NO VEHICLES NEARBY AND A CRASH WAS AVOIDED. THE CONTACT…"
+- **2020 Maxima - Forward Collision Avoidance**: 4 complaints. Example owner reports: "While driving 2020 Nissan Maxima Sv the emergency park brake light up and rear brake light up and traction control light up on dash and it act like it looses power and when you go to settings on sonar it big green light in front of car And check engine light…"; "Forward collision warning turns on about 20 seconds after the car starts. There was no accident or obstructions to the sensors, this apperas to just be equipment failure on a car with only 30k miles on it."
+- **2020 Maxima - Structure**: 4 complaints. Example owner reports: "Was getting into the car. As we closed the doors, we heard the sunroof shatter. the edges of the broken glass were pushed up as if the air pressure inside the car broke the glass. If the inside cover was open, we would have been showered in glass. The…"; "The front passenger side A-pillar molding flew off while driving in windy weather. This piece could have hit another vehicle and impeded their vision while driving. The molding was not otherwise compromised."
+- **2020 Maxima - Power Train**: 3 complaints. Example owner reports: "The contact owns a 2020 Nissan Maxima. The contact stated that while her husband was attempting to park and turn off the vehicle, the gear shifter failed to shift into park, the STOP button failed to respond, and the vehicle suddenly accelerated, crashed…"; "My transmission is bad."
+- **2020 Maxima - Hydraulic**: 2 complaints. Example owner reports: "The contact owns a 2020 Nissan Maxima. The contact stated that while driving at 50 - 55 mph, the vehicle lost motive power, and the Automatic Emergency Braking (AEB) System, Slip indicator, and Rear Automatic Braking warning lights were illuminated. The…"
+- **2020 Maxima - Electrical System**: 2 complaints. Example owner reports: "TL* THE CONTACT OWNS A 2020 NISSAN MAXIMA. THE CONTACT STATED THAT WHILE DRIVING AT 55 MPH, WHEN THE INSTRUMENT PANEL BEGAN FLASHING RED AND THE VEHICLE FORCEFULLY BRAKED INDEPENDENTLY. THERE WERE NO VEHICLES NEARBY AND A CRASH WAS AVOIDED. THE CONTACT…"

@@ -1,0 +1,333 @@
+{
+  "model": "Murano",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "VQ35DE",
+      "description": "3.5L V6 gasoline engine",
+      "transmission": "Continuously Variable Transmission (CVT)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Tire rotation appears at every other standard oil change interval: 7,500 / 15,000 / 22,500 / 30,000 / 37,500 / 45,000 / 52,500 / 60,000 / 67,500 / 75,000 / 82,500 / 90,000 / 97,500 / 105,000 / 112,500 miles. Recorded as 7,500 mi interval but actually performed at each standard service."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replaced at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 miles (every 15,000 miles / 12 months). When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replaced at 30,000 / 60,000 / 90,000 miles etc. (every 30,000 miles / 24 months standard schedule)."
+    },
+    {
+      "item": "Engine air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Replaced at 30,000 / 60,000 / 90,000 miles etc. (every 30,000 miles). If operating mainly in dusty conditions, more frequent maintenance may be required. Performed based on the number of miles only (no month trigger shown in schedule)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Replaced at 60,000 miles. Performed based on the number of miles only. Inspected at 15,000 / 30,000 / 45,000 / 75,000 / 90,000 / 105,000 miles. Use Genuine NISSAN CVT Fluid NS-3 or equivalent only."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": null,
+      "applies_to": "VQ35DE",
+      "notes": "Performed based on the number of miles only. Replace spark plug when the plug gap exceeds 0.053 in (1.35 mm) even if within specified replacement mileage."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "First replacement interval is 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Marked with * (recommended by NISSAN for reliable vehicle operation). Use Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 60,000 miles on the standard schedule. Inspected at 15,000 / 30,000 / 45,000 / 75,000 / 90,000 / 105,000 miles on the standard schedule."
+    },
+    {
+      "item": "Transfer case oil",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "AWD models",
+      "notes": "Replaced at 60,000 miles on the standard schedule. Inspected at 15,000 / 30,000 / 45,000 / 75,000 / 90,000 / 105,000 miles on the standard schedule."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 45000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "Replaced at 45,000 / 90,000 miles etc. (every 45,000 miles / 36 months). Also inspected at 22,500 / 67,500 / 112,500 miles."
+    },
+    {
+      "item": "Engine drive belt",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 60000,
+      "first_at_months": 48,
+      "notes": "First inspected at 60,000 miles/48 months (marked with *), then at 75,000 / 90,000 / 105,000 miles. Marked with * (recommended by NISSAN for reliable vehicle operation). Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belt."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "VQ35DE",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. No fixed interval specified in schedule pages."
+    },
+    {
+      "item": "Evaporative emissions control vapor lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Marked with * (recommended by NISSAN for reliable vehicle operation). Check vapor lines for leaks or looseness. Tighten connections or replace parts as necessary. Inspected at 30,000 / 60,000 / 90,000 miles."
+    },
+    {
+      "item": "Fuel lines and connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Marked with * (recommended by NISSAN for reliable vehicle operation). Check fuel hoses, piping and connections for leaks, looseness, or deterioration. Inspected at 30,000 / 60,000 / 90,000 miles."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Marked with * (recommended by NISSAN for reliable vehicle operation). Inspected at 30,000 / 60,000 / 90,000 miles."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking. Inspected at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 miles."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks. Inspected at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 miles on standard schedule."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance schedule: replace engine oil & filter at every severe interval (10,000 / 15,000 / 20,000 / 25,000 / 30,000 ... miles, i.e. every 5,000 miles / 6 months)."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "first_at_miles": 10000,
+      "first_at_months": 12,
+      "notes": "Severe use maintenance: first replace at 10,000 miles / 12 months, then every 20,000 miles / 24 months (at 10,000 / 30,000 / 50,000 / 70,000 / 90,000 / 110,000 miles)."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "AWD models",
+      "notes": "Severe use maintenance: replace differential gear oil every 20,000 miles / 24 months (at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 miles)."
+    },
+    {
+      "item": "Transfer case oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "AWD models",
+      "notes": "Severe use maintenance: replace transfer case oil every 20,000 miles / 24 months (at 20,000 / 40,000 / 60,000 / 80,000 / 100,000 miles)."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspected at every severe service interval (10,000 / 15,000 / 20,000 / 25,000 / 30,000 ... miles)."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6 SP motor oil may be used. Must meet API certification or ILSAC certification and SAE viscosity standard.",
+      "capacity": "5-1/8 qt with oil filter change; 4-3/4 qt without oil filter change",
+      "applies_to": "VQ35DE"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50%/50% mixture with water. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "2-1/4 gal with reservoir",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (or equivalent). Do not mix with other fluids. Do not use ATF or manual transmission fluid.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super GL-5 80W-90 or equivalent conventional (non-synthetic) oil.",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Transfer case oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super GL-5 80W-90 or equivalent conventional (non-synthetic) oil.",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Power Steering Fluid (PSF)",
+      "specification": "Genuine NISSAN E-PSF or equivalent. Use of a power steering fluid other than Genuine NISSAN E-PSF may prevent the power steering system from operating properly.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline with an octane rating of at least 87 AKI (Anti-Knock Index) / Research octane number 91. Do not use fuel containing more than 15% ethanol. Do not use leaded gasoline. Do not use fuel containing MMT.",
+      "capacity": "19 gal",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "The manual references 'severe operating conditions' and an 'Additional maintenance Items for severe operating conditions' section (page 9-7) but the specific qualifying conditions were not included in the provided pages."
+  ],
+  "oil_life_monitor": "The manual references an oil and oil filter maintenance reminder that can be reset via the Vehicle Information Display (P. 2-18) after an oil change, but no details of an algorithmic oil life monitoring system are described in the provided pages.",
+  "source_pages": [
+    406,
+    412,
+    443,
+    448,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    476,
+    481,
+    521
+  ],
+  "extraction_caveats": "1. The schedule pages show two parallel tracks: a 'Standard maintenance' schedule and a 'Severe use maintenance' schedule. Standard intervals are at 7,500-mile increments; severe intervals are at 5,000-mile increments (10k/15k/20k/25k/30k etc.). 2. CVT fluid replacement at 60,000 miles is noted as 'Performed based on the number of miles only' (no month trigger). Only one CVT replacement is shown in the provided pages (at 60,000 miles). 3. Spark plug replacement at 105,000 miles is 'Performed based on the number of miles only.' 4. Engine coolant first replacement is at 105,000 miles/84 months; subsequent interval is every 75,000 miles/60 months per footnote on page 471. 5. Transfer case oil and differential gear oil capacities are not listed (shown as '\u2014' on page 476). 6. The 'Additional maintenance Items for severe operating conditions' section (referenced as page 9-7) was not included in the provided pages, so specific severe-condition qualifiers cannot be confirmed. 7. Page 157 is about power windows and is not relevant to maintenance; removed from source_pages. 8. The severe-schedule brake fluid replacement pattern: first at 10,000 mi/12 mo, then every 20,000 miles (at 30,000/50,000/70,000/90,000/110,000 miles). 9. Differential gear oil and transfer case oil on the standard schedule are replaced at 60,000 miles only (not every 20,000 miles); the 20,000-mile interval applies to the severe schedule. 10. Engine air cleaner filter has no month interval shown in the schedule; it is mileage-based. 11. Starred (*) inspection items (fuel lines, evaporative lines, fuel tank vapor vent, engine drive belt, engine coolant) have no month interval shown in the schedule pages.",
+  "source_document": "2023 Nissan Murano Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/murano/2023/2023-nissan-murano-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 18119,
+    "outputTokens": 4351,
+    "totalTokens": 22470,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine coolant interval_miles: 105000 -> 75000 (repeat interval after first replacement per page 471 footnote 3: 'After first replacement, replace every 75,000 miles (120,000 km) or 60 months')",
+    "Engine coolant interval_months: 84 -> 60 (repeat interval after first replacement per page 471 footnote 3)",
+    "Differential gear oil (standard) interval_miles: 20000 -> 60000 (standard schedule shows replacement at 60,000 miles only per page 463; 20,000-mile interval is severe schedule per page 454)",
+    "Differential gear oil (standard) interval_months: 24 -> null (no month interval shown for standard schedule replacement; mileage-based only)",
+    "Transfer case oil (standard) interval_miles: 20000 -> 60000 (standard schedule shows replacement at 60,000 miles only per page 463; 20,000-mile interval is severe schedule per page 454)",
+    "Transfer case oil (standard) interval_months: 24 -> null (no month interval shown for standard schedule replacement; mileage-based only)",
+    "Engine air cleaner filter interval_months: 24 -> null (no month interval shown in schedule pages; replacement at 30,000/60,000/90,000 miles only per pages 456, 462, 468)",
+    "Engine oil and filter (severe) interval_miles: 10000 -> 5000 (severe schedule shows oil replacement at every severe interval: 10k, 15k, 20k, 25k, 30k, etc. \u2014 i.e. every 5,000 miles, per pages 452-473)",
+    "Engine oil and filter (severe) interval_months: 12 -> 6 (severe intervals are spaced approximately 6 months apart per the schedule pages)",
+    "Brake fluid (severe): changed to first_at_miles=10000, first_at_months=12, interval_miles=20000, interval_months=24 (first replacement at 10,000 mi/12 mo per page 452, then every 20,000 miles per pages 456/460/464/469/472)",
+    "Engine drive belt inspect: first_at_miles added as 60000, first_at_months as 48; interval changed to 15000 mi / 12 months to reflect inspections at 60k/75k/90k/105k per pages 462/465/468/471 (first at 60k, then every 15k)",
+    "Evaporative emissions control vapor lines interval_months: 24 -> null (starred item, no month interval shown in schedule)",
+    "Fuel lines and connections interval_months: 24 -> null (starred item, no month interval shown in schedule)",
+    "Fuel tank vapor vent system interval_months: 24 -> null (starred item, no month interval shown in schedule)",
+    "Added Brake pads and rotors (severe) as separate item \u2014 inspected at every severe interval per pages 452-473",
+    "Added Transfer case oil as separate fluid entry (page 476 lists it separately from differential gear oil with same spec)",
+    "Removed page 157 from source_pages (power windows page, not relevant to maintenance)",
+    "Removed pages 510, 513 from source_pages (index pages, not primary maintenance content)"
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "model": "Frontier",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "VQ38DD",
+      "description": "3.8L 6-cylinder",
+      "transmission": "Automatic transmission (ATF)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Rotate tires every 7,500 mi/6 mo. When rotating tires, check for damage and uneven wear."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replace every 15,000 mi/12 mo. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Propeller shaft grease",
+      "action": "lubricate",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Lubricate propeller shaft grease every 15,000 mi/12 mo. The propeller shaft should be regreased after being immersed in water."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "Request a NISSAN dealer to inspect the fluid deterioration data using a CONSULT. If the deterioration data is more than 77000, replace the AT fluid. Appears at 15,000/30,000/45,000/60,000/75,000/90,000/105,000/120,000 mi."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Check for damage, looseness, and leakage."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Check for damage, looseness, and grease leakage."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replace every 30,000 mi/24 mo. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replace every 30,000 mi/24 mo."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*). Check vapor lines for leaks or looseness."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*). Check fuel hoses, piping and connections for leaks, looseness, or deterioration."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": null,
+      "first_at_months": null,
+      "notes": "Inspect at 22,500 mi/18 mo. Replace at 45,000 mi/36 mo, 67,500 mi/54 mo, 90,000 mi/72 mo, 112,500 mi/90 mo per schedule."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 45000,
+      "first_at_months": 36,
+      "notes": "First inspection at 22,500 mi/18 mo; first replacement at 45,000 mi/36 mo. Then replacement at 67,500 mi/54 mo, 90,000 mi/72 mo, 112,500 mi/90 mo per schedule."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 60000,
+      "interval_months": 48,
+      "applies_to": "all",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*). Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belts. Also at 75,000/90,000/105,000/120,000 mi per schedule."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "applies_to": "VQ38DD",
+      "notes": "Replace at 105,000 mi/84 mo. Install new plugs of the same type as originally equipped."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "VQ38DD",
+      "notes": "Recommended by NISSAN for reliable vehicle operation (*). First replacement at 105,000 mi (168,000 km) or 84 months. After first replacement, replace every 75,000 mi (120,000 km) or 60 months. Use Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use: replace AT fluid every 30,000 mi/24 mo (at 30,000/60,000/90,000/120,000 mi per schedule)."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe use: replace every 20,000 mi/24 mo (at 20,000/40,000/60,000/80,000/100,000 mi per schedule)."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Severe use: replace every 20,000 mi/24 mo (at 20,000/40,000/60,000/80,000/100,000 mi per schedule)."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use: replace engine oil & filter every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use: inspect every 5,000 mi/6 mo."
+    },
+    {
+      "item": "Propeller shaft grease",
+      "action": "lubricate",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use: lubricate every 5,000 mi/6 mo. The propeller shaft should be regreased after being immersed in water."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use: replace brake fluid every 10,000 mi/12 mo."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent); synthetic 0W-20 SP GF-6A may be used if above not available. API certification or ILSAC certification required.",
+      "capacity": "5-1/4 qt with oil filter change; 5 qt without oil filter change",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze/50% water. Antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "3-1/8 gal (with reservoir)",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Automatic transmission fluid (ATF)",
+      "specification": "Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids.",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See fuel recommendation (P. 503)",
+      "capacity": "21-1/8 gal",
+      "applies_to": "VQ38DD"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km).",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing.",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic.",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use.",
+    "Driving in dusty conditions.",
+    "Driving on rough, muddy or salt spread roads.",
+    "Towing a trailer, using a camper or using a car-top carrier."
+  ],
+  "oil_life_monitor": "",
+  "source_pages": [
+    444,
+    445,
+    485,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    511,
+    516
+  ],
+  "extraction_caveats": "1. The maintenance schedule is presented as individual mileage columns (not a simple repeating table), so repeat intervals were inferred by observing the pattern across all columns.\n2. Automatic transmission fluid: standard schedule calls for inspection (dealer CONSULT check) at 15,000/30,000/45,000/60,000/75,000/90,000/105,000/120,000 mi; severe schedule calls for replacement every 30,000 mi/24 mo (at 30k/60k/90k severe sections only \u2014 not at every severe interval).\n3. Intelligent Key battery: first inspected at 22,500 mi/18 mo (standard), first replaced at 45,000 mi/36 mo (standard), then replaced at 67,500 mi/54 mo, 90,000 mi/72 mo, 112,500 mi/90 mo (all standard). The pattern is every 22,500 mi/18 mo alternating inspect/replace.\n4. Differential gear oil and transfer fluid: standard schedule lists inspection at 15,000/30,000/45,000/60,000/75,000/90,000/105,000/120,000 mi; severe schedule lists replacement at 20,000/40,000/60,000/80,000/100,000 mi.\n5. ATF capacity and differential/transfer fluid specifications and capacities are not provided in the extracted pages.\n6. Brake fluid specification not stated in extracted pages.\n7. Power steering fluid specification not stated in extracted pages.\n8. Items marked with * in the schedule are 'recommended by NISSAN for reliable vehicle operation' and are not required to maintain emission warranty or manufacturer recall liability.\n9. Engine coolant: repeat interval is 75,000 mi/60 mo after first replacement at 105,000 mi/84 mo (per note (3) on p505).\n10. Engine drive belts inspection appears at 60,000/75,000/90,000/105,000/120,000 mi \u2014 not perfectly uniform intervals.",
+  "source_document": "2025 Nissan Frontier Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/frontier/2025/2025-nissan-frontier-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 16077,
+    "outputTokens": 5294,
+    "totalTokens": 21371,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Intelligent Key battery: interval_miles 45000 -> 22500, interval_months 36 -> 18, first_at_miles null -> null, first_at_months null -> null. Page 494 shows first occurrence at 22,500 mi/18 mo (standard). Subsequent standard occurrences at 67,500 mi/54 mo (p500), 90,000 mi/72 mo (p503), 112,500 mi/90 mo (p506) \u2014 pattern is every 22,500 mi/18 mo. Notes updated accordingly.",
+    "Intelligent Key battery: schedule 'standard' is correct; the item only appears under standard maintenance columns, not severe.",
+    "Automatic transmission fluid (replace, severe): interval_miles 30000 -> 30000, interval_months 24 -> 24 \u2014 confirmed correct. ATF replace appears at 30k/60k/90k severe (pp495,499,503). However this item was recorded with schedule 'standard' which is wrong \u2014 it should be 'severe'. Changing schedule from standard to severe.",
+    "Tire rotation: notes corrected. Looking at pages: tire rotation appears at 7,500/15,000/30,000/37,500/45,000/52,500/60,000/67,500/75,000/82,500/90,000/97,500/105,000/112,500/120,000 mi \u2014 this is every 7,500 mi after the first. The interval is 7500 mi, not 15000 mi as stated in notes.",
+    "In-cabin microfilter: interval_miles 15000 -> 15000, interval_months 12 -> 12. Appears at 15k/30k/45k/60k/75k/90k/105k/120k \u2014 every 15,000 mi. Confirmed correct.",
+    "Engine drive belts: interval_miles 60000 -> 60000, interval_months 48 -> 48. First appears at 60k (p499), then 75k, 90k, 120k. The repeat is not perfectly uniform but first occurrence is 60k. Confirmed.",
+    "Brake fluid (severe): interval_miles 10000 -> 10000, interval_months 12 -> 12. Severe brake fluid replace appears at 10k(p493), 20k(p494), 30k(p496), 40k(p497), 50k(p498), 60k(p500), 70k(p501), 80k(p502), 90k(p504), 100k(p505), 110k(p506). Every 10,000 mi. Confirmed correct.",
+    "Automatic transmission fluid (replace): was recorded with schedule 'standard' but the ATF replacement only appears under 'Severe use maintenance' sections (pp495,499,503). Corrected to schedule 'severe'.",
+    "Spark plugs: noted as (6) on p505 \u2014 likely referring to 6 spark plugs. interval 105000/84 confirmed.",
+    "Engine coolant: first_at_miles 105000, first_at_months 84 confirmed from p505 note (3). After first replacement, every 75000 mi/60 mo. Confirmed.",
+    "Propeller shaft grease standard: interval 15000/12 confirmed from p493 (15k standard). Also at 30k/45k/60k/75k/90k/105k/120k standard.",
+    "Transfer fluid (inspect, standard): confirmed at 15k/30k/45k/60k/75k/90k/105k/120k.",
+    "Differential gear oil (inspect, standard): confirmed at 15k/30k/45k/60k/75k/90k/105k/120k.",
+    "Severe oil/filter: 5000/6 confirmed from p492 severe section.",
+    "Severe differential gear oil replace: 20000/24 confirmed from p494 (20k severe). Also 40k/60k/80k/100k.",
+    "Severe transfer fluid replace: 20000/24 confirmed from p494 (20k severe). Also 40k/60k/80k/100k."
+  ]
+}

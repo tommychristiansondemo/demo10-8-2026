@@ -1,0 +1,12 @@
+import { checkWarranty } from '../src/tools/warranty.ts';
+import { getMaintenance } from '../src/tools/maintenance.ts';
+import { getRecalls, decodeVin, getComplaintSummary } from '../src/tools/nhtsa.ts';
+const w = checkWarranty({ model: 'Nissan Rogue SV AWD', year: 2017, current_mileage: 61000, in_service_date: '2017-03-15' }, new Date('2026-10-06'));
+console.log(w.coverages.slice(0,3), w.special_coverage_programs);
+const w2 = checkWarranty({ model: 'leaf', year: 2022, current_mileage: 41000 }, new Date('2026-10-06'));
+console.log(w2.coverages.filter(c=>/battery|Basic/.test(c.coverage)).map(c=>[c.coverage,c.status,c.expired_by,c.miles_remaining]), w2.assumptions);
+const m = getMaintenance({ model: 'rogue', year: 2022, current_mileage: 28000 }) as any;
+console.log(m.vehicle, m.notes, m.upcoming_replacements_next_10k_miles);
+const r = await getRecalls({ model: 'rogue', year: 2021 }); console.log(r.recall_count, r.recalls[0].campaign, r.recalls[0].park_it_do_not_drive);
+const c = await getComplaintSummary({ model: 'rogue', year: 2015, component_filter: 'transmission' }); console.log(c.total_complaints, c.matching_filter, c.top_components.slice(0,3));
+console.log(await decodeVin({ vin: '5N1AT2MV0LC712345' }));

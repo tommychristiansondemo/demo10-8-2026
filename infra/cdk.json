@@ -1,0 +1,17 @@
+{
+  "app": "npx tsx bin/app.ts",
+  "context": {
+    "@aws-cdk/core:bootstrapQualifier": "ownassist",
+    "domainName": "awsteach.com",
+    "hostedZoneId": "Z02882605B7GUS0L3VHX",
+    "siteHostnames": [
+      "www.awsteach.com",
+      "nissan.awsteach.com"
+    ],
+    "alarmEmail": "",
+    "chatModelId": "us.anthropic.claude-sonnet-4-6",
+    "embeddingModelId": "amazon.titan-embed-text-v2:0",
+    "insightsHostname": "insights.awsteach.com"
+  },
+  "toolkitStackName": "OwnerAssist-CDKToolkit"
+}

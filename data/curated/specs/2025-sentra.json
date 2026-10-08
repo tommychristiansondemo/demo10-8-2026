@@ -1,0 +1,383 @@
+{
+  "model": "Sentra",
+  "year": 2025,
+  "powertrains": [
+    {
+      "engine_code": "MR20DD",
+      "description": "2.0L 4-cylinder",
+      "transmission": "CVT or Manual Transmission"
+    }
+  ],
+  "oil_life_monitor": "An oil replacement indicator is displayed when an oil change is due. If the indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km).",
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replace at every 10,000-mile / 12-month interval (20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, etc.). If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km)."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Appears at every 5,000-mile / 6-month interval throughout the schedule. When rotating tires, check for damage and uneven wear."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replace at 15,000; 30,000; 45,000; 60,000; 75,000; 90,000 miles etc. (every 15,000 miles / 18 months). When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 30000,
+      "first_at_months": 36,
+      "notes": "Inspected at 15,000 miles. First replacement at 30,000 miles, then every 15,000 miles / 18 months (30k, 45k, 60k, 75k, 90k, etc.)."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "first_at_miles": 30000,
+      "first_at_months": 36,
+      "notes": "Replace at 30,000; 60,000; 90,000 miles etc. (every 30,000 miles / 36 months). If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "applies_to": "all",
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "notes": "Factory-fill coolant life expectancy is 105,000 miles (168,000 km) or 7 years. Subsequent replacement interval not explicitly stated in provided pages; 30,000 miles / 36 months is inferred. Mixing any other type of coolant or use of non-distilled water will reduce the life expectancy. Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replace at 20,000; 40,000; 60,000; 80,000; 100,000; 120,000 miles etc. (every 20,000 miles / 24 months) per standard schedule."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 15000,
+      "first_at_months": 18,
+      "notes": "Under severe conditions, brake fluid replacement appears at 15k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 110k miles (approximately every 10,000 miles / 12 months, first at 15,000 miles / 18 months)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "CVT",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect CVT fluid under standard schedule at 20k, 30k, 40k, 60k, 70k, 80k, 90k, 120k miles (every 10,000 miles / 12 months, first at 20,000 miles / 24 months)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 60000,
+      "interval_months": 72,
+      "applies_to": "CVT",
+      "notes": "Replace CVT fluid under severe use conditions at 60,000 miles / 72 months (per p517). Use Genuine NISSAN CVT Fluid NS-3 only."
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Manual transmission",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect manual transmission gear oil under standard schedule at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 120k miles (every 10,000 miles / 12 months, first at 20,000 miles / 24 months)."
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "Manual transmission",
+      "notes": "Replace manual transmission gear oil under severe conditions at 20k, 40k, 60k, 80k, 120k miles (every 20,000 miles / 24 months). Use Genuine NISSAN Gear Oil NFX 75W."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 40000,
+      "first_at_months": 48,
+      "notes": "Inspect starting at 40,000 miles, then at 50k, 60k, 70k, 80k, 90k, 120k miles (every 10,000 miles / 12 months after first at 40k). Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belt. Recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at every 20,000-mile / 24-month interval (20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 120k). Visually inspect for proper installation; check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Brake pads, rotors, drums and linings",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect under standard schedule at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 120k miles (every 10,000 miles / 12 months, first at 20,000 miles / 24 months). Check for wear, deterioration and fluid leaks."
+    },
+    {
+      "item": "Brake pads, rotors, drums and linings",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every 5,000-mile / 6-month interval under severe use conditions."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 20,000; 40,000; 60,000; 80,000; 120,000 miles. Check vapor lines for leaks or looseness. Recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 20,000; 40,000; 60,000; 80,000; 120,000 miles. Check fuel hoses, piping and connections for leaks, looseness, or deterioration. Recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect under standard schedule at 20k, 40k, 60k, 80k, 120k miles (every 20,000 miles / 24 months). Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every 5,000-mile / 6-month interval under severe use conditions."
+    },
+    {
+      "item": "Steering gear and linkage, axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect under standard schedule at 20k, 30k, 40k, 50k(not listed), 60k, 70k, 80k, 90k, 120k miles. Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Steering gear and linkage, axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every 5,000-mile / 6-month interval under severe use conditions."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "first_at_miles": 20000,
+      "first_at_months": 24,
+      "notes": "Inspect under standard schedule at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 120k miles."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect at every 5,000-mile / 6-month interval under severe use conditions."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "MR20DD",
+      "notes": "Replace at specified intervals per p508. Install new plugs of the type as originally equipped. Specific mileage interval not stated in the provided pages."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "MR20DD",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. Recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent synthetic 0W-20 GF-6A SP motor oil)",
+      "capacity": "4-3/8 qt with oil filter change; 4 qt without oil filter change",
+      "applies_to": "MR20DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze / 50% water; antifreeze protection to -34\u00b0F (-37\u00b0C)",
+      "capacity": "1-7/8 gal with reservoir (manual transmission); 1-7/8 gal with reservoir (CVT)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Manual transmission gear oil",
+      "specification": "Genuine NISSAN Gear Oil NFX 75W",
+      "applies_to": "Manual transmission"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (do not mix with other fluids)",
+      "applies_to": "CVT"
+    },
+    {
+      "fluid": "Brake and clutch fluid",
+      "specification": "Genuine NISSAN Brake Fluid or equivalent DOT 3 or DOT 4",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (lithium soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system oil",
+      "specification": "Genuine NISSAN A/C System Oil Type PAG or equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Windshield-washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze fluid or equivalent",
+      "capacity": "5/8 gal (USA)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "See fuel recommendation (P. 518)",
+      "capacity": "12-3/8 gal",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "Prolonged driving in dusty conditions (air cleaner filter / in-cabin microfilter)",
+    "Severe driving conditions requiring more frequent inspection of brake pads/rotors/drums/linings, exhaust system, steering gear & linkage, axle & suspension parts, drive shaft boots (every 5,000 miles / 6 months)",
+    "Conditions triggering more frequent brake fluid replacement (approximately every 10,000 miles / 12 months, first at 15,000 miles / 18 months)",
+    "Conditions triggering CVT fluid replacement at 60,000 miles / 72 months",
+    "Conditions triggering manual transmission gear oil replacement at 20,000-mile / 24-month intervals"
+  ],
+  "source_pages": [
+    464,
+    465,
+    503,
+    508,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    524,
+    528,
+    529,
+    533
+  ],
+  "extraction_caveats": "1. The schedule pages extracted cover milestones from 15,000 through 120,000 miles; pages for 100,000 and 105,000-mile milestones were not included \u2014 spark plug replacement interval is referenced but not numerically specified in the extracted pages. 2. Engine oil change interval is inferred as every 10,000 miles / 12 months based on the pattern of 'Replace engine oil & filter' appearing at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k miles. 3. The tire rotation interval of 5,000 miles / 6 months is inferred from the pattern of rotation appearing at every 5,000-mile milestone. 4. The in-cabin microfilter replacement interval of 15,000 miles / 18 months is inferred from the pattern at 15k, 30k, 45k, 60k, 75k, 90k miles. 5. Intelligent Key battery is inspected at 15k but first replaced at 30k, then every 15k. 6. CVT fluid, brake fluid, and manual transmission fluid capacities are listed as '\u2014' (not specified) in the fluids table. 7. Engine coolant first-replacement interval of 105,000 miles / 7 years is explicitly stated (pages 464\u2013465); subsequent replacement interval is not explicitly stated in the provided pages. 8. Engine drive belts inspection starts at 40,000 miles, then appears at 50k, 60k, 70k, 80k, 90k, 120k. 9. Brake lines and cables inspection appears at 20k, 30k (p514 lists it), 50k (p516 lists it), 60k, 70k, 80k, 90k, 120k \u2014 approximately every 10k starting at 20k, though the exact pattern varies. 10. Pages 554-557 are index pages and do not contain maintenance schedule data.",
+  "source_document": "2025 Nissan Sentra Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/sentra/2025/2025-nissan-sentra-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 17249,
+    "outputTokens": 4297,
+    "totalTokens": 21546,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Brake fluid: schedule 'standard' is incorrect. Per pages 512-524, brake fluid replacement appears at 15k (severe only, p512), 20k (standard, p513), 30k (severe only, p514), 40k (standard, p515), 50k (severe only, p516), 60k (standard, p517), 70k (severe only, p519), 80k (standard, p520), 90k (severe only, p521), etc. Standard interval is 20,000 miles/24 months. Severe interval is different - appears every 10,000 miles offset. Keeping standard at 20k/24mo but adding severe at 15,000/18 months with first_at_miles=15000, first_at_months=18. Actually re-examining: severe brake fluid appears at 15k, 20k(standard+severe), 30k(severe), 40k(standard+severe), 50k(severe), 60k(standard+severe), 70k(severe), 80k(standard+severe), 90k(severe). Severe appears roughly every 10k. But looking more carefully: p512 15k severe has 'Replace brake fluid'; p513 20k standard has 'Replace brake fluid' AND severe has 'Replace brake fluid'; p514 30k severe has 'Replace brake fluid'; p515 40k standard has 'Replace brake fluid' AND severe has 'Replace brake fluid' and 'Replace manual transmission gear oil'; p516 50k severe has 'Replace brake fluid'; p517 60k standard has 'Replace brake fluid' AND severe has 'Replace brake fluid'; p519 70k severe has 'Replace brake fluid'; p520 80k standard has 'Replace brake fluid' AND severe has 'Replace brake fluid'; p521 90k severe has 'Replace brake fluid'; p524 110k severe has 'Replace brake fluid'. So standard brake fluid = every 20k/24mo. Severe brake fluid = appears at every milestone where it's listed under severe, which is roughly every 10k. Actually it appears under severe at: 15k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 110k. That's roughly every 10k/12mo. Splitting into standard (20k/24mo) and severe (10k/12mo, first at 15k/18mo).",
+    "Brake fluid interval_miles: standard 20000/24mo is correct per pages. Adding separate severe entry.",
+    "Brake pads, rotors, drums and linings: standard interval should be 20,000/24 not 5,000/6. Per pages, standard schedule shows inspection at 20k, 30k, 40k, etc. Severe shows at every 5k milestone. Correcting to have standard=20000/24 and severe=5000/6 as separate entries or combined with schedule='both' but noting the different intervals. Since the schema only allows one interval per entry, splitting into two entries.",
+    "Engine drive belts: first inspection at 40k per p515, then 50k (p516), 60k (p517), 70k (p518), 80k (p519), 90k (p521), 120k (p524). Pattern is every 10k after first at 40k. Correcting interval_miles from 40000 to 10000 with first_at_miles=40000, first_at_months=48.",
+    "Manual transmission gear oil inspect: Per pages, MT gear oil is inspected (listed under standard inspections) at 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 120k - every 10k/12mo. Correcting interval from 20k/24mo to 10000/12.",
+    "Manual transmission gear oil replace: Per pages, MT gear oil replacement appears under SEVERE at 20k (p513), 40k (p515), 60k (p517), 80k (p520), 120k (p524). That's every 20k/24mo under severe only. The first-pass had schedule='both' which is wrong - it's severe only.",
+    "CVT fluid inspect: Per pages, CVT fluid inspection appears under standard at 20k, 30k, 40k, 60k, 70k, 80k, 90k, 120k. Pattern is every 10k/12mo starting at 20k. Correcting interval from 20k/24mo to 10000/12 with first_at_miles=20000, first_at_months=24.",
+    "Spark plugs: interval_miles 105,000 is not supported by the provided pages. The pages only say 'Replace at specified intervals' (p508). Removing the specific 105,000 figure and setting to null.",
+    "Exhaust system standard interval: Per pages, exhaust system inspection appears under standard at 20k, 40k, 60k, 80k, 120k = every 20k/24mo. Severe appears at every 5k. Keeping as-is since the combined entry notes both.",
+    "Fuel tank vapor vent system: Per pages, appears at 20k, 40k, 60k, 80k, 120k = every 20k/24mo. Correct.",
+    "Fuel lines/connections: Per pages, appears at 20k, 40k, 60k, 80k, 120k = every 20k/24mo. Correct.",
+    "Severe conditions list item 3: 'Conditions triggering brake fluid replacement at 15,000-mile / 18-month intervals' - brake fluid severe is not at 15k intervals, it appears roughly every 10k. Correcting.",
+    "Engine coolant: subsequent replacement interval after first at 105k is stated as 30k/36mo in the first-pass. The pages don't specify the subsequent interval explicitly. Keeping 30k/36mo as a reasonable inference but noting it's not explicitly confirmed in provided pages.",
+    "In-cabin microfilter: appears at 15k, 30k, 45k, 60k, 75k, 90k = every 15k/18mo. Correct.",
+    "Intelligent Key battery: appears at 15k(listed as inspection not replacement on p512), 30k, 45k(not shown), 60k, 75k(p519), 90k. Actually p512 15k says 'Inspection: Intelligent key battery', p514 30k says 'Replace Intelligent key battery', p516 45k doesn't show IK battery, p517 60k says 'Replace Intelligent key battery', p519 75k says 'Replace Intelligent key battery', p521 90k says 'Replace Intelligent key battery'. So replacement is at 30k, 60k, 75k, 90k. Wait - p514 30k shows 'Replace Intelligent key battery' under Essentials. p519 75k shows 'Replace Intelligent key battery'. That's every 15k starting at 30k? No - 30k, 60k, 75k, 90k doesn't fit 15k pattern. Let me recheck: p512 15k - no replace IK battery listed (only inspection); p514 30k - Replace Intelligent key battery; p516 45k - Replace Intelligent key battery (yes it does); p517 60k - Replace Intelligent key battery; p519 75k - Replace Intelligent key battery; p521 90k - Replace Intelligent key battery. Wait p516 45k: looking again - 'Essentials: Replace in-cabin microfilter, Replace Intelligent key battery, Tire rotation'. Yes. So every 15k/18mo starting at 30k? No, 30-15=15, so first at 15k? But p512 15k only shows inspection. Hmm, actually looking at p512 15k Essentials: 'Replace in-cabin microfilter, Tire rotation' - no IK battery replacement. So first replacement at 30k, then every 15k (45k, 60k, 75k, 90k). Correcting first_at_miles to 30000, first_at_months=36.",
+    "Intelligent Key battery: p512 at 15k lists 'Inspection: Intelligent key battery' under Standard maintenance Inspections, not replacement. First replacement is at 30k (p514). Correcting first_at_miles=30000, first_at_months=36."
+  ]
+}

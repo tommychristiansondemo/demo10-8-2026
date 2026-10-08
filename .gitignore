@@ -1,0 +1,8 @@
+node_modules/
+.venv/
+infra/cdk.out/
+web/dist/
+data/kb_stage/
+data/shots/
+*.log
+cdk-outputs*.json

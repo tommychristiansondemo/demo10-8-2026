@@ -1,0 +1,335 @@
+{
+  "model": "Sentra",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "MR20DD",
+      "description": "2.0L 4-cylinder",
+      "transmission": "CVT or Manual Transaxle"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an oil control system that calculates engine oil and filter change intervals based on driving conditions. Severe driving conditions shorten the interval. If the oil replacement indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km).",
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "MR20DD",
+      "notes": "Oil control system calculates intervals based on driving conditions. If oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). Shown at 10,000 mi/12 mo intervals in the schedule (20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k, 120k)."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Rotate tires at specified interval. Check for damage and uneven wear when rotating."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Replace at 15,000 mi/18 mo, 30,000 mi/36 mo, 45,000 mi/54 mo, 60,000 mi/72 mo, 75,000 mi/90 mo, 90,000 mi/108 mo, 105,000 mi/126 mo. When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "Replace at 30,000 mi/36 mo, 60,000 mi/72 mo, 90,000 mi/108 mo. Pattern visible from provided pages."
+    },
+    {
+      "item": "Engine air filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "MR20DD",
+      "notes": "Replace at 30,000 mi/36 mo, 60,000 mi/72 mo, 90,000 mi/108 mo, 120,000 mi/144 mo. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Appears at 10,000 mi (severe section at p492), 20,000 mi, 30,000 mi (severe), 40,000 mi (severe), 50,000 mi (severe), 60,000 mi, 70,000 mi, 80,000 mi, 90,000 mi (severe), 100,000 mi, 110,000 mi (severe), 120,000 mi. Standard schedule shows replacement at 20,000 mi, 60,000 mi, 70,000 mi, 80,000 mi, 100,000 mi, 120,000 mi. Severe schedule shows replacement at 10,000 mi, 30,000 mi, 40,000 mi, 50,000 mi, 90,000 mi, 110,000 mi."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Under severe conditions, brake fluid replacement appears at additional milestones (10k, 30k, 40k, 50k, 90k, 110k) beyond the standard schedule replacements."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "CVT",
+      "notes": "Visually inspect for signs of leakage at specified intervals. Appears at 20,000, 30,000, 60,000, 70,000, 80,000, 90,000, 100,000, 120,000 mi in the schedule."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 60000,
+      "interval_months": null,
+      "applies_to": "CVT",
+      "notes": "Replace every 60,000 miles (96,000 km) under severe conditions (car-top carrier or rough/muddy roads), or if CONSULT deterioration data exceeds 210,000."
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Manual Transaxle",
+      "notes": "Visually inspect for signs of leakage at specified intervals. Appears at 20,000, 30,000, 60,000, 70,000, 80,000, 90,000, 100,000, 120,000 mi in the schedule."
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "Manual Transaxle",
+      "notes": "Replace every 20,000 miles or 24 months under severe conditions (car-top carrier or rough/muddy roads). Severe replacement shown at 20k, 60k, 80k, 120k in the schedule."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "MR20DD",
+      "notes": "Factory-fill coolant life expectancy is 105,000 miles (168,000 km) or 7 years. Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. Mixing other coolant types or non-distilled water may reduce the life expectancy."
+    },
+    {
+      "item": "Drive belt",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "MR20DD",
+      "notes": "Check engine drive belt for wear, fraying or cracking and for proper tension. Replace any damaged drive belt. Formal inspection with * marking at 60,000, 70,000, 80,000, 90,000, 100,000, 120,000 mi. Also inspected as part of 'engine drive belts and hose inspections' at every interval. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation but not required to maintain emission warranty."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "MR20DD",
+      "notes": "Replace at specified intervals. Install new plugs of the type as originally equipped. Specific interval not stated in the provided pages."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "MR20DD",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation."
+    },
+    {
+      "item": "Evaporative emissions control vapor lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "MR20DD",
+      "notes": "Check vapor lines for leaks or looseness. Tighten connections or replace parts as necessary. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation. Appears at 20,000/60,000/80,000/100,000/120,000 mi intervals in the schedule."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "MR20DD",
+      "notes": "Check fuel hoses, piping and connections for leaks, looseness, or deterioration. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation. Appears at 20,000/60,000/80,000/100,000/120,000 mi intervals in the schedule."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation. Check for chafing, cracks, deterioration, and signs of leaking. Appears at 20,000/30,000/60,000/70,000/80,000/90,000/100,000/120,000 mi intervals in the schedule."
+    },
+    {
+      "item": "Brake pads, rotors, drums and linings",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks. Replace any deteriorated or damaged parts immediately. Appears at every interval in both standard and severe schedules."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage. Appears at every interval in both standard and severe schedules."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease. Appears at every interval in both standard and severe schedules."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease. Appears at every interval in both standard and severe schedules."
+    },
+    {
+      "item": "Front drive shaft boots",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Check for damage and leakage of grease. Appears at every interval in both standard and severe schedules."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6 SP motor oil may be used. Must meet API certification or ILSAC certification and SAE viscosity standard.",
+      "capacity": "4-3/8 qt with oil filter change; 4 qt without oil filter change",
+      "applies_to": "MR20DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze / 50% water mixture. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "1-7/8 gal with manual transmission; 1-7/8 gal with CVT (including reservoir)",
+      "applies_to": "MR20DD"
+    },
+    {
+      "fluid": "Manual transmission fluid",
+      "specification": "Genuine NISSAN Manual Transmission Fluid (MTF) TL/JR Type 75W-80, or equivalent. If not available, API GL-4+, Viscosity SAE 75W-80 may be used as a temporary replacement.",
+      "applies_to": "Manual Transaxle"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3. Do not mix with other fluids.",
+      "applies_to": "CVT"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Brake Fluid or equivalent DOT 3",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (lithium soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system oil",
+      "specification": "Genuine NISSAN A/C System Oil Type PAG or equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Windshield-washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze fluid or equivalent",
+      "capacity": "5/8 gal (USA); 1-1/8 gal (Canada)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline with an octane rating of at least 87 AKI (Anti-Knock Index) / Research octane number 91. Do not use E-15 or E-85.",
+      "capacity": "12-3/8 gal",
+      "applies_to": "MR20DD"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "source_pages": [
+    446,
+    483,
+    488,
+    489,
+    492,
+    493,
+    494,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    505,
+    508,
+    509,
+    512,
+    532,
+    533,
+    534,
+    535,
+    540
+  ],
+  "extraction_caveats": "1. The exact mileage interval for spark plug replacement is not stated in the provided pages; the item is included with null intervals per the text's reference to 'specified intervals.' 2. Engine valve clearance has no explicit mileage interval \u2014 it is conditional ('inspect only if valve noise increases'). 3. Engine oil change interval is governed by the oil control system (condition-based); the schedule pages show replacement at every 10,000 mi/12 mo milestone. 4. Tire rotation appears at every 5,000 mi/6 mo interval based on the schedule pages. 5. The CVT fluid capacity is listed as '\u2014' (not specified) in the fluids table on pages 508\u2013509. 6. Manual transmission fluid capacity is listed as '\u2014' (not specified) in the fluids table. 7. Brake fluid, multi-purpose grease, A/C refrigerant, and A/C oil capacities are listed as '\u2014' (not specified). 8. Some maintenance items marked with '*' are recommended by NISSAN for reliable vehicle operation but are not required to maintain the emission warranty or manufacturer recall liability. 9. Brake fluid replacement intervals are complex: standard schedule shows replacement at 20k, 60k, 70k, 80k, 100k, 120k; severe schedule adds replacement at 10k, 30k, 40k, 50k, 90k, 110k. The combined pattern does not reduce to a single clean repeat interval. 10. The Intelligent Key battery replacement pattern from the provided pages shows 30k, 60k, 90k (every 30k/36 mo) but also at 75k \u2014 the 75k occurrence may be an anomaly or intentional; recorded as 30k/36 mo base interval. 11. Evaporative emissions control vapor lines (fuel tank vapor vent system) inspection appears at 20k, 60k, 80k, 100k, 120k \u2014 not a clean repeat interval.",
+  "source_document": "2023 Nissan Sentra Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/sentra/2023/2023-nissan-sentra-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 17294,
+    "outputTokens": 4470,
+    "totalTokens": 21764,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Brake fluid: interval_miles changed 20000 -> 10000, interval_months changed 24 -> 12; per pages 492-505 the combined standard+severe pattern shows brake fluid replacement at nearly every 10k milestone (standard at 20k,60k,70k,80k,100k,120k; severe at 10k,30k,40k,50k,90k,110k). Added separate severe schedule entry for brake fluid.",
+    "Brake fluid: added separate 'severe' schedule entry to capture the severe-only replacement milestones (10k,30k,40k,50k,90k,110k) per pages 492,494,497,502,505.",
+    "CVT fluid inspect: interval_miles changed 20000 -> 10000, interval_months changed 24 -> 12; the CVT fluid inspection appears at 20k,30k,60k,70k,80k,90k,100k,120k \u2014 approximately every 10k in the standard schedule per pages 493,494,497,499,500,501,502,505.",
+    "Manual transmission gear oil inspect: interval_miles changed 20000 -> 10000, interval_months changed 24 -> 12; same pattern as CVT fluid inspection per pages 493,494,497,499,500,501,502,505.",
+    "Drive belt inspect: interval_miles changed 60000 -> 10000, interval_months changed 72 -> 12; the drive belt is inspected as part of 'engine drive belts and hose inspections' at every standard interval, and with * marking at 60k,70k,80k,90k,100k,120k per pages 492-505. The first formal appearance is well before 60k.",
+    "Brake lines and cables: interval_miles changed 20000 -> 10000, interval_months changed 24 -> 12; appears at 20k,30k,60k,70k,80k,90k,100k,120k per pages 493,494,497,499,500,501,502,505.",
+    "Intelligent Key battery: notes corrected \u2014 removed 75k and 120k from the replacement list. Per pages 494,498,502, the pattern is 30k,60k,90k. Page 499 shows 75k replacement which breaks the 30k pattern; kept 30k/36mo as base interval with note about 75k anomaly.",
+    "Evaporative emissions control vapor lines: notes corrected to reflect actual schedule appearances at 20k,60k,80k,100k,120k per pages 493,497,500,502,505 (not at 40k as originally noted).",
+    "Extraction caveats: updated to reflect corrected brake fluid complexity, Intelligent Key battery 75k anomaly, and corrected intervals for drive belt, brake lines, CVT/MT fluid inspections."
+  ]
+}

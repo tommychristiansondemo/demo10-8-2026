@@ -1,0 +1,410 @@
+{
+  "model": "Frontier",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "VQ38DD",
+      "description": "3.8L 6-cylinder",
+      "transmission": "Automatic (Genuine NISSAN Matic P ATF)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Perform at number of miles, kilometers or months, whichever comes first. Every 7,500 miles/6 months."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Every 7,500 miles/6 months."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "Every 15,000 miles/12 months. Replace more frequently when driving in dusty conditions."
+    },
+    {
+      "item": "Propeller shaft lubrication",
+      "action": "lubricate",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "Every 15,000 miles/12 months. Re-grease after immersion in water."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k). Dealer to inspect fluid deterioration data using CONSULT; if deterioration data >77000, replace ATF. Under severe conditions (towing, car-top carrier, rough/muddy roads), change every 30,000 miles (48,000 km) or 24 months."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k)."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "4WD models",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "First at 15,000 mi/12 mo, then every 15,000 miles/12 months."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Engine air filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k). More frequent replacement may be required when operating mainly in dusty conditions."
+    },
+    {
+      "item": "EVAP vapor lines and fuel lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k). Marked with * \u2014 recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Every 30,000 miles/24 months (30k, 60k, 90k, 120k)."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "first_at_miles": 60000,
+      "first_at_months": 48,
+      "applies_to": "VQ38DD",
+      "notes": "First at 60,000 mi/48 mo, then at 75k, 90k, 105k, 120k \u2014 approximately every 15,000 miles/12 months after first appearance. Marked with * \u2014 recommended by NISSAN for reliable vehicle operation; not required to maintain emission warranty."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "first_at_miles": 45000,
+      "first_at_months": 36,
+      "applies_to": "VQ38DD",
+      "notes": "Appears at 45,000 mi/36 mo, 67,500 mi/54 mo, 90,000 mi/72 mo, 112,500 mi/90 mo \u2014 every 22,500 miles/18 months."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "first_at_miles": 22500,
+      "first_at_months": 18,
+      "applies_to": "VQ38DD",
+      "notes": "Inspect at 22,500 mi/18 mo (page 495). One-time standard inspection before first replacement at 45,000."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "applies_to": "VQ38DD",
+      "notes": "Replace at 105,000 miles/84 months. Replace when plug gap exceeds 0.053 in (1.35 mm) even if within specified replacement mileage."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "VQ38DD",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent, 50% antifreeze / 50% demineralized or distilled water. Marked with *."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: replace engine oil & filter every 5,000 miles/6 months."
+    },
+    {
+      "item": "Propeller shaft lubrication",
+      "action": "lubricate",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use schedule: lubricate propeller shaft grease every 5,000 miles/6 months. Re-grease after immersion in water."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "4WD models",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: inspect every 5,000 miles/6 months."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: replace brake fluid every 10,000 miles/12 months (appears at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k severe intervals)."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "4WD models",
+      "notes": "Severe use schedule: replace transfer fluid every 20,000 miles/24 months (appears at 20k, 40k, 60k, 80k, 100k)."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "VQ38DD",
+      "notes": "Severe use schedule: replace differential gear oil every 20,000 miles/24 months (appears at 20k, 40k, 60k, 80k, 100k)."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6 SP motor oil may be used. Must meet API certification or ILSAC certification.",
+      "capacity": "5-1/4 qt with oil filter change; 5 qt without oil filter change",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze / 50% demineralized or distilled water. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "3-1/8 gal (with reservoir)",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Automatic Transmission Fluid (ATF)",
+      "specification": "Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids.",
+      "capacity": "Refill to proper level per procedure in owner's manual",
+      "applies_to": "VQ38DD"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline, minimum 87 AKI octane (Research octane number 91). Maximum 15% ethanol. No MMT. No leaded gasoline.",
+      "capacity": "21-1/8 gal",
+      "applies_to": "VQ38DD"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Towing a trailer, using a camper or using a car-top carrier"
+  ],
+  "oil_life_monitor": "",
+  "source_pages": [
+    445,
+    486,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    513,
+    519,
+    565
+  ],
+  "extraction_caveats": "1. The maintenance schedule is presented as discrete mileage/month milestones (not a simple repeating table), requiring reconstruction of repeat intervals by pattern analysis across pages 493\u2013509.\n2. Standard schedule engine oil & filter replacement: every 7,500 miles/6 months starting at 7,500.\n3. Severe use oil interval is every 5,000 miles/6 months.\n4. Intelligent Key battery: Standard schedule shows replacement at 45,000 mi/36 mo, 67,500 mi/54 mo, 90,000 mi/72 mo, and 112,500 mi/90 mo \u2014 every 22,500 miles/18 months. An inspection appears at 22,500 mi/18 mo.\n5. Engine drive belts are marked with '*'. First standard appearance is at 60,000 mi/48 mo; then 75k, 90k, 105k, 120k \u2014 approximately every 15,000 miles after first appearance.\n6. EVAP vapor lines & fuel lines are marked with '*'.\n7. Engine coolant first replacement is 105,000 miles/84 months; subsequent interval is every 75,000 miles/60 months per footnote (4) on page 508.\n8. ATF capacity is listed as 'Refill to proper level' in the manual without a specific US quart figure.\n9. Spark plug gap replacement threshold: 0.053 in (1.35 mm) even if within mileage interval.\n10. The severe-use brake fluid, transfer fluid, and differential gear oil replacement intervals were reconstructed from the pattern of severe-schedule entries across pages 495\u2013509.\n11. Brake lines and cables appear at standard 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k \u2014 every 15,000 miles/12 months, not every 30,000.\n12. Brake pads/rotors standard inspection appears at every 15,000-mile standard interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k).\n13. ATF standard inspection appears at every 15,000-mile standard interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k).\n14. Severe brake fluid pattern: 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k \u2014 every 10,000 miles/12 months.",
+  "source_document": "2023 Nissan Frontier Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/frontier/2023/2023-nissan-frontier-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 16435,
+    "outputTokens": 5649,
+    "totalTokens": 22084,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Intelligent Key battery (standard): interval_miles 45000/interval_months 36 -> 22500/18, first_at_miles 45000/first_at_months 36 added; pages 498 (45k), 502 (67.5k), 505 (90k), 509 (112.5k) show 22,500-mile/18-month repeat pattern",
+    "Intelligent Key battery (standard): Added separate inspect entry at 22,500 mi/18 mo per page 495 which shows 'Inspections: Intelligent Key battery' under standard at 22,500 mi/18 mo",
+    "Engine drive belts (standard): interval_miles 30000/interval_months 24 -> 15000/12 with first_at_miles 60000/first_at_months 48; pages 500 (60k), 503 (75k), 505 (90k), 507 (105k), 509 (120k) show ~15k interval after first at 60k",
+    "Engine coolant (standard): interval_miles 105000 -> 75000, interval_months 84 -> 60; the 105k/84mo is the first_at value, repeat is 75k/60mo per footnote (4) on page 508",
+    "Brake lines and cables (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k per pages 494, 496, 498, 500, 503, 505, 507, 509",
+    "Brake pads and rotors (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at every 15k standard milestone per pages 494, 496, 498, 500, 503, 505, 507, 509",
+    "Drive shaft boots (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at every 15k standard milestone",
+    "Propeller shaft (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at every 15k standard milestone",
+    "Differential gear oil (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k",
+    "Transfer fluid (standard): interval_miles 30000 -> 15000, interval_months 24 -> 12; appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k",
+    "Automatic transmission fluid (standard): interval noted as 30000 repeat -> actually 15000/12 repeat; appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k per pages 494, 496, 498, 500, 503, 505, 507, 509",
+    "Brake fluid (severe): interval_miles 15000/interval_months 12 -> 10000/12; severe brake fluid replace appears at 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k, 100k, 110k per pages 494-508",
+    "Transfer fluid (severe): applies_to VQ38DD -> 4WD models; transfer case is 4WD-specific",
+    "Intelligent Key battery (severe): removed; page 495 at 15,000/18mo shows Intelligent Key battery inspection under STANDARD not severe. No severe-specific Intelligent Key entry found in pages.",
+    "Removed pages 557, 560 from source_pages as they are just index pages not containing maintenance data",
+    "oil_life_monitor: 'Not described in the provided pages.' -> '' (empty string per schema convention)"
+  ]
+}

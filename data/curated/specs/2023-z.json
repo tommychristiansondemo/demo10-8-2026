@@ -1,0 +1,330 @@
+{
+  "model": "Z",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "VR30DDTT",
+      "description": "3.0L twin-turbocharged V6 (gasoline)",
+      "transmission": "Automatic transmission (Matic P ATF) or Manual transmission (MTF HQ Multi 75W-85)"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an oil control system that calculates engine oil and filter change interval based on driving conditions. Driving in severe conditions will shorten the interval. When the oil replacement indicator appears in the vehicle information display, the engine oil and filter need to be replaced. After replacing the engine oil, reset the display.",
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "If the oil replacement indicator is displayed, change the engine oil and filter as soon as possible. After replacing the engine oil, reset the display."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "When rotating tires, check for damage and uneven wear. If vehicle is equipped with different sized tires front and rear, tires cannot be rotated."
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Automatic transmission",
+      "notes": "Request the dealer to inspect the fluid deterioration data using a CONSULT. If the deterioration data is more than 77000, replace the AT fluid."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all"
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all"
+    },
+    {
+      "item": "Manual transmission gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "Manual transmission"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all"
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "first_at_miles": 15000,
+      "first_at_months": 18,
+      "applies_to": "all",
+      "notes": "First inspect at 15,000 miles/18 months; replace every 30,000 miles/36 months starting at 30,000 miles."
+    },
+    {
+      "item": "EVAP vapor lines and fuel lines",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all"
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "With limited slip differential only."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "all"
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "all",
+      "notes": "If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 40000,
+      "interval_months": 48,
+      "first_at_miles": 40000,
+      "first_at_months": 48,
+      "applies_to": "all",
+      "notes": "After 60,000 miles (96,000 km) or 48 months, inspect every 15,000 miles (24,000 km) or 12 months. Replace the drive belts if found damaged."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 126,
+      "applies_to": "VR30DDTT",
+      "notes": "Replace spark plug when the plug gap exceeds 0.041 in (1.05 mm) even if within specified replacement mileage."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Use only Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent with proper mixture ratio of 50% anti-freeze and 50% demineralized or distilled water."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all"
+    },
+    {
+      "item": "Automatic transmission fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 20000,
+      "interval_months": 24,
+      "applies_to": "Automatic transmission"
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6 SP motor oil may be used. Must meet API certification or ILSAC certification and SAE viscosity standard.",
+      "capacity": "5-5/8 qt with oil filter change; 5-3/8 qt without oil filter change",
+      "applies_to": "VR30DDTT"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze / 50% distilled water mixture; provides antifreeze protection to \u221234\u00b0F (\u221237\u00b0C)",
+      "capacity": "9-1/2 qt with reservoir (Automatic Transmission model); 9-3/8 qt with reservoir (Manual Transmission model)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Intercooler coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze / 50% water; maintenance-free",
+      "capacity": "3-1/8 qt with reservoir (both AT and MT models); 1/4 qt reservoir only",
+      "applies_to": "VR30DDTT"
+    },
+    {
+      "fluid": "Automatic transmission fluid",
+      "specification": "Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids.",
+      "applies_to": "Automatic transmission"
+    },
+    {
+      "fluid": "Manual transmission gear oil",
+      "specification": "Genuine NISSAN Manual Transmission Fluid (MTF) HQ Multi 75W-85. If not available, API GL-4, Viscosity SAE 75W-85 may be used as a temporary replacement.",
+      "applies_to": "Manual transmission"
+    },
+    {
+      "fluid": "Differential gear oil (without limited slip differential)",
+      "specification": "Genuine NISSAN HYPOID FLUID\u00b7S1 GL-5 75W-80 or equivalent",
+      "applies_to": "all without LSD"
+    },
+    {
+      "fluid": "Differential gear oil (with limited slip differential)",
+      "specification": "Genuine NISSAN Differential Oil Hypoid LSD GL-5 80W-90 or equivalent conventional (non-synthetic) oil",
+      "applies_to": "all with LSD"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded premium gasoline with 93 AKI (RON 98) recommended. Unleaded regular gasoline with minimum 87 AKI (RON 91) may be used temporarily. Maximum 15% ethanol. No MMT. No leaded gasoline.",
+      "capacity": "16-3/8 gal",
+      "applies_to": "VR30DDTT"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "source_pages": [
+    320,
+    321,
+    322,
+    355,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    376,
+    381,
+    401,
+    402,
+    403,
+    404,
+    413
+  ],
+  "extraction_caveats": "\n1. Maintenance schedule runs to 120,000 miles/144 months; the manual states to continue at the same intervals thereafter.\n2. Engine oil interval is 10,000 miles/12 months under standard schedule, but the oil control system may shorten this interval based on driving conditions \u2014 the indicator should be followed.\n3. Drive belt inspection begins at 40,000 miles/48 months; after 60,000 miles/48 months the interval changes to every 15,000 miles/12 months per the manual footnote.\n4. Engine coolant first replacement is at 105,000 miles OR 84 months (7 years); subsequent replacements are every 75,000 miles/60 months. The schedule page lists it at the 105,000-mile interval column (126 months), but the footnote and page 320 both specify 84 months (7 years) for the first replacement \u2014 the footnote value (84 months) is used here.\n5. Intercooler coolant is described as \"maintenance-free\" on page 360; no scheduled replacement interval is published.\n6. Automatic transmission fluid capacity is listed as \"\u2014\" in the capacities table (no specific volume given); same for manual transmission gear oil and differential gear oil.\n7. Differential gear oil replacement (with LSD) occurs at 20,000 miles/24 months and then every 20,000 miles/24 months thereafter based on the pattern across schedule pages (20k, 40k, 60k, 80k, 100k, 120k).\n8. The severe-schedule brake fluid replacement interval is every 10,000 miles/12 months based on its first appearance at 10,000 miles and recurrence at 20,000 miles; the standard brake fluid replacement is every 20,000 miles/24 months.\n9. Intelligent Key battery: first action at 15,000 miles/18 months is 'Inspect'; replacement ('Replace') first appears at 30,000 miles/36 months and recurs every 30,000 miles/36 months (30k, 60k, 90k, 120k). Recorded as replace with first_at 15,000/18 months.\n10. Spark plug replacement note: replace when plug gap exceeds 0.041 in (1.05 mm) even if within specified replacement mileage.\n11. Page 376 capacities table shows AT fluid, MT gear oil, and differential gear oil capacities as dashes (not specified); actual fill quantities not published in the extracted pages.\n",
+  "source_document": "2023 Nissan Z Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/z/2023/2023-nissan-z-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 15797,
+    "outputTokens": 3908,
+    "totalTokens": 19705,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Intelligent Key battery: action changed from 'inspect' to 'replace', interval_miles changed from 15000 to 30000, interval_months changed from 18 to 36, added first_at_miles=15000 and first_at_months=18. Per pages 363-373: 'Inspect intelligent Key battery' at 15k; 'Replace intelligent Key battery' at 30k, 60k, 90k, 120k. The repeat replacement interval is 30,000 miles/36 months with first inspect at 15k.",
+    "Engine coolant: interval_miles changed from 105000 to 75000, interval_months changed from 84 to 60. The first replacement is at 105,000 mi/84 months (first_at fields), but the repeat interval after that is 75,000 miles/60 months per footnote (2) on page 372.",
+    "Engine oil specification: corrected 'GF6' to 'GF-6' per page 376 which shows 'GF-6'."
+  ]
+}

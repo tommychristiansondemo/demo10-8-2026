@@ -1,0 +1,622 @@
+{
+  "model": "Altima",
+  "year": 2023,
+  "powertrains": [
+    {
+      "engine_code": "PR25DD",
+      "description": "2.5L 4-cylinder naturally aspirated",
+      "transmission": "CVT"
+    },
+    {
+      "engine_code": "KR20DDET",
+      "description": "2.0L 4-cylinder Variable Compression Turbo (VC-Turbo)",
+      "transmission": "CVT"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at every other standard interval (10,000 mi/12 mo) in the PR25DD schedule (e.g. 20k, 30k, 50k, 60k, etc.). Also listed under severe use essentials. If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). Oil control system calculates intervals based on driving conditions."
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Replaced at every other standard interval (7,500 mi/12 mo) in the KR20DDET schedule (e.g. 15k/24mo, 22.5k/36mo, 30k/48mo, etc.). Also listed under severe use essentials. If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km)."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Appears at every standard maintenance interval in the PR25DD schedule."
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Appears at every other standard maintenance interval in the KR20DDET schedule (e.g. 15k, 22.5k, 30k, etc.)."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at every other standard interval (every 10,000 mi/12 mo) in the PR25DD schedule (e.g. 20k, 30k, 50k, 60k). Replace more frequently when driving in dusty conditions."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Replaced at 15,000 mi/24 mo intervals in the KR20DDET schedule (e.g. 15k, 30k, 37.5k, 45k, etc.). Replace more frequently when driving in dusty conditions."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at every other standard interval (every 10,000 mi/12 mo) in the PR25DD schedule."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Replaced at 15,000 mi/24 mo intervals in the KR20DDET schedule."
+    },
+    {
+      "item": "Engine air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 36,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at 30,000 mi/36 mo and every 30,000 mi/36 mo thereafter (e.g. 30k, 60k, 90k). If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Engine air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 48,
+      "applies_to": "KR20DDET",
+      "notes": "Replaced at 30,000 mi/48 mo and 60,000 mi/96 mo intervals in the KR20DDET schedule. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Replaced at every other standard interval (every 10,000 mi/12 mo) in the PR25DD schedule (e.g. 20k, 30k, 50k, 60k). Also listed under severe use essentials at the same intervals."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "both",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Replaced at every standard and severe use interval in the KR20DDET schedule (e.g. 7.5k/12mo, 15k/24mo, 22.5k/36mo, etc.)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "CVT transmission fluid visually inspected at every other standard maintenance interval (every 10,000 mi/12 mo) in the PR25DD schedule (e.g. 20k, 30k, 40k)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "CVT transmission fluid visually inspected at 15,000 mi/24 mo intervals in the KR20DDET schedule (e.g. 15k, 22.5k, 30k, 37.5k, 45k)."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "KR20DDET",
+      "notes": "Replace CVT transmission fluid listed under severe use essentials at 60,000 mi/96 mo in the KR20DDET schedule (page 578)."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "all",
+      "notes": "Factory-fill coolant life expectancy is 105,000 miles (168,000 km) or 7 years per page 503. Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. Mixing other coolant types or non-distilled water may reduce service interval."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Replace at specified intervals per page 548. Specific mileage interval not stated on the extracted pages."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belts. Inspected at every other standard maintenance interval (every 10,000 mi/12 mo) in the PR25DD schedule."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every other standard maintenance interval (every 7,500 mi/12 mo) in KR20DDET schedule."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD",
+      "notes": "Visually inspect for proper installation; check for chafing, cracks, deterioration, and signs of leaking. Inspected at every other standard interval (every 10,000 mi/12 mo) in PR25DD schedule."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at 15,000 mi/24 mo intervals in KR20DDET schedule."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at every standard and severe use maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every standard and severe use maintenance interval in KR20DDET schedule (every 3,750 mi/6 mo)."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Check vapor lines for leaks or looseness. Inspected at every 15,000 mi intervals in PR25DD schedule (e.g. 20k, 30k, 45k, 60k \u2014 appears at intervals that are multiples of 15k)."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at 15,000 mi/24 mo intervals in KR20DDET schedule (e.g. 15k, 45k, 75k, 90k)."
+    },
+    {
+      "item": "Fuel lines and connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "PR25DD",
+      "notes": "Check fuel hoses, piping and connections for leaks, looseness, or deterioration. Inspected at same intervals as fuel tank vapor vent system in PR25DD schedule."
+    },
+    {
+      "item": "Fuel lines and connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at 15,000 mi/24 mo intervals in KR20DDET schedule."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage. Inspected at every standard and severe use interval in PR25DD schedule."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every standard and severe use interval in KR20DDET schedule (every 3,750 mi/6 mo)."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Check for damage, looseness, and leakage. Inspected at every standard and severe use interval in PR25DD schedule."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every standard and severe use interval in KR20DDET schedule (every 3,750 mi/6 mo)."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Check for damage, looseness, and leakage. Inspected at every standard and severe use interval in PR25DD schedule."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every standard and severe use interval in KR20DDET schedule (every 3,750 mi/6 mo)."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Check for damage, looseness, and grease leakage. Inspected at every standard and severe use interval in PR25DD schedule."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every standard and severe use interval in KR20DDET schedule (every 3,750 mi/6 mo)."
+    },
+    {
+      "item": "Propeller shaft (AWD)",
+      "action": "inspect",
+      "schedule": "both",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD AWD",
+      "notes": "Check for damage, looseness, and grease leakage. Inspected at every standard and severe use interval in PR25DD schedule."
+    },
+    {
+      "item": "Differential gear oil (AWD)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Visually inspect for signs of leakage at every other standard interval (every 10,000 mi/12 mo) in PR25DD schedule."
+    },
+    {
+      "item": "Differential gear oil (AWD)",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Replace differential gear oil listed under severe use essentials at 20,000 mi/24 mo (page 554). Appears at every other severe interval."
+    },
+    {
+      "item": "Transfer case oil (AWD)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Visually inspect for signs of leakage at every other standard interval (every 10,000 mi/12 mo) in PR25DD schedule."
+    },
+    {
+      "item": "Transfer case oil (AWD)",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "PR25DD AWD",
+      "notes": "Replace transfer case oil listed under severe use essentials at 20,000 mi/24 mo (page 554). Appears at every other severe interval."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "all",
+      "notes": "Inspect only if valve noise increases. Adjust valve clearance if necessary. No specific mileage interval stated in extracted pages."
+    },
+    {
+      "item": "All fluids (engine, wiper, brake, power steering, coolant)",
+      "action": "check",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "All fluids inspected at every standard maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "All fluids (engine, wiper, brake, power steering, coolant)",
+      "action": "check",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "All fluids inspected at every other standard maintenance interval in KR20DDET schedule (at 7,500 mi/12 mo intervals)."
+    },
+    {
+      "item": "Battery terminals and cables, battery test",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at every standard maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "Battery terminals and cables, battery test",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every other standard maintenance interval in KR20DDET schedule (at 7,500 mi/12 mo intervals)."
+    },
+    {
+      "item": "Tire pressure, treadwear and depth",
+      "action": "check",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Checked at every standard maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "Tire pressure, treadwear and depth",
+      "action": "check",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Checked at every other standard maintenance interval in KR20DDET schedule (at 7,500 mi/12 mo intervals)."
+    },
+    {
+      "item": "Horn, lights, signals, wipers, rear hatch/hood lift supports",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at every standard maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "Horn, lights, signals, wipers, rear hatch/hood lift supports",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every other standard maintenance interval in KR20DDET schedule (at 7,500 mi/12 mo intervals)."
+    },
+    {
+      "item": "Suspension components (shocks, subframe, tie rods)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "PR25DD",
+      "notes": "Inspected at every standard maintenance interval in PR25DD schedule."
+    },
+    {
+      "item": "Suspension components (shocks, subframe, tie rods)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR20DDET",
+      "notes": "Inspected at every other standard maintenance interval in KR20DDET schedule (at 7,500 mi/12 mo intervals)."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP or equivalent synthetic 0W-20 GF-6 SP",
+      "capacity": "5-3/8 qt with filter change; 5-1/8 qt without filter change",
+      "applies_to": "PR25DD"
+    },
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil Ester 5W-30 SN or equivalent synthetic SAE 5W-30 GF-5 SN",
+      "capacity": "5 qt with filter change; 4-7/8 qt without filter change",
+      "applies_to": "KR20DDET"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50% antifreeze/50% water; antifreeze protection to -34\u00b0F (-37\u00b0C)",
+      "capacity": "2-1/4 gal (PR25DD); 2-1/8 gal (KR20DDET) \u2014 with reservoir",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 only; do not mix with other fluids; do not use ATF or manual transmission fluid",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super GL-5 80W-90 or equivalent conventional (non-synthetic) oil",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "Genuine NISSAN Super Heavy Duty Brake Fluid or equivalent DOT 3",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Multi-purpose grease",
+      "specification": "NLGI No. 2 (Lithium Soap base)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system refrigerant",
+      "specification": "HFO-1234yf (R-1234yf)",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Air conditioning system oil",
+      "specification": "Genuine NISSAN A/C System Oil Type PAG (VC100YF oil) or equivalent",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Windshield-washer fluid",
+      "specification": "Genuine NISSAN Windshield Washer Concentrate Cleaner & Antifreeze fluid or equivalent",
+      "capacity": "1 gal",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline, minimum 87 AKI (Anti-Knock Index) / Research octane number 91; maximum 15% ethanol; no MMT; no leaded gasoline",
+      "applies_to": "all"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System (if so equipped) that calculates engine oil and filter change intervals based on driving conditions. Severe driving conditions shorten the interval. When the oil replacement indicator is displayed, change the engine oil and filter within two weeks or less than 500 miles (800 km). The system is described in the Vehicle Information Display sections (Type A p.2-24, Type B p.2-43) and in the Maintenance Schedules section (p.9-7).",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "source_pages": [
+    92,
+    178,
+    503,
+    510,
+    543,
+    548,
+    549,
+    554,
+    555,
+    556,
+    559,
+    562,
+    565,
+    568,
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    586,
+    587,
+    591,
+    612,
+    613,
+    614,
+    615,
+    626
+  ],
+  "extraction_caveats": "1. TWO SEPARATE SCHEDULES: The manual contains two distinct maintenance schedules \u2014 one for the PR25DD (2.5L, pages ~549\u2013568) and one for the KR20DDET (2.0L VC-Turbo, pages ~571\u2013581+). The PR25DD schedule runs in 5,000 mi/6-month increments; the KR20DDET schedule runs in 3,750 mi/6-month increments (7,500 mi/12-month base with 3,750 mi mid-points). Intervals reported reflect the repeating pattern observed across the extracted pages.\n\n2. ENGINE COOLANT CAPACITY: Page 586 shows coolant capacity 'with reservoir' for PR25DD as 2-1/4 gal US and KR20DDET as 2-1/8 gal US. The original extraction incorrectly listed PR25DD coolant capacity as 16-1/4 gal (which is actually the fuel tank capacity).\n\n3. SPARK PLUG INTERVAL: The text on page 548 states spark plugs should be replaced at specified intervals, but no specific mileage/month interval appears in the extracted pages.\n\n4. ENGINE VALVE CLEARANCE: Listed as inspect-only-if-noise-increases with no fixed interval.\n\n5. CVT FLUID REPLACEMENT (SEVERE): The 60,000 mi severe-use CVT fluid replacement milestone appears on page 578 in the KR20DDET schedule (60,000 mi/96 mo). No equivalent explicit replacement milestone was found for PR25DD in the extracted pages.\n\n6. PROPELLER SHAFT (AWD) for KR20DDET: Not explicitly listed in the KR20DDET schedule pages extracted (571\u2013581); may appear in pages not provided.\n\n7. TRANSFER CASE OIL for KR20DDET: Not explicitly listed in the KR20DDET schedule pages extracted.\n\n8. The schedule continues beyond 120,000 miles/144 months at the same intervals per page 549, but only pages up to ~568 were provided for the PR25DD schedule and ~581 for KR20DDET.\n\n9. KR20DDET severe-use inspections appear at every 3,750 mi/6 mo interval (brake pads, exhaust, drive shaft boots, steering, axle & suspension). Standard-only items (brake lines, CVT fluid, fuel vapor vent, fuel lines) appear at 15,000 mi/24 mo intervals.",
+  "source_document": "2023 Nissan Altima Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/altima/2023/2023-nissan-altima-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 23608,
+    "outputTokens": 7423,
+    "totalTokens": 31031,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine oil and filter (PR25DD): interval_miles 5000 -> 10000, interval_months 6 -> 12. Pages 554 (20k), 556 (30k), 559 (50k), 562 (60k) show oil & filter replacement at every other 5k interval = 10k/12mo repeat.",
+    "Engine oil and filter (KR20DDET): interval_miles 3750 -> 7500, interval_months 6 -> 12. Pages 572 (15k/24mo), 572 (22.5k/36mo), 574 (30k/48mo) show oil & filter replacement at every other 3,750 mi interval = 7,500 mi/12 mo repeat.",
+    "Brake fluid (PR25DD): Changed from two separate records (standard at 20k/24mo + severe at 20k/24mo) to single 'both' record at 10k/12mo. Pages show brake fluid replacement at 20k, 30k, 50k, 60k (standard) and also at 30k, 50k severe essentials \u2014 the repeating pattern is every 10k/12mo, not 20k/24mo. Schedule 'standard' -> 'both'. Removed duplicate severe-only record.",
+    "Brake fluid (KR20DDET): interval_miles 15000 -> 7500, interval_months 24 -> 12. Pages 571 (7.5k/12mo), 572 (15k/24mo), 573 (22.5k/36mo), 574 (30k/48mo) all show 'Replace brake fluid' under both standard and severe essentials \u2014 every 7,500 mi/12 mo.",
+    "CVT fluid inspect (PR25DD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Pages 554 (20k), 555 (30k) show CVT fluid inspection at every other standard interval = 10k/12mo. Split into separate PR25DD record.",
+    "CVT fluid inspect (KR20DDET): Created separate record at 15000/24 for KR20DDET. Pages 571 (15k), 572 (22.5k), 573 (30k) show CVT fluid inspection.",
+    "CVT fluid replace (severe): Changed applies_to from PR25DD to KR20DDET. Page 578 shows 'Replace CVT transmission fluid' at 60,000 mi/96 mo in the KR20DDET schedule (not PR25DD). The 60k milestone is in the KR20DDET section (pages 571-581).",
+    "Engine drive belts (PR25DD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Pages 554 (20k), 555 (25k), 556 (30k), 559 (55k) show engine drive belt inspections at every standard interval including odd 5k intervals, but the consistent pattern for the 'full' inspection block is every 10k/12mo.",
+    "Engine drive belts (KR20DDET): interval_months 24 -> 12. Pages 571 (11.25k/18mo), 572 (22.5k/36mo), 573 (30k/48mo) show engine drive belt inspections at every 7,500 mi/12 mo interval.",
+    "Brake lines and cables (PR25DD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Pages 554 (20k), 555 (30k) show brake lines inspection at every other standard interval = 10k/12mo.",
+    "Brake pads and rotors (KR20DDET): interval_miles 7500 -> 3750, interval_months 12 -> 6. Pages 571 (7.5k severe + 11.25k severe + 15k standard), etc. show brake pads inspected at every interval = 3,750 mi/6 mo.",
+    "Exhaust system (KR20DDET): interval_miles 7500 -> 3750, interval_months 12 -> 6. Pages show exhaust inspected at every severe interval = 3,750 mi/6 mo.",
+    "Steering gear and linkage (KR20DDET): interval_miles 7500 -> 3750, interval_months 12 -> 6. Pages show steering inspected at every severe interval = 3,750 mi/6 mo.",
+    "Axle and suspension parts (KR20DDET): interval_miles 7500 -> 3750, interval_months 12 -> 6. Pages show axle & suspension inspected at every severe interval = 3,750 mi/6 mo.",
+    "Drive shaft boots (KR20DDET): interval_miles 7500 -> 3750, interval_months 12 -> 6. Pages show drive shaft boots inspected at every severe interval = 3,750 mi/6 mo.",
+    "Differential gear oil inspect (AWD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Pages 554 (20k), 555 (25k/30k) show differential oil inspection at every other standard interval = 10k/12mo.",
+    "Transfer case oil inspect (AWD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Same pattern as differential gear oil.",
+    "Differential gear oil replace severe (AWD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Page 554 shows first severe replacement at 20k; appears to repeat at every other severe interval.",
+    "Transfer case oil replace severe (AWD): interval_miles 20000 -> 10000, interval_months 24 -> 12. Same pattern as differential gear oil severe replacement.",
+    "Fuel tank vapor vent system (PR25DD): interval_miles 20000 -> 15000, interval_months unchanged at 24. Pages 554 (20k) and 555 (30k) show it appears at 20k and 30k but not 25k \u2014 the pattern across the full schedule (20k, 30k, 45k, 60k, 75k, 90k) suggests approximately every 15k.",
+    "Fuel lines and connections (PR25DD): interval_miles 20000 -> 15000, interval_months unchanged at 24. Same pattern as fuel tank vapor vent system.",
+    "Engine coolant capacity (PR25DD): Corrected from '16-1/4 gal (FWD); 16 gal (AWD)' to '2-1/4 gal' per page 586. The 16-1/4 gal and 16 gal figures are FUEL TANK capacities, not coolant. Page 586 clearly shows engine coolant with reservoir: PR25DD = 8.3L / 2-1/4 gal.",
+    "Engine coolant: Merged into single 'all' fluid entry with both engine capacities noted. KR20DDET coolant capacity confirmed as 8.2L / 2-1/8 gal per page 586."
+  ]
+}

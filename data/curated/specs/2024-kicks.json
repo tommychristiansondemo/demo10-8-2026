@@ -1,0 +1,390 @@
+{
+  "model": "Kicks",
+  "year": 2024,
+  "powertrains": [
+    {
+      "engine_code": "HR16DE",
+      "description": "1.6L 4-cylinder",
+      "transmission": "CVT (Continuously Variable Transmission)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "HR16DE",
+      "notes": "Standard schedule: every 7,500 miles / 6 months"
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "HR16DE",
+      "notes": "Severe use schedule: every 5,000 miles / 6 months"
+    },
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Standard schedule: every 7,500 miles / 6 months"
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Replace every 15,000 miles / 12 months under standard schedule (at 15k, 30k, 45k, 60k, 75k, 90k, 105k miles)"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Standard schedule: every 30,000 miles / 24 months (at 30k, 60k, 90k, 120k miles)"
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 10000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use schedule: every 10,000 miles / 12 months (at 10k, 20k, 30k, 40k, 50k, etc.)"
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "HR16DE",
+      "notes": "Replace every 30,000 miles (at 30k, 60k, 90k miles). If operating mainly in dusty conditions, more frequent maintenance may be required. No month interval shown in schedule."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "HR16DE",
+      "notes": "CVT fluid replacement is based on mileage only. Replace every 30,000 miles under standard schedule."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 30000,
+      "interval_months": null,
+      "applies_to": "HR16DE",
+      "notes": "If using a car-top carrier, or driving on rough or muddy roads, replace the CVT fluid every 30,000 miles. CVT fluid replacement is based on mileage only. Per page 492."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "HR16DE",
+      "notes": "Visually inspect CVT fluid at 15,000 miles / 12 months and every 30,000 miles / 24 months thereafter (at 15k, 45k, 75k, 105k miles)"
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 105000,
+      "interval_months": 84,
+      "applies_to": "HR16DE",
+      "notes": "Replace at 105,000 miles / 84 months",
+      "first_at_miles": null,
+      "first_at_months": null
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "applies_to": "HR16DE",
+      "notes": "First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "first_at_miles": 60000,
+      "first_at_months": 48,
+      "applies_to": "HR16DE",
+      "notes": "First inspect at 60,000 miles / 48 months, then every 30,000 miles / 24 months (at 60k, 75k*, 90k, 105k, 120k). Marked with * (recommended by NISSAN, not required for emission warranty)."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "HR16DE",
+      "notes": "Check vapor lines for leaks or looseness at 30,000 miles / 24 months, then every 30,000 miles (at 30k, 60k, 90k, 120k). Recommended by NISSAN; not required for emission warranty."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "HR16DE",
+      "notes": "Check fuel hoses, piping and connections at 30,000 miles / 24 months, then every 30,000 miles (at 30k, 60k, 90k, 120k). Recommended by NISSAN; not required for emission warranty."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "first_at_miles": 15000,
+      "first_at_months": 12,
+      "applies_to": "all",
+      "notes": "First inspect at 15,000 miles / 12 months, then every 30,000 miles / 24 months (at 15k, 30k*, 45k, 60k, 75k, 90k, 105k, 120k). Repeat interval is 30,000 miles / 24 months."
+    },
+    {
+      "item": "Brake pads, rotors, drums and linings",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspect at 15,000 miles / 12 months and every 15,000 miles thereafter under standard schedule"
+    },
+    {
+      "item": "Brake pads, rotors, drums and linings",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect every 5,000 miles / 6 months under severe use schedule"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 30,000 miles / 24 months and every 30,000 miles thereafter under standard schedule"
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect every 5,000 miles / 6 months under severe use schedule"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 30,000 miles / 24 months and every 30,000 miles thereafter under standard schedule"
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect every 5,000 miles / 6 months under severe use schedule"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Inspect at 15,000 miles / 12 months and every 15,000 miles thereafter under standard schedule (appears at 15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k)"
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect every 5,000 miles / 6 months under severe use schedule"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Inspect at 30,000 miles / 24 months and every 30,000 miles thereafter under standard schedule"
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 5000,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Inspect every 5,000 miles / 6 months under severe use schedule"
+    },
+    {
+      "item": "Transmission fluid/oil (CVT)",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 12,
+      "applies_to": "HR16DE",
+      "notes": "Visually inspect for signs of leakage at specified intervals (15k, 45k, 75k, 105k miles). This is the leakage inspection, separate from CVT fluid condition inspection."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 22500,
+      "interval_months": 18,
+      "first_at_miles": 45000,
+      "first_at_months": 36,
+      "applies_to": "all",
+      "notes": "First replace at 45,000 miles / 36 months, then every 22,500 miles / 18 months (at 45k/36mo, 67.5k/54mo, 90k/72mo, 112.5k/90mo)."
+    },
+    {
+      "item": "Engine valve clearance",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "HR16DE",
+      "notes": "Inspect only if valve noise increases. Adjust if necessary. Recommended by NISSAN; not required for emission warranty. No fixed mileage interval specified."
+    },
+    {
+      "item": "Fuel filter",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": null,
+      "interval_months": null,
+      "applies_to": "HR16DE",
+      "notes": "Periodic maintenance is not required (in-tank type filter)."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent). If not available, synthetic 0W-20 GF-6A SP motor oil may be used. Must meet API certification or ILSAC certification.",
+      "capacity": "4-3/8 qt with oil filter change; 4 qt without oil filter change",
+      "applies_to": "HR16DE"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50% antifreeze / 50% water. Provides antifreeze protection to -34\u00b0F (-37\u00b0C).",
+      "capacity": "1-7/8 gal (with reservoir)",
+      "applies_to": "HR16DE"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (or equivalent). Do not mix with other fluids. Do not use ATF or manual transmission fluid.",
+      "applies_to": "HR16DE"
+    },
+    {
+      "fluid": "Brake fluid",
+      "specification": "See Recommended fluids/lubricants and capacities (P. 10-2). Use only new fluid from a sealed container.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline with an octane rating of at least 87 AKI (Research octane number 91). Do not use E-15 or E-85.",
+      "capacity": "10-7/8 gal",
+      "applies_to": "all"
+    }
+  ],
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier"
+  ],
+  "oil_life_monitor": "No oil life monitor described in the provided pages. The schedule specifies fixed mileage/time intervals (every 7,500 miles / 6 months standard; every 5,000 miles / 6 months severe).",
+  "source_pages": [
+    450,
+    455,
+    487,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    512,
+    516,
+    546
+  ],
+  "extraction_caveats": "1. The schedule pages (494\u2013509) are laid out in a multi-column PDF format with up to three interval columns per page; columns were carefully reconstructed to identify repeating intervals rather than listing each individual occurrence.\n2. Standard engine oil interval is 7,500 miles / 6 months; severe is 5,000 miles / 6 months \u2014 both derived from the repeating pattern across all schedule pages.\n3. In-cabin microfilter standard interval is 15,000 miles / 12 months, derived from occurrences at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 / 105,000 miles.\n4. Brake fluid standard interval is 30,000 miles / 24 months; severe is 10,000 miles / 12 months, derived from repeating pattern.\n5. Air cleaner filter standard interval is 30,000 miles (at 30,000 / 60,000 / 90,000 miles). No month interval is explicitly paired with air cleaner filter in the schedule.\n6. CVT fluid replacement interval is 30,000 miles (mileage only, no time interval per the manual). Severe condition (car-top carrier or rough/muddy roads) also triggers 30,000-mile replacement per page 492.\n7. Engine coolant first replacement is 105,000 miles / 84 months; subsequent interval is 75,000 miles / 60 months per page 508 footnote.\n8. Spark plugs replaced at 105,000 miles / 84 months \u2014 only one occurrence within the 120,000-mile schedule shown.\n9. Engine drive belts inspection first appears at 60,000 miles / 48 months, then at 75,000 / 60 months, 90,000 / 72 months, 105,000 / 84 months, and 120,000 / 96 months. Marked with * (recommended, not required for emission warranty).\n10. Intelligent Key battery replacement pattern: 45,000 / 36 months, 67,500 / 54 months, 90,000 / 72 months, 112,500 / 90 months \u2014 every 22,500 miles / 18 months with first at 45,000 / 36 months.\n11. Fuel filter: manual explicitly states periodic maintenance is not required (in-tank type); recorded with null intervals.\n12. Engine valve clearance: no fixed interval given; inspect only if valve noise increases.\n13. Brake fluid specification page reference (P. 10-2) was cited in the manual but the actual DOT specification was not reproduced in the provided pages.\n14. CVT fluid capacity was not listed in the provided pages of the fluids/capacities table (page 512 row was cut off).\n15. Drive shaft boots appear at every standard maintenance interval from 15k onward (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k), so the repeat interval is effectively 15,000 miles.\n16. Brake lines and cables first appear at 15k standard, then at 30k, 45k, 60k, 75k, 90k, 105k, 120k \u2014 first at 15k, repeat every 15k (though some intervals show 30k gaps, the pattern includes every 15k occurrence).",
+  "source_document": "2024 Nissan Kicks Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/kicks/2024/2024-nissan-kicks-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 20800,
+    "outputTokens": 4808,
+    "totalTokens": 25608,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine coolant interval_miles: 105000 -> 75000 (repeat interval); first_at_miles remains 105000. Page 508 footnote: 'After first replacement, replace every 75,000 miles (120,000 km) or 60 months.'",
+    "Engine drive belts first_at_miles: null -> 60000, first_at_months: null -> 48. interval_miles: 60000 -> 30000, interval_months: 48 -> 24. Pages 501 (60k), 503 (75k), 505 (90k), 507 (105k), 509 (120k) show first at 60k then roughly every 15-30k; using 30k/24mo as the repeat after first at 60k/48mo.",
+    "Air cleaner filter interval_months: 24 -> null. Schedule pages show air cleaner at 30k/60k/90k miles but no explicit month pairing for air cleaner filter replacement.",
+    "Intelligent Key battery interval_miles: 45000 -> 22500, interval_months: 36 -> 18, added first_at_miles: 45000, first_at_months: 36. Pattern is 45k/36mo, 67.5k/54mo, 90k/72mo, 112.5k/90mo = every 22,500 miles / 18 months after first at 45k/36mo. Pages 499, 502, 505, 509.",
+    "CVT fluid (replace) added severe schedule entry for car-top carrier / rough/muddy roads at 30,000 miles per page 492.",
+    "Drive shaft boots (standard) interval_miles kept at 15000 but note updated: appears at every 15k standard interval (15k, 30k, 45k, 60k, 75k, 90k, 105k, 120k per schedule pages).",
+    "Brake lines and cables: added first_at_miles: 15000, first_at_months: 12; interval_miles: 15000 -> 30000 (repeat). First at 15k then at 30k, 45k, 60k, 75k, 90k, 105k, 120k \u2014 effectively every 15k but the dominant repeat pattern in the schedule is 30k with some 15k gaps.",
+    "Tire rotation applies_to: HR16DE -> all (chassis item, not engine-specific).",
+    "In-cabin microfilter applies_to: HR16DE -> all (not engine-specific).",
+    "Brake fluid applies_to: HR16DE -> all (both standard and severe).",
+    "Brake pads/rotors/drums/linings applies_to: HR16DE -> all (chassis item).",
+    "Steering gear and linkage applies_to: HR16DE -> all.",
+    "Axle and suspension parts applies_to: HR16DE -> all.",
+    "Drive shaft boots applies_to: HR16DE -> all.",
+    "Exhaust system applies_to: HR16DE -> all.",
+    "Intelligent Key battery applies_to: HR16DE -> all.",
+    "source_pages: removed 162, 536, 537, 538, 539 (no maintenance data on these pages)."
+  ]
+}

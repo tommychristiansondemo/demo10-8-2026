@@ -1,0 +1,392 @@
+{
+  "model": "Rogue",
+  "year": 2024,
+  "powertrains": [
+    {
+      "engine_code": "KR15DDT",
+      "description": "1.5L turbocharged engine with CVT; available FWD and AWD",
+      "transmission": "CVT (Continuously Variable Transmission)"
+    }
+  ],
+  "maintenance_items": [
+    {
+      "item": "Tire rotation",
+      "action": "rotate",
+      "schedule": "standard",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Repeat every 3,750 miles/6,000 km/6 months"
+    },
+    {
+      "item": "Engine oil and filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "notes": "If the oil replacement indicator is displayed, change within two weeks or less than 500 miles (800 km). Oil Control System calculates change intervals based on driving conditions. If OCS resets prematurely or becomes inoperative, change within 6 months or 3,750 miles (6,000 km) from last oil change."
+    },
+    {
+      "item": "Brake lines and cables",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for proper installation; check for chafing, cracks, deterioration, and signs of leaking."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for wear, deterioration and fluid leaks."
+    },
+    {
+      "item": "CVT fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Visually inspect for signs of leakage. Under severe conditions (car-top carrier, towing, camper, rough/muddy roads): replace every 60,000 miles (96,000 km) or request dealer to inspect fluid deterioration data using CONSULT; if deterioration data >210,000, replace."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Check for damage, looseness, and grease leakage."
+    },
+    {
+      "item": "Differential gear oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage. Under severe conditions (car-top carrier, towing, camper, rough/muddy roads): replace every 20,000 miles (32,000 km) or 24 months."
+    },
+    {
+      "item": "AWD coupling oil",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage."
+    },
+    {
+      "item": "Transfer fluid",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "AWD models",
+      "notes": "Visually inspect for signs of leakage. Under severe conditions (car-top carrier, towing, camper, rough/muddy roads): replace every 20,000 miles (32,000 km) or 24 months."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Replace at every 15,000 miles/24 months interval. Appears at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 miles."
+    },
+    {
+      "item": "In-cabin microfilter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 11250,
+      "first_at_months": 18,
+      "notes": "First replacement at 11,250 miles/18 months; then approximately every 11,250 miles/18 months (appears at 11,250 / 22,500 / 33,750 / 45,000 / 56,250 / 67,500 / 78,750 / 90,000). When driving for prolonged periods in dusty conditions, replace more frequently."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "all",
+      "notes": "Inspection at 11,250 miles/18 months only."
+    },
+    {
+      "item": "Intelligent Key battery",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 11250,
+      "interval_months": 18,
+      "applies_to": "all",
+      "first_at_miles": 22500,
+      "first_at_months": 36,
+      "notes": "First replacement at 22,500 miles/36 months, then every 11,250 miles/18 months thereafter (appears at 22,500 / 33,750 / 45,000 / 56,250 / 67,500 / 78,750 / 90,000)."
+    },
+    {
+      "item": "Fuel tank vapor vent system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended item (*). Check vapor lines for leaks or looseness. Appears at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 miles."
+    },
+    {
+      "item": "Fuel lines/connections",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Recommended item (*). Check fuel hoses, piping and connections for leaks, looseness, or deterioration. Appears at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 miles."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Visually inspect exhaust pipes, muffler and hangers for leaks, cracks, deterioration, and damage. Appears at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 miles in standard schedule."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease. Under severe driving conditions, inspect more frequently."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 15000,
+      "interval_months": 24,
+      "applies_to": "all",
+      "notes": "Check for damage, looseness, and leakage of oil or grease."
+    },
+    {
+      "item": "Air cleaner filter",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 30000,
+      "interval_months": 48,
+      "applies_to": "KR15DDT",
+      "notes": "Replace at 30,000 / 60,000 / 90,000 miles. If operating mainly in dusty conditions, more frequent maintenance may be required."
+    },
+    {
+      "item": "Engine drive belts",
+      "action": "inspect",
+      "schedule": "standard",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "KR15DDT",
+      "first_at_miles": 30000,
+      "first_at_months": 48,
+      "notes": "Recommended item (*). Check for wear, fraying or cracking and for proper tension. Replace any damaged drive belt. First inspection at 30,000 miles/48 months, then every 7,500 miles/12 months thereafter (appears at 30,000 / 37,500 / 45,000 / 52,500 / 60,000 / 67,500 / 75,000 / 82,500 / 90,000 miles)."
+    },
+    {
+      "item": "Spark plugs",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 60000,
+      "interval_months": 96,
+      "applies_to": "KR15DDT",
+      "notes": "Install new plugs of the type as originally equipped. Appears at 60,000 miles/96 months in the schedule."
+    },
+    {
+      "item": "Engine coolant",
+      "action": "replace",
+      "schedule": "standard",
+      "interval_miles": 75000,
+      "interval_months": 60,
+      "applies_to": "KR15DDT",
+      "first_at_miles": 105000,
+      "first_at_months": 84,
+      "notes": "Recommended item (*). Life expectancy of factory-fill coolant is 105,000 miles (168,000 km) or 7 years. Use Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. Mixing other coolant types or non-distilled water will reduce life expectancy."
+    },
+    {
+      "item": "Brake pads and rotors",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Exhaust system",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Steering gear and linkage",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Axle and suspension parts",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Propeller shaft",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "AWD models",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Drive shaft boots",
+      "action": "inspect",
+      "schedule": "severe",
+      "interval_miles": 3750,
+      "interval_months": 6,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: inspect at every 3,750 miles/6 months interval."
+    },
+    {
+      "item": "Brake fluid",
+      "action": "replace",
+      "schedule": "severe",
+      "interval_miles": 7500,
+      "interval_months": 12,
+      "applies_to": "all",
+      "notes": "Severe use maintenance: replace brake fluid at every 7,500 miles/12 months interval."
+    }
+  ],
+  "fluids": [
+    {
+      "fluid": "Engine oil",
+      "specification": "Genuine NISSAN Motor Oil 0W-20 SP (or equivalent); if not available, synthetic 0W-20 GF-6A SP motor oil may be used. Must meet API certification or ILSAC certification.",
+      "capacity": "5 qt (with oil filter change); 4-7/8 qt (without oil filter change)",
+      "applies_to": "KR15DDT"
+    },
+    {
+      "fluid": "Engine coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50/50 mixture providing antifreeze protection to -34\u00b0F (-37\u00b0C)",
+      "capacity": "9 qt (with reservoir); 7/8 qt (reservoir only)",
+      "applies_to": "KR15DDT"
+    },
+    {
+      "fluid": "Intercooler coolant",
+      "specification": "Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent; 50/50 mixture providing antifreeze protection to -34\u00b0F (-37\u00b0C). Maintenance-free.",
+      "capacity": "3-1/8 qt (with reservoir); 1/2 qt (reservoir only)",
+      "applies_to": "KR15DDT"
+    },
+    {
+      "fluid": "CVT fluid",
+      "specification": "Genuine NISSAN CVT Fluid NS-3 (or equivalent). Do not mix with other fluids. Do not use ATF or Manual Transmission fluid.",
+      "applies_to": "all"
+    },
+    {
+      "fluid": "Differential gear oil",
+      "specification": "Genuine NISSAN HYPOID FLUID\u00b7S1 GL-5 75W-80 or equivalent",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Transfer fluid",
+      "specification": "Genuine NISSAN Differential Oil Hypoid Super-S GL-5 synthetic 75W-90 or equivalent",
+      "applies_to": "AWD models"
+    },
+    {
+      "fluid": "Fuel",
+      "specification": "Unleaded regular gasoline with an octane rating of at least 87 AKI (Anti-Knock Index) / Research octane number 91. Do not use fuel containing more than 15% ethanol. Do not use leaded gasoline.",
+      "capacity": "14-1/2 gal",
+      "applies_to": "KR15DDT"
+    }
+  ],
+  "oil_life_monitor": "The vehicle is equipped with an Oil Control System (OCS) that calculates engine oil and filter change intervals based on driving conditions. Light driving conditions (freeway, city flat/moderate hills, no towing, no extended idling) result in normal display timing. Extreme conditions (repeated short trips under 5 miles, short trips under 10 miles in below-freezing temps, hot weather stop-and-go traffic, extensive idling/low-speed driving, towing/camper/car-top carrier, frequent braking/mountainous driving, sustained high speed driving) result in early display timing. If the oil replacement indicator is displayed, change oil within two weeks or less than 500 miles (800 km). If the OCS resets prematurely or becomes inoperative, change oil within 6 months or 3,750 miles (6,000 km) from last oil change. After oil change, reset the Oil Control System and oil and filter maintenance reminder.",
+  "severe_conditions": [
+    "Repeated short trips of less than 5 miles (8 km)",
+    "Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing",
+    "Operating in hot weather in stop-and-go 'rush hour' traffic",
+    "Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use",
+    "Driving in dusty conditions",
+    "Driving on rough, muddy or salt spread roads",
+    "Using a car-top carrier",
+    "Towing a trailer",
+    "Using a camper"
+  ],
+  "source_pages": [
+    505,
+    506,
+    510,
+    543,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    567,
+    571,
+    606
+  ],
+  "extraction_caveats": "1. The maintenance schedule page 549 states 'up to 120,000 miles (192,000 km)/96 months' and 'After 120,000 miles (192,000 km)/96 months, continue maintenance at the same mileage/time intervals.' However, the KR15DDT-specific schedule header on page 551 states 'After 90,000 miles (144,000 km)/144 months, continue maintenance at the same mileage/time interval.' These two statements appear contradictory; the KR15DDT-specific schedule pages provided extend through 90,000 miles/144 months. 2. Engine coolant replacement interval (105,000 miles/7 years) is stated in the coolant description text (page 505) but does not appear as an explicit line item in the maintenance schedule pages provided; it is captured based on the text statement. 3. CVT fluid capacity is not listed on the provided pages. 4. AWD coupling oil capacity is not listed in the provided pages. 5. Brake fluid specification is not listed in the provided pages. 6. The In-cabin microfilter appears at every 11,250-mile interval in the schedule (11,250 / 22,500 / 33,750 / 45,000 / 56,250 / 67,500 / 78,750 / 90,000). The Intelligent Key battery is inspected at 11,250 and replaced starting at 22,500, then every 11,250 miles thereafter. 7. Intercooler coolant is described as 'maintenance-free' (page 548); no scheduled replacement interval is given. 8. Engine valve clearance is listed as inspect 'only if valve noise increases' \u2014 no fixed interval; omitted from scheduled items. 9. Fuel filter is listed as 'periodic maintenance is not required (in-tank type filter)'; omitted. 10. Engine drive belts first appear at 30,000 miles, then every 7,500 miles thereafter through 90,000 miles. 11. Page 404 content (ProPILOT Assist steering) is not relevant to maintenance schedules and was removed from source_pages.",
+  "source_document": "2024 Nissan Rogue Owner's Manual (USA)",
+  "source_url": "https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/rogue/2024/2024-nissan-rogue-owner-manual.pdf",
+  "extracted_with": "us.anthropic.claude-sonnet-4-6",
+  "usage": {
+    "inputTokens": 17470,
+    "outputTokens": 5129,
+    "totalTokens": 22599,
+    "cacheReadInputTokens": 0,
+    "cacheWriteInputTokens": 0
+  },
+  "verified_with": "us.anthropic.claude-opus-4-6-v1",
+  "corrections": [
+    "Engine oil capacity (without filter): '3-1/8 qt' -> '4-7/8 qt', page 567 shows 'Without oil filter change: US Measure 4-7/8 qt'",
+    "Intercooler coolant capacity: '4-7/8 qt (with reservoir)' -> '3-1/8 qt (with reservoir)', page 567 shows intercooler coolant 'With reservoir: US Measure 3-1/8 qt' (the original JSON had swapped the engine coolant without-filter capacity with the intercooler coolant with-reservoir capacity)",
+    "Engine drive belts interval_miles: 30000 -> 7500, first_at_miles: null -> 30000, first_at_months: null -> 48. Per schedule pages 554-562, engine drive belts first appear at 30,000 miles then every 7,500 miles (30,000 / 37,500 / 45,000 / 52,500 / 60,000 / 67,500 / 75,000 / 82,500 / 90,000). The repeat interval is 7,500 miles, not 30,000.",
+    "Intelligent Key battery (replace) interval_miles: 22500 -> 11250, first_at_miles: null -> 22500, first_at_months: null -> 36. Per schedule pages, first replacement at 22,500 then every 11,250 miles thereafter (22,500 / 33,750 / 45,000 / 56,250 / 67,500 / 78,750 / 90,000).",
+    "In-cabin microfilter notes corrected: the repeat interval is 11,250 miles/18 months (not 22,500/36 months). Schedule shows replacement at every 11,250-mile service point: 11,250 / 22,500 / 33,750 / 45,000 / 56,250 / 67,500 / 78,750 / 90,000 per pages 552-562.",
+    "Exhaust system standard interval notes: removed references to 37,500 / 52,500 / 67,500 / 82,500 from standard schedule. Per pages, exhaust system in standard schedule appears at 15,000 / 30,000 / 45,000 / 60,000 / 75,000 / 90,000 (every 15,000 miles). The 37,500 / 52,500 etc. appearances are only under severe use columns.",
+    "Brake fluid standard schedule notes: corrected to remove 'First replacement at 15,000 miles/24 months' phrasing; it simply repeats every 15,000 miles/24 months per schedule pages.",
+    "extraction_caveats caveat 1: corrected to note that page 549 says 120,000 miles/96 months while page 551 KR15DDT header says 90,000 miles/144 months \u2014 these are contradictory statements in the manual.",
+    "source_pages: removed page 404 (not relevant to maintenance), removed pages 600/601/602/603 (index pages, not maintenance source content)"
+  ]
+}

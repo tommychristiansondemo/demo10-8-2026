@@ -1,0 +1,66 @@
+# 2024 Nissan Z maintenance schedule and fluid specifications
+
+Source: 2024 Nissan Z Owner's Manual (USA) (https://www.nissanusa.com/content/dam/Nissan/us/manuals-and-guides/z/2024/2024-nissan-z-owner-manual.pdf), chapter 'Maintenance and schedules' and 'Capacities and recommended fluids/lubricants'. Machine-extracted and independently re-verified; the Owner's Manual is authoritative.
+
+## Powertrains
+
+- VR30DDTT: 3.0L twin-turbocharged V6 (gasoline)
+
+## Oil change reminder
+
+The vehicle is equipped with an oil control system that calculates engine oil and filter change interval based on driving conditions. Driving in severe conditions will shorten the interval. When the oil replacement indicator appears in the vehicle information display, the engine oil and filter need to be replaced. After replacing the engine oil, reset the display.
+
+## 2024 Z scheduled maintenance items
+
+| Item | Action | Schedule | Interval | First service | Applies to | Notes |
+|---|---|---|---|---|---|---|
+| Engine oil and filter | replace | standard | 10,000 mi / 12 mo | - | all | If the oil replacement indicator is displayed, change the engine oil and filter as soon as possible. After replacing the engine oil, reset the display. |
+| Automatic transmission fluid | inspect | standard | 10,000 mi / 12 mo | - | Automatic transmission | Request the dealer to inspect the fluid deterioration data using a CONSULT. If the deterioration data is more than 77000, replace the AT fluid. |
+| Brake lines and cables | inspect | standard | 10,000 mi / 12 mo | - | all |  |
+| Brake pads and rotors | inspect | standard | 10,000 mi / 12 mo | - | all |  |
+| Brake pads and rotors | inspect | severe | 5,000 mi / 6 mo | - | all |  |
+| Manual transmission gear oil | inspect | standard | 10,000 mi / 12 mo | - | Manual transmission |  |
+| Differential gear oil | inspect | standard | 10,000 mi / 12 mo | - | all |  |
+| Propeller shaft | inspect | standard | 10,000 mi / 12 mo | - | all |  |
+| Propeller shaft | inspect | severe | 5,000 mi / 6 mo | - | all |  |
+| Brake fluid | replace | standard | 20,000 mi / 24 mo | - | all |  |
+| Brake fluid | replace | severe | 10,000 mi / 12 mo | - | all |  |
+| Differential gear oil | replace | standard | 20,000 mi / 24 mo | - | all | With limited slip differential. |
+| Fuel tank vapor vent system | inspect | standard | 20,000 mi / 24 mo | - | all | Recommended by NISSAN for reliable vehicle operation; not required to maintain warranty. |
+| Fuel lines/connections | inspect | standard | 20,000 mi / 24 mo | - | all | Recommended by NISSAN for reliable vehicle operation; not required to maintain warranty. |
+| Exhaust system | inspect | standard | 20,000 mi / 24 mo | - | all |  |
+| Exhaust system | inspect | severe | 5,000 mi / 6 mo | - | all |  |
+| Steering gear and linkage | inspect | standard | 20,000 mi / 24 mo | - | all |  |
+| Steering gear and linkage | inspect | severe | 5,000 mi / 6 mo | - | all |  |
+| Axle and suspension parts | inspect | standard | 20,000 mi / 24 mo | - | all |  |
+| Axle and suspension parts | inspect | severe | 5,000 mi / 6 mo | - | all |  |
+| Automatic transmission fluid | replace | severe | 20,000 mi / 24 mo | - | Automatic transmission |  |
+| In-cabin microfilter | replace | standard | 15,000 mi / 18 mo | - | all | Replace more frequently when driving for prolonged periods in dusty conditions. |
+| Intelligent Key battery | inspect | standard | 15,000 mi / 18 mo | - | all | Inspect at 15,000 miles/18 months; replace every 30,000 miles/36 months. |
+| Intelligent Key battery | replace | standard | 30,000 mi / 36 mo | - | all |  |
+| Air cleaner filter | replace | standard | 30,000 mi / 36 mo | - | all | If operating mainly in dusty conditions, more frequent maintenance may be required. |
+| Engine drive belts | inspect | standard | 10,000 mi / 12 mo | 60,000 mi | all | Recommended by NISSAN for reliable vehicle operation. Replace the drive belts if found damaged. First inspection at 60,000 miles/72 months, then every 10,000 miles/12 months. |
+| Spark plugs | replace | standard | - | 105,000 mi | all | Replace at 105,000 miles/126 months. No repeat interval shown within the 120,000-mile schedule. |
+| Engine coolant | replace | standard | 75,000 mi / 60 mo | 105,000 mi | all | First replacement at 105,000 miles (168,000 km) or 84 months. After first replacement, replace every 75,000 miles (120,000 km) or 60 months. Marked '*' — recommended by NISSAN for reliable vehicle operation. |
+
+## 2024 Z fluids and capacities
+
+| Fluid | Specification | Capacity | Applies to |
+|---|---|---|---|
+| Fuel | Unleaded premium gasoline, 93 AKI (RON 98) recommended. Unleaded regular 87 AKI (RON 91) may be used temporarily. Maximum 15% ethanol. No MMT. | 16-3/8 gal | VR30DDTT |
+| Engine oil | Genuine NISSAN Motor Oil 0W-20 SP or equivalent synthetic 0W-20 SP GF-6A. API certification / ILSAC certification required. | 5-5/8 qt with oil filter change; 5-3/8 qt without oil filter change | VR30DDTT |
+| Engine coolant | Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. 50/50 mix with water. Antifreeze protection to −34°F (−37°C). | 9-1/2 qt (AT model with reservoir); 9-3/8 qt (MT model with reservoir); NISMO 11 qt with reservoir; reservoir 5/8 qt | all |
+| Intercooler coolant | Pre-diluted Genuine NISSAN Long Life Antifreeze/Coolant (blue) or equivalent. Maintenance-free. | 3-1/8 qt (AT model with reservoir); 3-1/8 qt (MT model with reservoir); NISMO 3-5/8 qt with reservoir; reservoir 1/4 qt | all |
+| Automatic transmission fluid | Genuine NISSAN Matic P ATF or equivalent. Do not mix with other fluids. | - | Automatic transmission |
+| Manual transmission gear oil | Genuine NISSAN Manual Transmission Fluid (MTF) HQ Multi 75W-85. If unavailable, API GL-4, SAE 75W-85 may be used as temporary replacement. | - | Manual transmission |
+| Differential gear oil | Without LSD: Genuine NISSAN HYPOID FLUID·S1 GL-5 75W-80 or equivalent. With LSD: Genuine NISSAN Differential Oil Hypoid LSD GL-5 80W-90 or equivalent conventional (non-synthetic) oil. | - | all |
+
+## Severe driving conditions
+
+- Repeated short trips of less than 5 miles (8 km)
+- Repeated short trips of less than 10 miles (16 km) with outside temperatures remaining below freezing
+- Operating in hot weather in stop-and-go 'rush hour' traffic
+- Extensive idling and/or low speed driving for long distances, such as police, taxi or door-to-door delivery use
+- Driving in dusty conditions
+- Driving on rough, muddy or salt spread roads
+- Using a car-top carrier
